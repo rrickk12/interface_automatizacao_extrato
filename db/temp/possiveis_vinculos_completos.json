@@ -1,0 +1,28 @@
+[
+    {
+        "tipo": "socio_nome",
+        "socio": "MARCUS VINICIUS MACHADO GONCALVES",
+        "contato": {
+            "cpf_cnpj": 31687798818,
+            "nome": "Marcus Vinicius Machado Gonçalves",
+            "razao_social": "Marcus Vinicius Machado Gonçalves",
+            "nome_fantasia": "",
+            "socios": ""
+        },
+        "forca": 4,
+        "empresa_cnpj": "44388803000130"
+    },
+    {
+        "tipo": "socio_nome",
+        "socio": "GUILHERME BORELLI",
+        "contato": {
+            "cpf_cnpj": 40498567869,
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        },
+        "forca": 2,
+        "empresa_cnpj": "44388803000130"
+    }
+]

@@ -1,0 +1,269 @@
+{
+    "header": {
+        "data_emissao": "28/03/2025",
+        "tipo_extrato": "EXTRATO DE CONTA CORRENTE",
+        "hora": "15:04:37",
+        "cooperativa": "3188-7 / SICOOB CREDICITRUS",
+        "conta": "171.185-7 / MMG LOCACAO DE MAQUINAS LTDA"
+    },
+    "lancamentos": [
+        {
+            "data": "29/08/2024",
+            "documento": "68288762",
+            "descricao": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "valor": -3040.0
+        },
+        {
+            "data": "28/08/2024",
+            "documento": "1095092460",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 3042.62
+        },
+        {
+            "data": "26/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "valor": -2000.0
+        },
+        {
+            "data": "26/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "valor": -1064.7
+        },
+        {
+            "data": "22/08/2024",
+            "documento": "68109919",
+            "descricao": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "valor": -1250.0
+        },
+        {
+            "data": "22/08/2024",
+            "documento": "1092087243",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 949.79
+        },
+        {
+            "data": "22/08/2024",
+            "documento": "1092087242",
+            "descricao": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+            "valor": 447.35
+        },
+        {
+            "data": "21/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+            "valor": -333.0
+        },
+        {
+            "data": "21/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "valor": -1000.0
+        },
+        {
+            "data": "21/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "valor": -10500.0
+        },
+        {
+            "data": "21/08/2024",
+            "documento": "1091398281",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 10750.25
+        },
+        {
+            "data": "20/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
+            "valor": -704.52
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+            "valor": -200.0
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "67931272",
+            "descricao": "DÉB.TIT.COMPE EFETIVADO",
+            "valor": -227.42
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
+            "valor": -1070.0
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "valor": -12239.5
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
+            "valor": -5131.42
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "1089115154",
+            "descricao": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+            "valor": 9854.44
+        },
+        {
+            "data": "16/08/2024",
+            "documento": "1089115155",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 9854.44
+        },
+        {
+            "data": "15/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
+            "valor": -2440.0
+        },
+        {
+            "data": "15/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
+            "valor": -1900.0
+        },
+        {
+            "data": "14/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "valor": -24377.8
+        },
+        {
+            "data": "14/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
+            "valor": -3200.0
+        },
+        {
+            "data": "13/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "valor": -6880.0
+        },
+        {
+            "data": "13/08/2024",
+            "documento": "1086983706",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 23293.38
+        },
+        {
+            "data": "13/08/2024",
+            "documento": "1086983705",
+            "descricao": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+            "valor": 19352.99
+        },
+        {
+            "data": "12/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
+            "valor": -1900.0
+        },
+        {
+            "data": "09/08/2024",
+            "documento": "4434",
+            "descricao": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
+            "valor": 497.0
+        },
+        {
+            "data": "08/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
+            "valor": -1500.0
+        },
+        {
+            "data": "08/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "valor": -8063.51
+        },
+        {
+            "data": "08/08/2024",
+            "documento": "1084527951",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 8063.15
+        },
+        {
+            "data": "06/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
+            "valor": 497.0
+        },
+        {
+            "data": "05/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "valor": -3000.0
+        },
+        {
+            "data": "05/08/2024",
+            "documento": "1082418267",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 472.5
+        },
+        {
+            "data": "02/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
+            "valor": 1000.0
+        },
+        {
+            "data": "01/08/2024",
+            "documento": "67429400",
+            "descricao": "DÉB.TIT.COMPE EFETIVADO",
+            "valor": -7809.48
+        },
+        {
+            "data": "01/08/2024",
+            "documento": "Pix",
+            "descricao": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
+            "valor": 497.0
+        },
+        {
+            "data": "01/08/2024",
+            "documento": "4423",
+            "descricao": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
+            "valor": 497.0
+        },
+        {
+            "data": "01/08/2024",
+            "documento": "1080767848",
+            "descricao": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "valor": 2729.55
+        },
+        {
+            "data": "31/07/2024",
+            "documento": "",
+            "descricao": "SALDO BLOQUEADO ANTERIOR",
+            "valor": 0.0
+        },
+        {
+            "data": "31/07/2024",
+            "documento": "",
+            "descricao": "SALDO ANTERIOR",
+            "valor": 8035.51
+        }
+    ],
+    "resumo": {
+        "Saldo em conta corrente": 2.62,
+        "Limite cheque especial empresarial (+)": 0.0,
+        "Saldo disponível": 2.62,
+        "Saldo bloqueado em conta corrente": "0,00*",
+        "Vencimento cheque especial empresarial": "",
+        "Taxa cheque especial empresarial (a.m.)": "7,50%",
+        "Previsão CPMF": "D",
+        "Previsão IOF": "D",
+        "Previsão ENCARGOS": "D",
+        "Previsão TARIFAS": "D"
+    }
+}

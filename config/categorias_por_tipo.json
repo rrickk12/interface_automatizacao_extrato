@@ -1,0 +1,18 @@
+{
+  "categorias_por_tipo": {
+    "Locação de equipamentos": ["Recebimentos", "Despesas Operacionais"],
+    "Despesas financeiras": ["Despesas Fixas"],
+    "Custos operacionais": ["Despesas Variaveis"],
+    "Despesas administrativas": ["Despesas Fixas", "Pessoas", "Impostos"],
+    "Manutenção de ativos": ["Despesas Operacionais"],
+    "Venda de ativos": ["Recebimentos"],
+    "Compra de ativos": ["Despesas Fixas"],
+    "Marketing": ["Despesas Fixas"],
+    "Comercial": ["Pessoas"],
+    "Empréstimo": ["Despesas Fixas", "Recebimentos"]
+  },
+  "tipos_por_transacao": {
+    "Crédito": ["Recebimentos", "Transferência"],
+    "Débito": ["Despesas Fixas", "Despesas Variaveis", "Pessoas", "Impostos", "Transferência"]
+  }
+}

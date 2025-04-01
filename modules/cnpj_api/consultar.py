@@ -1,106 +1,57 @@
-import requests
-import logging
+# modules/cnpj_api/consultar.py
 import time
-import json
 import os
-from datetime import datetime
-from threading import Lock
+import logging
 from modules.io.utils import read_json, write_json
-cache_lock = Lock()
-
-def normalize_cnpj(cnpj: str) -> str:
-    return "".join(ch for ch in cnpj if ch.isdigit())
+from modules.cnpj_api.api import consultar_cnpj_api
+from modules.cnpj_api.utils import normalize_cnpj
 
 
 def load_cache(cache_path: str) -> dict:
-    if not os.path.exists(cache_path):
-        return {}
-
-    try:
+    if os.path.isfile(cache_path):
         return read_json(cache_path)
-    except json.JSONDecodeError as e:
-        logging.error("Erro ao carregar cache (%s): %s", cache_path, e)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_path = f"{cache_path}.bak_{timestamp}"
-        logging.warning("Renomeando cache corrompido para: %s", backup_path)
-        os.rename(cache_path, backup_path)
-        return {}
-
+    return {}
 
 def save_cache(cache_path: str, cnpj: str, resultado: dict):
-    from .consultar import load_cache, normalize_cnpj
-    with cache_lock:
-        try:
-            cache = load_cache(cache_path)
-        except Exception:
-            cache = {}
-
-        cnpj_normalizado = normalize_cnpj(cnpj)
-        cache[cnpj_normalizado] = resultado
-
-        try:
-            write_json(cache, cache_path, ensure_ascii=False, indent=2)
-        except Exception as e:
-            logging.error("Erro ao salvar cache (%s): %s", cache_path, e)
-
-
-def consultar_cnpj_api(cnpj: str) -> dict:
-    cnpj_limpo = normalize_cnpj(cnpj)
-    if len(cnpj_limpo) != 14:
-        logging.warning("CNPJ inválido: %s", cnpj)
-        return {"cnpj": cnpj_limpo, "erro": "CNPJ inválido"}
-
-    url = f"https://brasilapi.com.br/api/cnpj/v1/{cnpj_limpo}"
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        dados_api = response.json()
+        cache = load_cache(cache_path)
+    except Exception as e:
+        logging.error(f"Erro ao carregar o cache: {e}")
+        cache = {}
 
-        resultado = {
-            "cnpj": cnpj_limpo,
-            "razao_social": dados_api.get("razao_social", ""),
-            "nome_fantasia": dados_api.get("nome_fantasia", ""),
-            "situacao": dados_api.get("situacao", ""),
-            "data_abertura": dados_api.get("data_abertura", dados_api.get("data_situacao", "")),
-            "endereco": "",
-            "qsa": dados_api.get("qsa", []),
-            "erro": ""
-        }
+    cnpj_norm = normalize_cnpj(cnpj)
+    cache[cnpj_norm] = resultado
 
-        logradouro = dados_api.get("logradouro", "")
-        numero = dados_api.get("numero", "")
-        complemento = dados_api.get("complemento", "")
-        bairro = dados_api.get("bairro", "")
-        municipio = dados_api.get("municipio", "")
-        uf = dados_api.get("uf", "")
-        cep = dados_api.get("cep", "")
+    try:
+        write_json(cache, cache_path, indent=2, ensure_ascii=False)
+        logging.info(f"Cache atualizado com CNPJ {cnpj_norm}.")
+    except Exception as e:
+        logging.error(f"Erro ao salvar o cache em {cache_path}: {e}")
 
-        resultado["endereco"] = f"{logradouro}, {numero} {complemento} - {bairro}, {municipio}/{uf} CEP: {cep}"
-        return resultado
-
-    except requests.RequestException as e:
-        logging.error("Erro na requisição da API para o CNPJ %s: %s", cnpj_limpo, e)
-        return {"cnpj": cnpj_limpo, "erro": str(e)}
-
-
-def consultar_cnpj(cnpj: str, cache_path: str = "db/cnpj_cache.json", max_retries: int = 3, wait_time: int = 2) -> dict:
+def consultar_cnpj(cnpj: str, cache_path: str = "db/cnpj_cache.json", max_retries: int = 3, wait_time: int = 3, fonte: str = "cnpja") -> dict:
     cnpj_normalizado = normalize_cnpj(cnpj)
-    cache = load_cache(cache_path)
 
+    if not cnpj_normalizado or cnpj_normalizado == "00000000000000" or len(cnpj_normalizado) != 14:
+        logging.warning(f"CNPJ inválido ignorado: {cnpj}")
+        return {"erro": "CNPJ inválido"}
+
+    cache = load_cache(cache_path)
     if cnpj_normalizado in cache:
         logging.info("CNPJ %s encontrado no cache.", cnpj_normalizado)
         return cache[cnpj_normalizado]
 
     attempt = 0
-    resultado = None
+    resultado = {}
     while attempt < max_retries:
-        resultado = consultar_cnpj_api(cnpj)
+        resultado = consultar_cnpj_api(cnpj_normalizado, fonte=fonte)
         if not resultado.get("erro"):
-            break
+            logging.info("Consulta ao CNPJ %s bem-sucedida.", cnpj_normalizado)
+            save_cache(cache_path, cnpj_normalizado, resultado)
+            return resultado
+
         attempt += 1
-        logging.warning("Tentativa %d para consultar CNPJ %s falhou. Retentando em %d segundos...",
-                        attempt, cnpj_normalizado, wait_time)
+        logging.warning("Tentativa %d para consultar CNPJ %s falhou. Retentando em %d segundos...", attempt, cnpj_normalizado, wait_time)
         time.sleep(wait_time)
 
-    save_cache(cache_path, cnpj_normalizado, resultado)
-    return resultado
+    logging.error("Erro ao consultar CNPJ %s após %d tentativas: %s", cnpj_normalizado, max_retries, resultado.get("erro"))
+    return {"cnpj": cnpj_normalizado, "erro": resultado.get("erro", "Erro desconhecido")}

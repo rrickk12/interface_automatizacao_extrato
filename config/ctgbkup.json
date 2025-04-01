@@ -1,0 +1,13 @@
+{
+  "Débito": {
+    "Despesas fixas": ["Despesas financeiras", "Compra de ativos", "Marketing"],
+    "Despesas variáveis": ["Custos operacionais"],
+    "Pessoas": ["Comercial", "Despesas administrativas"],
+    "Impostos": ["Despesas administrativas"],
+    "Transferência": ["Transferência interna"]
+  },
+  "Crédito": {
+    "Recebimentos": ["Venda de ativos", "Locação de equipamentos", "Empréstimo"],
+    "Transferência": ["Transferência interna"]
+  }
+}

@@ -1,136 +1,108 @@
 import os
-import json
 import logging
 import pandas as pd
 
-from modules.parser.sicoob_parser import parse_extrato_sicoob
-from modules.parser.sicoob_lancamentos import parse_lancamentos_sicoob
-from modules.conciliador.conciliador_contatos import (
-    conciliar_extrato_contatos,
-    consultar_cnpjs_em_massa
-)
-from modules.vinculador.vinculo_candidatos import rodar_vinculos
-from modules.vinculador.vincular_cnpj_a_contatos import salvar_vinculos_csv
-from modules.vinculador.enriquecedor_cnpj import processar_enriquecimento_contatos
+# Funções de I/O
 from modules.io.utils import read_json, write_json, read_csv, write_csv
-from modules.vinculador.vinculo_transacoes_contato import associar_transacoes_contatos
 
+# Parser bancário
+from modules.parser.banks.sicoob import SicoobParser
+
+# Conciliação e consulta CNPJ
+from modules.reconciler.reconciliation import conciliar_extrato_contatos
+from modules.reconciler.consultation import consultar_cnpjs_em_massa
+
+# Vinculação e enriquecimento
+from modules.contact_matcher.link import link_full_cnpj_to_contacts, save_links_csv
+from modules.contact_matcher.aliases import integrate_contact_aliases
+from modules.contact_matcher.enrich import process_contact_enrichment
+from modules.contact_matcher.associate import associate_transactions_with_contacts
+
+# Geração de relatório via Jinja2
+from modules.report_generator.jinja_exporter import export_jinja_report
 def setup_logging():
     log_format = '%(asctime)s - %(levelname)s - %(message)s'
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format=log_format,
-        filename='app.log',  # Salva as mensagens em um arquivo
-        filemode='a'         # 'a' para append; 'w' para sobrescrever
-    )
-    # Handler para imprimir também no console:
+    logging.basicConfig(level=logging.DEBUG, format=log_format, filename='app.log', filemode='a')
     console = logging.StreamHandler()
-    console.setLevel(logging.DEBUG)
+    console.setLevel(logging.INFO)
     console.setFormatter(logging.Formatter(log_format))
     logging.getLogger('').addHandler(console)
 
 def main():
     setup_logging()
-    logging.info("📄 Iniciando o parsing do extrato Sicoob.")
+    logging.info("Iniciando pipeline de processamento...")
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     path_extrato_html = os.path.join(base_dir, "receipt", "extrato_sicoob3.html")
     path_temp_folder = os.path.join(base_dir, "db", "temp")
     path_cnpj_cache = os.path.join(base_dir, "db", "cnpj_cache.json")
     path_contatos_csv = os.path.join(base_dir, "entity", "contatos_atualizados.csv")
-    # Arquivo auxiliar de aliases (contém os aliases de contatos)
-    path_alias_csv = os.path.join(base_dir, "entity", "pessoas_cpf_MMG25.csv")
+    path_alias_csv = os.path.join(base_dir, "entity", "pessoas_cpf_MMG25_corrigido.csv")
+    config_path = os.path.join(base_dir, "config", "categorias_por_tipo.json")
 
     os.makedirs(path_temp_folder, exist_ok=True)
 
-    # Integrar aliases o mais cedo possível
-    from modules.contatos.integrar_aliases import integrar_aliases_contatos
+    # --- Etapa 1: Integração de aliases ---
     if os.path.exists(path_alias_csv):
-        if os.path.exists(path_contatos_csv):
-            contatos_df = read_csv(path_contatos_csv, sep=";", json_columns=["socios"])
-        else:
-            # Cria um DataFrame vazio com as colunas esperadas
-            contatos_df = pd.DataFrame(columns=["cpf_cnpj", "nome", "razao_social", "nome_fantasia", "socios"])
-        contatos_df = integrar_aliases_contatos(path_alias_csv, contatos_df)
+        contatos_df = (read_csv(path_contatos_csv, sep=";", json_columns=["socios"])
+                       if os.path.exists(path_contatos_csv)
+                       else pd.DataFrame(columns=["cpf_cnpj", "nome", "razao_social", "nome_fantasia", "socios"]))
+        contatos_df = integrate_contact_aliases(path_alias_csv, contatos_df)
         write_csv(contatos_df, path_contatos_csv, sep=";", encoding="utf-8-sig", json_columns=["socios"])
-        logging.info("Contatos atualizados com aliases integrados (pré-processamento).")
+        logging.info("Contatos atualizados com aliases integrados.")
     else:
-        logging.info("Arquivo de aliases não encontrado; pulando integração de aliases.")
+        logging.info("Arquivo de aliases não encontrado; integração não realizada.")
 
-    # Etapa 1: Parse do HTML do extrato
-    logging.debug(f"📥 Lendo arquivo: {path_extrato_html}")
-    extrato = parse_extrato_sicoob(path_extrato_html)
-    logging.debug("✅ Parse do extrato concluído.")
+    # --- Etapa 2: Parsing do extrato bancário ---
+    sicoob_parser = SicoobParser(path_extrato_html)
+    extrato = sicoob_parser.parse_statement()
+    write_json(extrato, os.path.join(path_temp_folder, "parsed_extrato_sicoob.json"), indent=4)
+    logging.info("Extrato parseado com sucesso.")
 
-    path_raw = os.path.join(path_temp_folder, "parsed_extrato_sicoob.json")
-    write_json(extrato, path_raw, ensure_ascii=False, indent=4)
-    logging.info(f"💾 Extrato salvo em: {path_raw}")
+    # --- Etapa 3: Enriquecimento dos lançamentos ---
+    enriched_transactions = sicoob_parser.parse_transactions(extrato)
+    extrato["enriched_transactions"] = enriched_transactions
+    write_json(extrato, os.path.join(path_temp_folder, "parsed_extrato_sicoob_enriched.json"), indent=4)
+    logging.info("Lançamentos enriquecidos.")
 
-    # Etapa 2: Enriquecimento dos lançamentos
-    logging.debug("🧪 Enriquecendo lançamentos do extrato.")
-    lancamentos_enriquecidos = parse_lancamentos_sicoob(extrato.get("lancamentos", []))
-    extrato["lancamentos_enriquecidos"] = lancamentos_enriquecidos
+    # --- Etapa 4: Conciliação com contatos ---
+    conciliated = conciliar_extrato_contatos(enriched_transactions, caminho_contatos_csv=path_contatos_csv)
+    extrato["conciliated_transactions"] = conciliated
+    write_json(extrato, os.path.join(path_temp_folder, "parsed_extrato_sicoob_conciliated.json"), indent=4)
+    logging.info("Lançamentos conciliados com contatos.")
 
-    path_enriched = os.path.join(path_temp_folder, "parsed_extrato_sicoob_enriched.json")
-    write_json(extrato, path_enriched, ensure_ascii=False, indent=4)
-    logging.info(f"💾 Lançamentos enriquecidos salvos em: {path_enriched}")
+    # --- Etapa 5: Consulta de CNPJs em massa ---
+    consultar_cnpjs_em_massa(conciliated, caminho_cnpj_api_csv=path_cnpj_cache, wait_time=2)
+    logging.info("Consulta massiva de CNPJs concluída.")
 
-    # Etapa 3: Conciliação com contatos
-    logging.info("🔍 Conciliando lançamentos com contatos.")
-    conciliados = conciliar_extrato_contatos(
-        extrato["lancamentos_enriquecidos"],
-        caminho_contatos_csv=path_contatos_csv,
-        caminho_cnpj_api_csv=path_cnpj_cache
-    )
-    extrato["lancamentos_conciliados"] = conciliados
-
-    path_final = os.path.join(path_temp_folder, "parsed_extrato_sicoob_conciliado.json")
-    write_json(extrato, path_final, ensure_ascii=False, indent=4)
-    logging.info(f"💾 Lançamentos conciliados salvos em: {path_final}")
-
-    # Etapa 4: Consulta de CNPJs ainda não conciliados
-    logging.info("🌍 Consultando CNPJs ainda não conciliados.")
-    consultar_cnpjs_em_massa(
-        conciliados,
-        caminho_cnpj_api_csv=path_cnpj_cache,
-        caminho_contatos_csv=path_contatos_csv,
-        wait_time=2
-    )
-
-    # Etapa 5: Vinculação de sócios e CPFs parciais a contatos
-    logging.info("🧬 Tentando vincular sócios e CPFs parciais a contatos.")
-    possiveis_vinculos = rodar_vinculos(
-        caminho_cache_cnpj=path_cnpj_cache,
-        caminho_contatos=path_contatos_csv,
-        lancamentos=conciliados
-    )
-    path_vinculos_json = os.path.join(path_temp_folder, "possiveis_vinculos_completos.json")
-    write_json(possiveis_vinculos, path_vinculos_json, ensure_ascii=False, indent=4)
-    logging.info(f"💾 Todos os possíveis vínculos salvos em: {path_vinculos_json}")
-
-    # Etapa extra: Exportar vínculos para CSV para verificação manual
-    path_vinculos_csv = os.path.join(path_temp_folder, "possiveis_vinculos_completos.csv")
-    salvar_vinculos_csv(possiveis_vinculos, path_vinculos_csv)
-
-    # Etapa 6: Enriquecer contatos com dados dos CNPJs
-    logging.info("🔄 Atualizando contatos com dados dos CNPJs.")
-    processar_enriquecimento_contatos(path_cnpj_cache, path_contatos_csv)
-
-    # Etapa 7: Associar transações aos contatos
-    logging.info("🔗 Associando transações aos contatos.")
-    extrato_conciliado = read_json(path_final)  # path_final é o arquivo conciliado anterior
+    # --- Etapa 6: Vinculação usando nome fantasia, razão social e sócios ---
+    cnpj_cache = read_json(path_cnpj_cache)
     contatos_df = read_csv(path_contatos_csv, sep=";", json_columns=["socios"])
-    transacoes = extrato_conciliado.get("lancamentos_conciliados", [])
-    transacoes_com_contatos = associar_transacoes_contatos(transacoes, contatos_df)
-    path_transacoes_contatos = os.path.join(path_temp_folder, "extrato_conciliado_com_contatos.json")
-    write_json(transacoes_com_contatos, path_transacoes_contatos, ensure_ascii=False, indent=4)
-    logging.info(f"💾 Extrato conciliado com contatos salvo em: {path_transacoes_contatos}")
+    candidate_links = []
+    for cnpj, data in cnpj_cache.items():
+        if isinstance(data, dict):
+            candidate_links.extend(link_full_cnpj_to_contacts(data, contatos_df))
+    write_json(candidate_links, os.path.join(path_temp_folder, "candidate_links.json"), indent=4)
+    save_links_csv(candidate_links, os.path.join(path_temp_folder, "candidate_links.csv"))
+    logging.info("Vínculos candidatos gerados e exportados.")
 
-    # Etapa 8: Exportar o extrato conciliado com contatos para HTML
-    from modules.vinculador.vinculo_transacoes_contato import export_to_html
-    path_html = os.path.join(path_temp_folder, "extrato_conciliado_com_contatos.html")
-    export_to_html(transacoes_com_contatos, path_html)
-    logging.info(f"💾 Extrato conciliado exportado para HTML em: {path_html}")
+    # --- Etapa 7: Enriquecimento dos contatos com dados dos CNPJs ---
+    process_contact_enrichment(path_cnpj_cache, path_contatos_csv)
+    logging.info("Contatos enriquecidos com dados dos CNPJs.")
+
+    # --- Etapa 8: Associação de transações aos contatos ---
+    contatos_df = read_csv(path_contatos_csv, sep=";", json_columns=["socios"])
+    associated_transactions = associate_transactions_with_contacts(conciliated, contatos_df)
+    extrato["associated_transactions"] = associated_transactions
+    write_json(associated_transactions, os.path.join(path_temp_folder, "extrato_conciliated_with_contacts.json"), indent=4)
+    logging.info("Transações associadas a contatos.")
+
+    # --- Etapa 9: Geração do relatório HTML com Jinja2 ---
+    # Aqui, classificamos os dados conforme sua necessidade (certifique-se de que 'classified_data' esteja definido)
+    # Etapa 9: Geração do relatório HTML com Jinja2
+    classified_data = associate_transactions_with_contacts(conciliated, contatos_df)
+    export_jinja_report(classified_data, config_path, os.path.join(path_temp_folder, "relatorio_transacoes_com_categorias_status.html"))
+    logging.info("Relatório HTML gerado com sucesso.")
 
 if __name__ == "__main__":
     main()

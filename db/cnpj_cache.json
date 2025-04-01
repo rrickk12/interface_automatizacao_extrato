@@ -1,403 +1,171 @@
 {
-  "30383069000102": {
-    "cnpj": "30383069000102",
-    "razao_social": "PERSONALITE RECUPERACAO DE CREDITO LTDA",
-    "nome_fantasia": "PERSONALITE RECUPERACAO DE CREDITO",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "TIRADENTES, 00010  SAL 2305 - CENTRO, RIO DE JANEIRO/RJ CEP: 20060070",
+  "03506307000157": {
+    "cnpj": "03506307000157",
+    "razao_social": "TICKET SOLUCOES HDFGT S/A",
+    "nome_fantasia": "Ticket Log",
     "qsa": [
       {
-        "pais": null,
-        "nome_socio": "FABIO LAVOR PEREIRA",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***284857**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2019-05-21",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Gilles Andre Coccoli",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***843778**"
       },
       {
-        "pais": null,
-        "nome_socio": "EDSON VIEIRA XAVIER",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***290248**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2019-05-21",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Douglas Almeida Pina",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***074816**"
+      },
+      {
+        "nome_socio": "Haroldo Pimentel Stumpf",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***781420**"
+      },
+      {
+        "nome_socio": "Philippe Pierre Marie Blecon",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***034898**"
+      },
+      {
+        "nome_socio": "Ricardo Ernesto Correa da Silva",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***307800**"
+      },
+      {
+        "nome_socio": "Diane Emmanuelle Anne Coliche",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***876938**"
+      },
+      {
+        "nome_socio": "Mathieu Dehaine",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***588878**"
       }
-    ],
-    "erro": ""
+    ]
   },
-  "35727790000196": {
-    "cnpj": "35727790000196",
-    "razao_social": "EASY SEGUROS MEDICOS LTDA",
-    "nome_fantasia": "EASY SEGUROS MEDICOS",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "BARBARA CVINTAL, 280 APT 311 ANDAR 3 COND ECO SMART ECOVILLE - MOSSUNGUE, CURITIBA/PR CEP: 81210005",
+  "19468242000132": {
+    "cnpj": "19468242000132",
+    "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+    "nome_fantasia": "Zoop Brasil",
     "qsa": [
       {
-        "pais": null,
-        "nome_socio": "HARLAINE RIBEIRO LUNA",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***384810**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2019-12-06",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Fabiano Teixeira da Cruz",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***951767**"
       },
       {
-        "pais": null,
-        "nome_socio": "HUMBERTO DE MATTOS CARRILHO",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***243918**",
-        "qualificacao_socio": "Sócio",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2020-02-20",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 22,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Ricardo Oishi Sonoda",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***761648**"
+      },
+      {
+        "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***351418**"
       }
-    ],
-    "erro": ""
+    ]
   },
   "20729204000175": {
     "cnpj": "20729204000175",
     "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
-    "nome_fantasia": "LUME LASER LOCACOES DE EQUIPAMENTOS PARA ESTETICA",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "RAUL DE CASTRO, 51  - JARDIM CHAPADAO, CAMPINAS/SP CEP: 13070082",
+    "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
     "qsa": [
       {
-        "pais": null,
-        "nome_socio": "MARCELO AUGUSTO FARIAS JASSET",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***878637**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2016-03-21",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Marcelo Augusto Farias Jasset",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***878637**"
       }
-    ],
-    "erro": ""
+    ]
   },
-  "54668555000135": {
-    "cnpj": "54668555000135",
-    "razao_social": "SUELLEN D. DA S. MENDES ESTETICA",
-    "nome_fantasia": "DRA. SUELLEN MENDES",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "PAULA BUENO, 1122  - TAQUARAL, CAMPINAS/SP CEP: 13076061",
-    "qsa": [],
-    "erro": ""
-  },
-  "03506307000157": {
-    "cnpj": "03506307000157",
-    "razao_social": "TICKET SOLUCOES HDFGT S/A",
-    "nome_fantasia": "TICKET LOG",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "MACHADO DE ASSIS, 50 EDIF 2 - SANTA LUCIA, CAMPO BOM/RS CEP: 93700000",
+  "30383069000102": {
+    "cnpj": "30383069000102",
+    "razao_social": "PERSONALITE RECUPERACAO DE CREDITO LTDA",
+    "nome_fantasia": "Personalite Recuperacao de Credito",
     "qsa": [
       {
-        "pais": null,
-        "nome_socio": "RICARDO ERNESTO CORREA DA SILVA",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***307800**",
-        "qualificacao_socio": "Conselheiro de Administração",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2019-08-01",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 8,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Edson Vieira Xavier",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***290248**"
       },
       {
-        "pais": null,
-        "nome_socio": "GILLES ANDRE COCCOLI",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***843778**",
-        "qualificacao_socio": "Conselheiro de Administração",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2019-08-01",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 8,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "MATHIEU DEHAINE",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 31 a 40 anos",
-        "cnpj_cpf_do_socio": "***588878**",
-        "qualificacao_socio": "Diretor",
-        "codigo_faixa_etaria": 4,
-        "data_entrada_sociedade": "2019-09-03",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 10,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "DOUGLAS ALMEIDA PINA",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***074816**",
-        "qualificacao_socio": "Presidente",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2021-01-25",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 16,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "HAROLDO PIMENTEL STUMPF",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***781420**",
-        "qualificacao_socio": "Conselheiro de Administração",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2022-07-29",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 8,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "DIANE EMMANUELLE ANNE COLICHE",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***876938**",
-        "qualificacao_socio": "Conselheiro de Administração",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2023-08-16",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 8,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "PHILIPPE PIERRE MARIE BLECON",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***034898**",
-        "qualificacao_socio": "Diretor",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2024-03-26",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 10,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Fabio Lavor Pereira",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***284857**"
       }
-    ],
-    "erro": ""
+    ]
+  },
+  "35727790000196": {
+    "cnpj": "35727790000196",
+    "razao_social": "EASY SEGUROS MEDICOS LTDA",
+    "nome_fantasia": "Easy Seguros Medicos",
+    "qsa": [
+      {
+        "nome_socio": "Humberto de Mattos Carrilho",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***243918**"
+      },
+      {
+        "nome_socio": "Harlaine Ribeiro Luna",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***384810**"
+      }
+    ]
   },
   "42876309000190": {
     "cnpj": "42876309000190",
     "razao_social": "MICHEL ALEXANDRE DE PAULA 39977974802",
     "nome_fantasia": "",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "LICIDIO BORBA KAIZER, 273  - JARDIM TERRAS DE SANTO ANTONIO, HORTOLANDIA/SP CEP: 13185545",
-    "qsa": [],
-    "erro": ""
-  },
-  "47105254000138": {
-    "cnpj": "47105254000138",
-    "razao_social": "INFINITY COMPANY BY GG LTDA",
-    "nome_fantasia": "",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "TAMOIO, 536  - VILA SANTA CATARINA, AMERICANA/SP CEP: 13466250",
-    "qsa": [
-      {
-        "pais": null,
-        "nome_socio": "GABRIELLE ROVARON DOS SANTOS",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 21 a 30 anos",
-        "cnpj_cpf_do_socio": "***062578**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 3,
-        "data_entrada_sociedade": "2024-09-06",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "GABRIELI ZAGO",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 21 a 30 anos",
-        "cnpj_cpf_do_socio": "***836968**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 3,
-        "data_entrada_sociedade": "2024-09-06",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      }
-    ],
-    "erro": ""
-  },
-  "19468242000132": {
-    "cnpj": "19468242000132",
-    "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
-    "nome_fantasia": "ZOOP BRASIL",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "AVENIDA DOS AUTONOMISTAS, 1496, 1496 ANDAR 3 SALA SALA - VILA YARA, OSASCO/SP CEP: 06020902",
-    "qsa": [
-      {
-        "pais": null,
-        "nome_socio": "FABIANO TEIXEIRA DA CRUZ",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***951767**",
-        "qualificacao_socio": "Diretor",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2014-01-03",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 10,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "ANDRE LUIZ FONSECA DA SILVA MARTINS",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 51 a 60 anos",
-        "cnpj_cpf_do_socio": "***351418**",
-        "qualificacao_socio": "Diretor",
-        "codigo_faixa_etaria": 6,
-        "data_entrada_sociedade": "2021-05-11",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 10,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      },
-      {
-        "pais": null,
-        "nome_socio": "RICARDO OISHI SONODA",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 41 a 50 anos",
-        "cnpj_cpf_do_socio": "***761648**",
-        "qualificacao_socio": "Diretor",
-        "codigo_faixa_etaria": 5,
-        "data_entrada_sociedade": "2023-04-25",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 10,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
-      }
-    ],
-    "erro": ""
+    "qsa": []
   },
   "44388803000130": {
     "cnpj": "44388803000130",
     "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
     "nome_fantasia": "",
-    "situacao": "",
-    "data_abertura": "",
-    "endereco": "CONCEICAO, 233 ANDAR 9 SALA 916 - CENTRO, CAMPINAS/SP CEP: 13010050",
     "qsa": [
       {
-        "pais": null,
-        "nome_socio": "MARCUS VINICIUS MACHADO GONCALVES",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 31 a 40 anos",
-        "cnpj_cpf_do_socio": "***877988**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 4,
-        "data_entrada_sociedade": "2021-11-26",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Guilherme Borelli",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***985678**"
       },
       {
-        "pais": null,
-        "nome_socio": "GUILHERME BORELLI",
-        "codigo_pais": null,
-        "faixa_etaria": "Entre 31 a 40 anos",
-        "cnpj_cpf_do_socio": "***985678**",
-        "qualificacao_socio": "Sócio-Administrador",
-        "codigo_faixa_etaria": 4,
-        "data_entrada_sociedade": "2021-11-26",
-        "identificador_de_socio": 2,
-        "cpf_representante_legal": "***000000**",
-        "nome_representante_legal": "",
-        "codigo_qualificacao_socio": 49,
-        "qualificacao_representante_legal": "Não informada",
-        "codigo_qualificacao_representante_legal": 0
+        "nome_socio": "Marcus Vinicius Machado Goncalves",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***877988**"
       }
-    ],
-    "erro": ""
+    ]
+  },
+  "47105254000138": {
+    "cnpj": "47105254000138",
+    "razao_social": "INFINITY COMPANY BY GG LTDA",
+    "nome_fantasia": "",
+    "qsa": [
+      {
+        "nome_socio": "Gabrieli Zago",
+        "tipo": "NATURAL",
+        "faixa_etaria": "21-30",
+        "tax_id": "***836968**"
+      }
+    ]
+  },
+  "54668555000135": {
+    "cnpj": "54668555000135",
+    "razao_social": "SUELLEN D. DA S. MENDES ESTETICA",
+    "nome_fantasia": "Dra. Suellen Mendes",
+    "qsa": []
   }
 }

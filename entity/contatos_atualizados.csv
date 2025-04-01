@@ -1,329 +1,169 @@
-﻿cpf_cnpj;nome;razao_social;nome_fantasia;socios
-40498567869;Guilherme Borelli;Guilherme Borelli;;
-41927629861;Bruna Zavati Zavitoski;Bruna Zavati Zavitoski;;
-31687798818;Marcus Vinicius Machado Gonçalves;Marcus Vinicius Machado Gonçalves;;
-43677699843;André Luis Ribeiro PJ ;André Luis Ribeiro PJ ;;
-51313622885;Gabriel Batista Santos PJ;Gabriel Batista Santos PJ;;
-40102626804;Alex Eduardo Antunes PJ;Alex Eduardo Antunes PJ;;
-49155758886;Isabela Betti Stavarengo;Isabela Betti Stavarengo;;
-34505794873;Marcelo Eliseu Urbano PJ;Marcelo Eliseu Urbano PJ;;
-30383069000102;PERSONALITE RECUPERACAO DE CREDITO LTDA;PERSONALITE RECUPERACAO DE CREDITO LTDA;PERSONALITE RECUPERACAO DE CREDITO;"[
+﻿"cpf_cnpj";"nome";"razao_social";"nome_fantasia";"socios"
+"40498567869";"Guilherme Borelli";"Guilherme Borelli";"";""
+"41927629861";"Bruna Zavati Zavitoski";"Bruna Zavati Zavitoski";"";""
+"31687798818";"Marcus Vinicius Machado Gonçalves";"Marcus Vinicius Machado Gonçalves";"";""
+"43677699843";"André Luis Ribeiro PJ";"André Luis Ribeiro PJ";"";""
+"51313622885";"Gabriel Batista Santos PJ";"Gabriel Batista Santos PJ";"";""
+"40102626804";"Alex Eduardo Antunes PJ";"Alex Eduardo Antunes PJ";"";""
+"49155758886";"Isabela Betti Stavarengo";"Isabela Betti Stavarengo";"";""
+"34505794873";"Marcelo Eliseu Urbano PJ";"Marcelo Eliseu Urbano PJ";"";""
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"19468242000132";"ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.";"ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.";"Zoop Brasil";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""FABIO LAVOR PEREIRA"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***284857**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2019-05-21"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Fabiano Teixeira da Cruz"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***951767**""
     },
     {
-        ""pais"": null,
-        ""nome_socio"": ""EDSON VIEIRA XAVIER"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***290248**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2019-05-21"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Ricardo Oishi Sonoda"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***761648**""
+    },
+    {
+        ""nome_socio"": ""Andre Luiz Fonseca da Silva Martins"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***351418**""
     }
 ]"
-35727790000196;EASY SEGUROS MEDICOS LTDA;EASY SEGUROS MEDICOS LTDA;EASY SEGUROS MEDICOS;"[
+"20729204000175";"LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA";"LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA";"Lume Laser Locacoes de Equipamentos Para Estetica";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""HARLAINE RIBEIRO LUNA"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***384810**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2019-12-06"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""HUMBERTO DE MATTOS CARRILHO"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***243918**"",
-        ""qualificacao_socio"": ""Sócio"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2020-02-20"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 22,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Marcelo Augusto Farias Jasset"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***878637**""
     }
 ]"
-20729204000175;LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA;LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA;LUME LASER LOCACOES DE EQUIPAMENTOS PARA ESTETICA;"[
+"30383069000102";"PERSONALITE RECUPERACAO DE CREDITO LTDA";"PERSONALITE RECUPERACAO DE CREDITO LTDA";"Personalite Recuperacao de Credito";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""MARCELO AUGUSTO FARIAS JASSET"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***878637**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2016-03-21"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Edson Vieira Xavier"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***290248**""
+    },
+    {
+        ""nome_socio"": ""Fabio Lavor Pereira"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***284857**""
     }
 ]"
-54668555000135;SUELLEN D. DA S. MENDES ESTETICA;SUELLEN D. DA S. MENDES ESTETICA;DRA. SUELLEN MENDES;
-03506307000157;TICKET SOLUCOES HDFGT S/A;TICKET SOLUCOES HDFGT S/A;TICKET LOG;"[
+"35727790000196";"EASY SEGUROS MEDICOS LTDA";"EASY SEGUROS MEDICOS LTDA";"Easy Seguros Medicos";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""RICARDO ERNESTO CORREA DA SILVA"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***307800**"",
-        ""qualificacao_socio"": ""Conselheiro de Administração"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2019-08-01"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 8,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Humberto de Mattos Carrilho"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***243918**""
     },
     {
-        ""pais"": null,
-        ""nome_socio"": ""GILLES ANDRE COCCOLI"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***843778**"",
-        ""qualificacao_socio"": ""Conselheiro de Administração"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2019-08-01"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 8,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""MATHIEU DEHAINE"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 31 a 40 anos"",
-        ""cnpj_cpf_do_socio"": ""***588878**"",
-        ""qualificacao_socio"": ""Diretor"",
-        ""codigo_faixa_etaria"": 4,
-        ""data_entrada_sociedade"": ""2019-09-03"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 10,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""DOUGLAS ALMEIDA PINA"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***074816**"",
-        ""qualificacao_socio"": ""Presidente"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2021-01-25"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 16,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""HAROLDO PIMENTEL STUMPF"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***781420**"",
-        ""qualificacao_socio"": ""Conselheiro de Administração"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2022-07-29"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 8,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""DIANE EMMANUELLE ANNE COLICHE"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***876938**"",
-        ""qualificacao_socio"": ""Conselheiro de Administração"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2023-08-16"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 8,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""PHILIPPE PIERRE MARIE BLECON"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***034898**"",
-        ""qualificacao_socio"": ""Diretor"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2024-03-26"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 10,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Harlaine Ribeiro Luna"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***384810**""
     }
 ]"
-42876309000190;MICHEL ALEXANDRE DE PAULA 39977974802;MICHEL ALEXANDRE DE PAULA 39977974802;;
-47105254000138;INFINITY COMPANY BY GG LTDA;INFINITY COMPANY BY GG LTDA;;"[
+"42876309000190";"MICHEL ALEXANDRE DE PAULA 39977974802";"MICHEL ALEXANDRE DE PAULA 39977974802";"";""
+"44388803000130";"MMG LOCACAO DE MAQUINAS LTDA";"MMG LOCACAO DE MAQUINAS LTDA";"";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""GABRIELLE ROVARON DOS SANTOS"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 21 a 30 anos"",
-        ""cnpj_cpf_do_socio"": ""***062578**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 3,
-        ""data_entrada_sociedade"": ""2024-09-06"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Guilherme Borelli"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""31-40"",
+        ""tax_id"": ""***985678**""
     },
     {
-        ""pais"": null,
-        ""nome_socio"": ""GABRIELI ZAGO"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 21 a 30 anos"",
-        ""cnpj_cpf_do_socio"": ""***836968**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 3,
-        ""data_entrada_sociedade"": ""2024-09-06"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Marcus Vinicius Machado Goncalves"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""31-40"",
+        ""tax_id"": ""***877988**""
     }
 ]"
-19468242000132;ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.;ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.;ZOOP BRASIL;"[
+"47105254000138";"INFINITY COMPANY BY GG LTDA";"INFINITY COMPANY BY GG LTDA";"";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""FABIANO TEIXEIRA DA CRUZ"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***951767**"",
-        ""qualificacao_socio"": ""Diretor"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2014-01-03"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 10,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""ANDRE LUIZ FONSECA DA SILVA MARTINS"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 51 a 60 anos"",
-        ""cnpj_cpf_do_socio"": ""***351418**"",
-        ""qualificacao_socio"": ""Diretor"",
-        ""codigo_faixa_etaria"": 6,
-        ""data_entrada_sociedade"": ""2021-05-11"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 10,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
-    },
-    {
-        ""pais"": null,
-        ""nome_socio"": ""RICARDO OISHI SONODA"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 41 a 50 anos"",
-        ""cnpj_cpf_do_socio"": ""***761648**"",
-        ""qualificacao_socio"": ""Diretor"",
-        ""codigo_faixa_etaria"": 5,
-        ""data_entrada_sociedade"": ""2023-04-25"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 10,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Gabrieli Zago"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""21-30"",
+        ""tax_id"": ""***836968**""
     }
 ]"
-44388803000130;MMG LOCACAO DE MAQUINAS LTDA;MMG LOCACAO DE MAQUINAS LTDA;;"[
+"54668555000135";"SUELLEN D. DA S. MENDES ESTETICA";"SUELLEN D. DA S. MENDES ESTETICA";"Dra. Suellen Mendes";""
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"3506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+"03506307000157";"TICKET SOLUCOES HDFGT S/A";"TICKET SOLUCOES HDFGT S/A";"Ticket Log";"[
     {
-        ""pais"": null,
-        ""nome_socio"": ""MARCUS VINICIUS MACHADO GONCALVES"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 31 a 40 anos"",
-        ""cnpj_cpf_do_socio"": ""***877988**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 4,
-        ""data_entrada_sociedade"": ""2021-11-26"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Gilles Andre Coccoli"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***843778**""
     },
     {
-        ""pais"": null,
-        ""nome_socio"": ""GUILHERME BORELLI"",
-        ""codigo_pais"": null,
-        ""faixa_etaria"": ""Entre 31 a 40 anos"",
-        ""cnpj_cpf_do_socio"": ""***985678**"",
-        ""qualificacao_socio"": ""Sócio-Administrador"",
-        ""codigo_faixa_etaria"": 4,
-        ""data_entrada_sociedade"": ""2021-11-26"",
-        ""identificador_de_socio"": 2,
-        ""cpf_representante_legal"": ""***000000**"",
-        ""nome_representante_legal"": """",
-        ""codigo_qualificacao_socio"": 49,
-        ""qualificacao_representante_legal"": ""Não informada"",
-        ""codigo_qualificacao_representante_legal"": 0
+        ""nome_socio"": ""Douglas Almeida Pina"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***074816**""
+    },
+    {
+        ""nome_socio"": ""Haroldo Pimentel Stumpf"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***781420**""
+    },
+    {
+        ""nome_socio"": ""Philippe Pierre Marie Blecon"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***034898**""
+    },
+    {
+        ""nome_socio"": ""Ricardo Ernesto Correa da Silva"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***307800**""
+    },
+    {
+        ""nome_socio"": ""Diane Emmanuelle Anne Coliche"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***876938**""
+    },
+    {
+        ""nome_socio"": ""Mathieu Dehaine"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""31-40"",
+        ""tax_id"": ""***588878**""
     }
 ]"

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório de Transações</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f7f7f7; font-size: 14px; }
+    table { border-collapse: collapse; width: 100%; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.1); table-layout: fixed; }
+    th, td { padding: 8px; border: 1px solid #ccc; text-align: left; }
+    th { background-color: #e2e2e2; }
+    tr.pending { background-color: #fff9c4; }
+    .contato-alert { background-color: #ffcccc; }
+    select { width: 100%; }
+    .status-btn { padding: 6px; }
+    #export-btn { margin: 10px 0; padding: 8px 16px; font-size: 14px; cursor: pointer; }
+  </style>
+  <script>
+    const configCategorias = {{ config_json|safe }};
+
+    function atualizarTipos(row) {
+      const tipoTransacao = row.dataset.tipoTransacao;
+      const tipoSelect = row.querySelector('select[name="categoria_tipo"]');
+      tipoSelect.innerHTML = '<option value="">Selecione</option>';
+      if (configCategorias.tipos_por_transacao[tipoTransacao]) {
+        configCategorias.tipos_por_transacao[tipoTransacao].forEach(tipo => {
+          tipoSelect.innerHTML += `<option value="${tipo}">${tipo}</option>`;
+        });
+      }
+      row.querySelector('select[name="categoria_nome"]').innerHTML = '<option value="">Selecione</option>';
+    }
+
+    function atualizarCategorias(select) {
+      const row = select.closest('tr');
+      const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
+      const tipoSelecionado = select.value;
+
+      categoriaSelect.innerHTML = '<option value="">Selecione</option>';
+
+      const sugeridas = [];
+      const outras = [];
+
+      Object.entries(configCategorias.categorias_por_tipo).forEach(([categoria, tipos]) => {
+        if (tipos.includes(tipoSelecionado)) {
+          sugeridas.push(categoria);
+        } else {
+          outras.push(categoria);
+        }
+      });
+
+      sugeridas.forEach(cat => {
+        categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+      });
+
+      if (outras.length > 0) {
+        categoriaSelect.innerHTML += '<option disabled>──────────────</option>';
+      }
+
+      outras.forEach(cat => {
+        categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+      });
+    }
+
+    function setStatus(btn, status) {
+      const row = btn.closest('tr');
+      row.className = status;
+    }
+
+    function exportToCSV() {
+      let csv = 'Data,Descrição,Valor,Tipo Transação,Documento,Contato,Tipo,Categoria,Status\n';
+      document.querySelectorAll('tbody tr').forEach(row => {
+        const cols = row.querySelectorAll('td');
+        const tipo = row.querySelector('select[name="categoria_tipo"]').value || '';
+        const categoria = row.querySelector('select[name="categoria_nome"]').value || '';
+        const status = row.className || '';
+
+        const values = [
+          ...Array.from(cols).slice(0, 6).map(td => td.innerText.trim()),
+          tipo,
+          categoria,
+          status
+        ];
+        csv += values.map(v => `"${v.replaceAll('"', '""')}` ).join(',') + '\n';
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'relatorio_transacoes.csv');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('tbody tr').forEach(row => atualizarTipos(row));
+    });
+  </script>
+</head>
+<body>
+  <h1>Relatório de Transações</h1>
+  <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Descrição</th>
+        <th>Valor</th>
+        <th>Tipo Transação</th>
+        <th>Documento</th>
+        <th>Contato</th>
+        <th>Tipo</th>
+        <th>Categoria</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in data %}
+      <tr class="pending" data-tipo-transacao="{{ item.transaction_type }}">
+        <td>{{ item.get('date', '') }}</td>
+        <td>{{ item.get('description', '') }}</td>
+        <td>{{ item.get('amount', '') }}</td>
+        <td>{{ item.get('transaction_type', '') }}</td>
+        <td>{{ item.get('document', '') }}</td>
+        <td class="{{ 'contato-alert' if not item.get('contato', {}).get('cpf_cnpj') else '' }}">
+          {{ item.get('contato', {}).get('nome', '-') }}
+        </td>
+        <td>
+          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+            <option value="">Selecione</option>
+          </select>
+        </td>
+        <td>
+          <select name="categoria_nome">
+            <option value="">Selecione</option>
+          </select>
+        </td>
+        <td>
+          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

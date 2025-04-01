@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório de Transações</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; font-size: 14px; }
+    table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+    th, td { padding: 8px; border: 1px solid #ccc; vertical-align: top; word-break: break-word; }
+    tr.pending { background: #fff9c4; }
+    tr.validated { background: #d0f0c0; }
+    tr.canceled { background: #ffcccb; }
+    .contato-info { font-size: 0.9em; line-height: 1.3em; }
+    select { width: 100%; padding: 4px; }
+    .status-btn { padding: 6px 12px; margin: 2px; font-size: 16px; cursor: pointer; }
+  </style>
+  <script>
+    const configCategorias = {{ config_json|safe }};
+    {% raw %}
+    function atualizarCategorias(select) {
+      const row = select.closest('tr');
+      const tipoTransacao = row.getAttribute('data-tipo-transacao');
+      const tipoSelecionado = select.value;
+      const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
+      categoriaSelect.innerHTML = '<option value="">Selecione</option>';
+      if (configCategorias[tipoTransacao] && configCategorias[tipoTransacao][tipoSelecionado]) {
+        configCategorias[tipoTransacao][tipoSelecionado].forEach(cat => {
+          categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+        });
+      }
+    }
+    
+    function setStatus(btn, status) {
+      const row = btn.closest('tr');
+      row.classList.remove('pending', 'validated', 'canceled');
+      row.classList.add(status);
+    }
+    {% endraw %}
+    window.onload = function() { carregarAlteracoes(); aplicarPreselecao(); };
+  </script>
+</head>
+<body>
+  <h1>Relatório de Transações</h1>
+  {% block content %}{% endblock %}
+  <p>As alterações são salvas no navegador (LocalStorage).</p>
+</body>
+</html>

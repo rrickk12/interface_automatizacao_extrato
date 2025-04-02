@@ -1,8 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
+<!-- Seção para Upload do Arquivo HTML -->
+<div id="upload-html">
+  <h3>Carregar Arquivo HTML</h3>
+  <form id="upload-form" enctype="multipart/form-data">
+    <input type="file" id="html-file-input" name="html_file" accept=".html">
+    <button type="button" onclick="uploadHTML()">Carregar HTML</button>
+    <button id="process-btn" onclick="runPipeline()">🚀 Executar Pipeline</button>
+
+  </form>
+</div>
+
 <!-- Seção de Relatório (Transações) -->
 <div id="aba-transacoes" class="aba visible">
+  <h2>Relatório de Transações</h2>
   <table>
     <thead>
       <tr>
@@ -45,7 +57,6 @@
     <input name="descricao_regex" placeholder="Regex de descrição">
     <input name="contato_igual" placeholder="Parte do nome do contato (opcional)">
     
-    {# Constrói a lista única de tipos a partir de config_json.tipos_por_transacao #}
     {% set tipos = [] %}
     {% for key, sublist in (config_json.tipos_por_transacao or {}).items() %}
       {% for t in sublist %}

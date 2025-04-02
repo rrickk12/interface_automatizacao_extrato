@@ -1,35 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- Seção de Relatório (Transações) -->
-<div id="aba-transacoes" class="aba visible">
-  <table>
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Descrição</th>
-        <th>Valor</th>
-        <th>Tipo Transação</th>
-        <th>Documento</th>
-        <th>Contato</th>
-        <th>Tipo</th>
-        <th>Categoria</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in data %}
-        {% include "partials/row.html" %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<!-- Seção de Gerenciador de Regras -->
 <div id="aba-regras" class="aba">
   <h2>Gerenciador de Regras</h2>
-  
-  <!-- Botões de Ação para as Regras -->
+  <!-- Botões de ações para as regras -->
   <div id="rules-actions" style="margin: 10px 0;">
     <button onclick="saveRules()">💾 Save Rules</button>
     <button onclick="loadRules()">📥 Load Rules</button>
@@ -39,7 +13,7 @@
     <input type="file" id="import-rules-input" style="display: none;">
   </div>
 
-  <!-- Formulário para Adicionar Nova Regra -->
+  <!-- Formulário para adicionar nova regra -->
   <form id="form-regra">
     <input name="descricao_contain" placeholder="Descrição contém (vírgula separada)">
     <input name="descricao_regex" placeholder="Regex de descrição">
@@ -71,7 +45,7 @@
     <button type="button" onclick="adicionarRegra()">Salvar regra</button>
   </form>
   
-  <!-- Tabela para Exibir as Regras Atuais -->
+  <!-- Tabela para exibir as regras atuais -->
   <table id="tabela-regras">
     <thead>
       <tr>

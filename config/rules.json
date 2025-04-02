@@ -1,13 +1,26 @@
 [
   {
-    "descricao_contain": ["MESMA TIT", "MMG LOCACAO DE MAQUINAS"],
-    "contato_igual": "MMG LOCACAO DE MAQUINAS LTDA",
+    "descricao_contain": ["MESMA TIT"],
+    "contato_igual": "",
     "tipo": "Transferência",
-    "categoria": "Entre contas"
+    "categoria": ""
   },
   {
-    "descricao_regex": "SIPAG_Ant\\._Mastercard",
-    "tipo": "Antecipação",
-    "categoria": "Cartão Mastercard"
+    "descricao_contain": ["CR ANTECIPAÇÃO"],
+    "contato_igual": "",
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos"
+  },
+  {
+    "descricao_contain": "",
+    "contato_igual": "ZOOP",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais"
+  },
+  {
+    "descricao_contain": "",
+    "contato_igual": "LUME LASER",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais"
   }
 ]

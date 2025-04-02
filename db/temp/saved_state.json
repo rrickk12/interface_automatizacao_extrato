@@ -1,0 +1,112 @@
+[
+  {
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "validated auto-classificado"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "canceled"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "canceled"
+  }
+]

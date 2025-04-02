@@ -1,365 +1,194 @@
 {
     "header": {
-        "issue_date": "28/03/2025",
+        "issue_date": "02/04/2025",
         "statement_type": "EXTRATO DE CONTA CORRENTE",
-        "time": "15:04:37",
+        "time": "14:03:30",
         "cooperative": "3188-7 / SICOOB CREDICITRUS",
         "account": "171.185-7 / MMG LOCACAO DE MAQUINAS LTDA"
     },
     "transactions": [
         {
-            "date": "29/08/2024",
-            "document": "68288762",
+            "date": "31/10/2024",
+            "document": "70268306",
+            "description": "TRANSF.REALIZADA PIX SICOOB FAV.: MARCUS VINICIUS MACHADO GONCALVES\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": -7500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "70266819",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "1129728619",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 4760.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "25/10/2024",
+            "document": "70128094",
             "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -3040.0,
+            "amount": -2200.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "28/08/2024",
-            "document": "1095092460",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 3042.62,
+            "date": "23/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRHTZ SERVICOS MEDICOS LTDA\n52.305.548 0001-43",
+            "amount": 2197.5,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000143",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
+            "date": "18/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -2000.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -7638.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
+            "cpf_cnpj_parcial": "276298",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -1064.7,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "22/08/2024",
-            "document": "68109919",
-            "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -1250.0,
-            "transaction_type": "Débito",
+            "date": "18/10/2024",
+            "document": "69924038",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 500.0,
+            "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087243",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 949.79,
+            "date": "18/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2000.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087242",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 447.35,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
+            "date": "16/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -333.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.295.638-**",
+            "amount": -2500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
+            "cpf_cnpj_parcial": "295638",
             "possiveis_contatos": []
         },
         {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
-            "amount": -1000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000157",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -10500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "1091398281",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 10750.25,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "20/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
-            "amount": -704.52,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000196",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "67931272",
-            "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -227.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
-            "amount": -1070.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000190",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -12239.5,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
-            "amount": -5131.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115154",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115155",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
-            "amount": -2440.0,
+            "amount": -1620.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000175",
             "possiveis_contatos": []
         },
         {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "894217",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\n52 866 790 KAMILLY KOWALCZYK\n52.866.790 0001-96",
+            "amount": 200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000196",
             "possiveis_contatos": []
         },
         {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
-            "amount": -24377.8,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000102",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
-            "amount": -3200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "688488",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -6880.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "1086983706",
+            "date": "11/10/2024",
+            "document": "1119296974",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 23293.38,
+            "amount": 8540.85,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "13/08/2024",
-            "document": "1086983705",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 19352.99,
+            "date": "10/10/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -2532.63,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "10/10/2024",
+            "document": "69649908",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1680.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "12/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "413468",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "09/08/2024",
-            "document": "4434",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000135",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
-            "amount": -1500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "027998",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -8063.51,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "1084527951",
+            "date": "10/10/2024",
+            "document": "1118480331",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 8063.15,
+            "amount": 1424.68,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "06/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "677528",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
-            "amount": -3000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "1082418267",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 472.5,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "02/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
-            "amount": 1000.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "523890",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "67429400",
+            "date": "04/10/2024",
+            "document": "69448390",
             "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -7809.48,
+            "amount": -7314.45,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
+            "date": "03/10/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
-            "amount": 497.0,
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3200.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "254608",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
-            "document": "4423",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000138",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "1080767848",
+            "date": "02/10/2024",
+            "document": "1113971104",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 2729.55,
+            "amount": 3762.17,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "01/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDERMA O C M LTDA - ME\n18.706.583 0001-36",
+            "amount": 396.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000136",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO BLOQUEADO ANTERIOR",
             "amount": 0.0,
@@ -368,19 +197,19 @@
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO ANTERIOR",
-            "amount": 8035.51,
+            "amount": 2.01,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         }
     ],
     "summary": {
-        "Saldo em conta corrente": 2.62,
+        "Saldo em conta corrente": 558.34,
         "Limite cheque especial empresarial (+)": 0.0,
-        "Saldo disponível": 2.62,
+        "Saldo disponível": 558.34,
         "Saldo bloqueado em conta corrente": "0,00*",
         "Vencimento cheque especial empresarial": "",
         "Taxa cheque especial empresarial (a.m.)": "7,50%",
@@ -391,358 +220,187 @@
     },
     "enriched_transactions": [
         {
-            "date": "29/08/2024",
-            "document": "68288762",
+            "date": "31/10/2024",
+            "document": "70268306",
+            "description": "TRANSF.REALIZADA PIX SICOOB FAV.: MARCUS VINICIUS MACHADO GONCALVES\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": -7500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "70266819",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "1129728619",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 4760.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "25/10/2024",
+            "document": "70128094",
             "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -3040.0,
+            "amount": -2200.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "28/08/2024",
-            "document": "1095092460",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 3042.62,
+            "date": "23/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRHTZ SERVICOS MEDICOS LTDA\n52.305.548 0001-43",
+            "amount": 2197.5,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000143",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
+            "date": "18/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -2000.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -7638.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
+            "cpf_cnpj_parcial": "276298",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -1064.7,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "22/08/2024",
-            "document": "68109919",
-            "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -1250.0,
-            "transaction_type": "Débito",
+            "date": "18/10/2024",
+            "document": "69924038",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 500.0,
+            "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087243",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 949.79,
+            "date": "18/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2000.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087242",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 447.35,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
+            "date": "16/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -333.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.295.638-**",
+            "amount": -2500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
+            "cpf_cnpj_parcial": "295638",
             "possiveis_contatos": []
         },
         {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
-            "amount": -1000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000157",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -10500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "1091398281",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 10750.25,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "20/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
-            "amount": -704.52,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000196",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "67931272",
-            "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -227.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
-            "amount": -1070.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000190",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -12239.5,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
-            "amount": -5131.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115154",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115155",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
-            "amount": -2440.0,
+            "amount": -1620.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000175",
             "possiveis_contatos": []
         },
         {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "894217",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\n52 866 790 KAMILLY KOWALCZYK\n52.866.790 0001-96",
+            "amount": 200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000196",
             "possiveis_contatos": []
         },
         {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
-            "amount": -24377.8,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000102",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
-            "amount": -3200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "688488",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -6880.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "1086983706",
+            "date": "11/10/2024",
+            "document": "1119296974",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 23293.38,
+            "amount": 8540.85,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "13/08/2024",
-            "document": "1086983705",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 19352.99,
+            "date": "10/10/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -2532.63,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "10/10/2024",
+            "document": "69649908",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1680.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "12/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "413468",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "09/08/2024",
-            "document": "4434",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000135",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
-            "amount": -1500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "027998",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -8063.51,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "1084527951",
+            "date": "10/10/2024",
+            "document": "1118480331",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 8063.15,
+            "amount": 1424.68,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "06/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "677528",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
-            "amount": -3000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "1082418267",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 472.5,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "02/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
-            "amount": 1000.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "523890",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "67429400",
+            "date": "04/10/2024",
+            "document": "69448390",
             "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -7809.48,
+            "amount": -7314.45,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
+            "date": "03/10/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
-            "amount": 497.0,
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3200.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "254608",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
-            "document": "4423",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000138",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "1080767848",
+            "date": "02/10/2024",
+            "document": "1113971104",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 2729.55,
+            "amount": 3762.17,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "01/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDERMA O C M LTDA - ME\n18.706.583 0001-36",
+            "amount": 396.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000136",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO BLOQUEADO ANTERIOR",
             "amount": 0.0,
@@ -751,10 +409,10 @@
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO ANTERIOR",
-            "amount": 8035.51,
+            "amount": 2.01,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
@@ -762,358 +420,187 @@
     ],
     "conciliated_transactions": [
         {
-            "date": "29/08/2024",
-            "document": "68288762",
+            "date": "31/10/2024",
+            "document": "70268306",
+            "description": "TRANSF.REALIZADA PIX SICOOB FAV.: MARCUS VINICIUS MACHADO GONCALVES\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": -7500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "70266819",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "31/10/2024",
+            "document": "1129728619",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 4760.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "25/10/2024",
+            "document": "70128094",
             "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -3040.0,
+            "amount": -2200.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "28/08/2024",
-            "document": "1095092460",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 3042.62,
+            "date": "23/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRHTZ SERVICOS MEDICOS LTDA\n52.305.548 0001-43",
+            "amount": 2197.5,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000143",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
+            "date": "18/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -2000.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -7638.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
+            "cpf_cnpj_parcial": "276298",
             "possiveis_contatos": []
         },
         {
-            "date": "26/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
-            "amount": -1064.7,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "610768",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "22/08/2024",
-            "document": "68109919",
-            "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -1250.0,
-            "transaction_type": "Débito",
+            "date": "18/10/2024",
+            "document": "69924038",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 500.0,
+            "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087243",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 949.79,
+            "date": "18/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2000.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "22/08/2024",
-            "document": "1092087242",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 447.35,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
+            "date": "16/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -333.0,
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.295.638-**",
+            "amount": -2500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
+            "cpf_cnpj_parcial": "295638",
             "possiveis_contatos": []
         },
         {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
-            "amount": -1000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000157",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -10500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "21/08/2024",
-            "document": "1091398281",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 10750.25,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "20/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
-            "amount": -704.52,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000196",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000132",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "67931272",
-            "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -227.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
-            "amount": -1070.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000190",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -12239.5,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
-            "amount": -5131.42,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115154",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "16/08/2024",
-            "document": "1089115155",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 9854.44,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
-            "amount": -2440.0,
+            "amount": -1620.0,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "000175",
             "possiveis_contatos": []
         },
         {
-            "date": "15/08/2024",
+            "date": "15/10/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "894217",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\n52 866 790 KAMILLY KOWALCZYK\n52.866.790 0001-96",
+            "amount": 200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000196",
             "possiveis_contatos": []
         },
         {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
-            "amount": -24377.8,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "000102",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "14/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
-            "amount": -3200.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "688488",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -6880.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "13/08/2024",
-            "document": "1086983706",
+            "date": "11/10/2024",
+            "document": "1119296974",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 23293.38,
+            "amount": 8540.85,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "13/08/2024",
-            "document": "1086983705",
-            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
-            "amount": 19352.99,
+            "date": "10/10/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -2532.63,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "10/10/2024",
+            "document": "69649908",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1680.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "12/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
-            "amount": -1900.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "413468",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "09/08/2024",
-            "document": "4434",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000135",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
-            "amount": -1500.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "027998",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -8063.51,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "276298",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "08/08/2024",
-            "document": "1084527951",
+            "date": "10/10/2024",
+            "document": "1118480331",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 8063.15,
+            "amount": 1424.68,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "06/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "677528",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
-            "amount": -3000.0,
-            "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "985678",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "05/08/2024",
-            "document": "1082418267",
-            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 472.5,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "02/08/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
-            "amount": 1000.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "523890",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "67429400",
+            "date": "04/10/2024",
+            "document": "69448390",
             "description": "DÉB.TIT.COMPE EFETIVADO",
-            "amount": -7809.48,
+            "amount": -7314.45,
             "transaction_type": "Débito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
+            "date": "03/10/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
-            "amount": 497.0,
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3200.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "254608",
+            "cpf_cnpj_parcial": "000130",
             "possiveis_contatos": []
         },
         {
-            "date": "01/08/2024",
-            "document": "4423",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
-            "amount": 497.0,
-            "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "000138",
-            "possiveis_contatos": []
-        },
-        {
-            "date": "01/08/2024",
-            "document": "1080767848",
+            "date": "02/10/2024",
+            "document": "1113971104",
             "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-            "amount": 2729.55,
+            "amount": 3762.17,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "01/10/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDERMA O C M LTDA - ME\n18.706.583 0001-36",
+            "amount": 396.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000136",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO BLOQUEADO ANTERIOR",
             "amount": 0.0,
@@ -1122,10 +609,10 @@
             "possiveis_contatos": []
         },
         {
-            "date": "31/07/2024",
+            "date": "30/09/2024",
             "document": "",
             "description": "SALDO ANTERIOR",
-            "amount": 8035.51,
+            "amount": 2.01,
             "transaction_type": "Crédito",
             "cpf_cnpj_parcial": "",
             "possiveis_contatos": []

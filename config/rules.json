@@ -1,0 +1,13 @@
+[
+  {
+    "descricao_contain": ["MESMA TIT", "MMG LOCACAO DE MAQUINAS"],
+    "contato_igual": "MMG LOCACAO DE MAQUINAS LTDA",
+    "tipo": "Transferência",
+    "categoria": "Entre contas"
+  },
+  {
+    "descricao_regex": "SIPAG_Ant\\._Mastercard",
+    "tipo": "Antecipação",
+    "categoria": "Cartão Mastercard"
+  }
+]

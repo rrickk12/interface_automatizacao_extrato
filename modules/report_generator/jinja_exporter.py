@@ -6,23 +6,28 @@ def load_category_config(json_path: str) -> dict:
     with open(json_path, encoding="utf-8") as f:
         return json.load(f)
 
-def export_jinja_report(data: list, config_path: str, output_file: str):
+def export_jinja_report(data: list, config_path: str, output_file: str, rules_path: str = "config/rules.json"):
     config = load_category_config(config_path)
-    
-    # Esta é a correção definitiva:
-    # Pegue os tipos exatamente como o exportador original (sem inversão!)
+
+    # Verifica se o arquivo de regras existe
+    if os.path.exists(rules_path):
+        with open(rules_path, encoding="utf-8") as f:
+            regras = json.load(f)
+    else:
+        print("⚠️ Nenhum arquivo de regras encontrado. Usando lista vazia.")
+        regras = []
+
     tipos = sorted({tipo for tipos_list in config["tipos_por_transacao"].values() for tipo in tipos_list})
-    
+
     env = Environment(loader=FileSystemLoader('templates'), autoescape=True)
     template = env.get_template("report.html")
-    
+
     rendered_html = template.render(
-        data=data, 
-        config_json=json.dumps(config, ensure_ascii=False),
+        data=data,
+        config_json=config,         # Usar objeto direto com |tojson
+        regras_json=regras,
         tipos=tipos
     )
-    # print(f"[DEBUG] Total de transações recebidas: {len(data)}")
-    # print("[DEBUG] Primeira entrada:", data[0] if data else "Vazio")
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(rendered_html)

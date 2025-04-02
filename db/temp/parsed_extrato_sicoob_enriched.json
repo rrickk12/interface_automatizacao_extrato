@@ -13,7 +13,7 @@
             "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
             "amount": -3040.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "44.388.803 0001-30"
+            "cpf_cnpj_parcial": "000130"
         },
         {
             "date": "28/08/2024",
@@ -29,7 +29,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
             "amount": -2000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.610.768-**"
+            "cpf_cnpj_parcial": "610768"
         },
         {
             "date": "26/08/2024",
@@ -37,7 +37,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
             "amount": -1064.7,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.610.768-**"
+            "cpf_cnpj_parcial": "610768"
         },
         {
             "date": "22/08/2024",
@@ -45,7 +45,7 @@
             "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
             "amount": -1250.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "44.388.803 0001-30"
+            "cpf_cnpj_parcial": "000130"
         },
         {
             "date": "22/08/2024",
@@ -69,7 +69,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
             "amount": -333.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "19.468.242 0001-32"
+            "cpf_cnpj_parcial": "000132"
         },
         {
             "date": "21/08/2024",
@@ -77,7 +77,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
             "amount": -1000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "03.506.307 0001-57"
+            "cpf_cnpj_parcial": "000157"
         },
         {
             "date": "21/08/2024",
@@ -85,7 +85,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -10500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "21/08/2024",
@@ -101,7 +101,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
             "amount": -704.52,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "35.727.790 0001-96"
+            "cpf_cnpj_parcial": "000196"
         },
         {
             "date": "16/08/2024",
@@ -109,7 +109,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
             "amount": -200.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "19.468.242 0001-32"
+            "cpf_cnpj_parcial": "000132"
         },
         {
             "date": "16/08/2024",
@@ -125,7 +125,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
             "amount": -1070.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "42.876.309 0001-90"
+            "cpf_cnpj_parcial": "000190"
         },
         {
             "date": "16/08/2024",
@@ -133,7 +133,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -12239.5,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "16/08/2024",
@@ -141,7 +141,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
             "amount": -5131.42,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.985.678-**"
+            "cpf_cnpj_parcial": "985678"
         },
         {
             "date": "16/08/2024",
@@ -165,7 +165,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
             "amount": -2440.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "20.729.204 0001-75"
+            "cpf_cnpj_parcial": "000175"
         },
         {
             "date": "15/08/2024",
@@ -173,7 +173,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
             "amount": -1900.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.894.217-**"
+            "cpf_cnpj_parcial": "894217"
         },
         {
             "date": "14/08/2024",
@@ -181,7 +181,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
             "amount": -24377.8,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "30.383.069 0001-02"
+            "cpf_cnpj_parcial": "000102"
         },
         {
             "date": "14/08/2024",
@@ -189,7 +189,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
             "amount": -3200.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.688.488-**"
+            "cpf_cnpj_parcial": "688488"
         },
         {
             "date": "13/08/2024",
@@ -197,7 +197,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -6880.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "13/08/2024",
@@ -221,7 +221,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
             "amount": -1900.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.413.468-**"
+            "cpf_cnpj_parcial": "413468"
         },
         {
             "date": "09/08/2024",
@@ -229,7 +229,7 @@
             "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "54.668.555 0001-35"
+            "cpf_cnpj_parcial": "000135"
         },
         {
             "date": "08/08/2024",
@@ -237,7 +237,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
             "amount": -1500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.027.998-**"
+            "cpf_cnpj_parcial": "027998"
         },
         {
             "date": "08/08/2024",
@@ -245,7 +245,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -8063.51,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "08/08/2024",
@@ -261,7 +261,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.677.528-**"
+            "cpf_cnpj_parcial": "677528"
         },
         {
             "date": "05/08/2024",
@@ -269,7 +269,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
             "amount": -3000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.985.678-**"
+            "cpf_cnpj_parcial": "985678"
         },
         {
             "date": "05/08/2024",
@@ -285,7 +285,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
             "amount": 1000.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.523.890-**"
+            "cpf_cnpj_parcial": "523890"
         },
         {
             "date": "01/08/2024",
@@ -301,7 +301,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.254.608-**"
+            "cpf_cnpj_parcial": "254608"
         },
         {
             "date": "01/08/2024",
@@ -309,7 +309,7 @@
             "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "47.105.254 0001-38"
+            "cpf_cnpj_parcial": "000138"
         },
         {
             "date": "01/08/2024",
@@ -355,7 +355,7 @@
             "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
             "amount": -3040.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "44.388.803 0001-30"
+            "cpf_cnpj_parcial": "000130"
         },
         {
             "date": "28/08/2024",
@@ -371,7 +371,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
             "amount": -2000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.610.768-**"
+            "cpf_cnpj_parcial": "610768"
         },
         {
             "date": "26/08/2024",
@@ -379,7 +379,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
             "amount": -1064.7,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.610.768-**"
+            "cpf_cnpj_parcial": "610768"
         },
         {
             "date": "22/08/2024",
@@ -387,7 +387,7 @@
             "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
             "amount": -1250.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "44.388.803 0001-30"
+            "cpf_cnpj_parcial": "000130"
         },
         {
             "date": "22/08/2024",
@@ -411,7 +411,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
             "amount": -333.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "19.468.242 0001-32"
+            "cpf_cnpj_parcial": "000132"
         },
         {
             "date": "21/08/2024",
@@ -419,7 +419,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
             "amount": -1000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "03.506.307 0001-57"
+            "cpf_cnpj_parcial": "000157"
         },
         {
             "date": "21/08/2024",
@@ -427,7 +427,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -10500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "21/08/2024",
@@ -443,7 +443,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n35.727.790 0001-96",
             "amount": -704.52,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "35.727.790 0001-96"
+            "cpf_cnpj_parcial": "000196"
         },
         {
             "date": "16/08/2024",
@@ -451,7 +451,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
             "amount": -200.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "19.468.242 0001-32"
+            "cpf_cnpj_parcial": "000132"
         },
         {
             "date": "16/08/2024",
@@ -467,7 +467,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n42.876.309 0001-90",
             "amount": -1070.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "42.876.309 0001-90"
+            "cpf_cnpj_parcial": "000190"
         },
         {
             "date": "16/08/2024",
@@ -475,7 +475,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -12239.5,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "16/08/2024",
@@ -483,7 +483,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**\nReembolso cartoes",
             "amount": -5131.42,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.985.678-**"
+            "cpf_cnpj_parcial": "985678"
         },
         {
             "date": "16/08/2024",
@@ -507,7 +507,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
             "amount": -2440.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "20.729.204 0001-75"
+            "cpf_cnpj_parcial": "000175"
         },
         {
             "date": "15/08/2024",
@@ -515,7 +515,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.894.217-**",
             "amount": -1900.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.894.217-**"
+            "cpf_cnpj_parcial": "894217"
         },
         {
             "date": "14/08/2024",
@@ -523,7 +523,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
             "amount": -24377.8,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "30.383.069 0001-02"
+            "cpf_cnpj_parcial": "000102"
         },
         {
             "date": "14/08/2024",
@@ -531,7 +531,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
             "amount": -3200.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.688.488-**"
+            "cpf_cnpj_parcial": "688488"
         },
         {
             "date": "13/08/2024",
@@ -539,7 +539,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -6880.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "13/08/2024",
@@ -563,7 +563,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.413.468-**",
             "amount": -1900.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.413.468-**"
+            "cpf_cnpj_parcial": "413468"
         },
         {
             "date": "09/08/2024",
@@ -571,7 +571,7 @@
             "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "54.668.555 0001-35"
+            "cpf_cnpj_parcial": "000135"
         },
         {
             "date": "08/08/2024",
@@ -579,7 +579,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.027.998-**",
             "amount": -1500.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.027.998-**"
+            "cpf_cnpj_parcial": "027998"
         },
         {
             "date": "08/08/2024",
@@ -587,7 +587,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
             "amount": -8063.51,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.276.298-**"
+            "cpf_cnpj_parcial": "276298"
         },
         {
             "date": "08/08/2024",
@@ -603,7 +603,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nPRISCILA SANTOS FAVARO STRUMMIELLO\n***.677.528-**",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.677.528-**"
+            "cpf_cnpj_parcial": "677528"
         },
         {
             "date": "05/08/2024",
@@ -611,7 +611,7 @@
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
             "amount": -3000.0,
             "transaction_type": "Débito",
-            "cpf_cnpj_parcial": "***.985.678-**"
+            "cpf_cnpj_parcial": "985678"
         },
         {
             "date": "05/08/2024",
@@ -627,7 +627,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE ALMEIDA LEVORCI\n***.523.890-**",
             "amount": 1000.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.523.890-**"
+            "cpf_cnpj_parcial": "523890"
         },
         {
             "date": "01/08/2024",
@@ -643,7 +643,7 @@
             "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDaniele Sabrina da Silva\n***.254.608-**",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "***.254.608-**"
+            "cpf_cnpj_parcial": "254608"
         },
         {
             "date": "01/08/2024",
@@ -651,7 +651,7 @@
             "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO\nTransferência Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
             "amount": 497.0,
             "transaction_type": "Crédito",
-            "cpf_cnpj_parcial": "47.105.254 0001-38"
+            "cpf_cnpj_parcial": "000138"
         },
         {
             "date": "01/08/2024",

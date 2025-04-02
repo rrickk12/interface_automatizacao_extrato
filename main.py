@@ -24,7 +24,7 @@ def setup_logging():
     log_format = '%(asctime)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.DEBUG, format=log_format, filename='app.log', filemode='a')
     console = logging.StreamHandler()
-    console.setLevel(logging.INFO)
+    console.setLevel(logging.DEBUG)
     console.setFormatter(logging.Formatter(log_format))
     logging.getLogger('').addHandler(console)
 

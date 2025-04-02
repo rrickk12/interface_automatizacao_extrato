@@ -1,64 +1,217 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Relatório de Transações</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f7f7f7; font-size: 14px; }
-    table { border-collapse: collapse; width: 100%; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.1); table-layout: fixed; }
-    th, td { padding: 8px; border: 1px solid #ccc; text-align: left; }
-    th { background-color: #e2e2e2; }
-    tr.pending { background-color: #fff9c4; }
-    .contato-alert { background-color: #ffcccc; }
-    select { width: 100%; }
-    .status-btn { padding: 6px; }
-    #export-btn { margin: 10px 0; padding: 8px 16px; font-size: 14px; cursor: pointer; }
-  </style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px;
+    background-color: #f5f6fa;
+    font-size: 14px;
+    color: #2f3640;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #353b48;
+    margin-bottom: 30px;
+  }
+  
+  button, select, input {
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #dcdde1;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #eee;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  
+  th {
+    background-color: #f1f2f6;
+    color: #2f3640;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  tr.auto-classificado td select {
+    background-color: #ffeaa7;
+  }
+  
+  .contato-alert {
+    background-color: #ffcccc;
+  }
+  
+  .aba {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  #export-btn {
+    background-color: #44bd32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  #export-btn:hover {
+    background-color: #4cd137;
+  }
+  
+  .status-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .status-btn:hover {
+    opacity: 0.8;
+  }
+  
+  form#form-regra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  form#form-regra input,
+  form#form-regra select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form#form-regra button {
+    background-color: #0984e3;
+    color: white;
+    grid-column: span 2;
+  }
+  
+  form#form-regra button:hover {
+    background-color: #74b9ff;
+  }
+  
+  button.aba-toggle {
+    background-color: #dcdde1;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  button.aba-toggle:hover {
+    background-color: #b2bec3;
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  tr.pending {
+    background-color: #fff9c4; /* amarelo claro */
+  }
+
+  tr.validated {
+    background-color: #d4edda; /* verde suave */
+  }
+
+  tr.canceled {
+    background-color: #f8d7da; /* vermelho rosado */
+  }
+
+</style>  
   <script>
-    const configCategorias = {"categorias_por_tipo": {"Locação de equipamentos": ["Recebimentos", "Despesas Operacionais"], "Despesas financeiras": ["Despesas Fixas"], "Custos operacionais": ["Despesas Variaveis"], "Despesas administrativas": ["Despesas Fixas", "Pessoas", "Impostos"], "Manutenção de ativos": ["Despesas Operacionais"], "Venda de ativos": ["Recebimentos"], "Compra de ativos": ["Despesas Fixas"], "Marketing": ["Despesas Fixas"], "Comercial": ["Pessoas"], "Empréstimo": ["Despesas Fixas", "Recebimentos"]}, "tipos_por_transacao": {"Crédito": ["Recebimentos", "Transferência"], "Débito": ["Despesas Fixas", "Despesas Variaveis", "Pessoas", "Impostos", "Transferência"]}};
+    const configCategorias = {"categorias_por_tipo": {"Comercial": ["Pessoas"], "Compra de ativos": ["Despesas Fixas"], "Custos operacionais": ["Despesas Variaveis"], "Despesas administrativas": ["Despesas Fixas", "Pessoas", "Impostos"], "Despesas financeiras": ["Despesas Fixas"], "Empr\u00e9stimo": ["Despesas Fixas", "Recebimentos"], "Loca\u00e7\u00e3o de equipamentos": ["Recebimentos", "Despesas Operacionais"], "Manuten\u00e7\u00e3o de ativos": ["Despesas Operacionais"], "Marketing": ["Despesas Fixas"], "Venda de ativos": ["Recebimentos"]}, "tipos_por_transacao": {"Cr\u00e9dito": ["Recebimentos", "Transfer\u00eancia"], "D\u00e9bito": ["Despesas Fixas", "Despesas Variaveis", "Pessoas", "Impostos", "Transfer\u00eancia"]}};
+    let regras = [{"categoria": "Entre contas", "contato_igual": "MMG LOCACAO DE MAQUINAS LTDA", "descricao_contain": ["MESMA TIT", "MMG LOCACAO DE MAQUINAS"], "tipo": "Transfer\u00eancia"}, {"categoria": "Cart\u00e3o Mastercard", "descricao_regex": "SIPAG_Ant\\._Mastercard", "tipo": "Antecipa\u00e7\u00e3o"}];
+  </script>
+  <script>
+    function abrirAba(qual) {
+      document.getElementById('aba-transacoes').classList.remove('visible');
+      document.getElementById('aba-regras').classList.remove('visible');
+      document.getElementById('aba-' + qual).classList.add('visible');
+    }
 
     function atualizarTipos(row) {
-      const tipoTransacao = row.dataset.tipoTransacao;
-      const tipoSelect = row.querySelector('select[name="categoria_tipo"]');
-      tipoSelect.innerHTML = '<option value="">Selecione</option>';
-      if (configCategorias.tipos_por_transacao[tipoTransacao]) {
-        configCategorias.tipos_por_transacao[tipoTransacao].forEach(tipo => {
-          tipoSelect.innerHTML += `<option value="${tipo}">${tipo}</option>`;
-        });
-      }
-      row.querySelector('select[name="categoria_nome"]').innerHTML = '<option value="">Selecione</option>';
-    }
-
-    function atualizarCategorias(select) {
-      const row = select.closest('tr');
-      const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
-      const tipoSelecionado = select.value;
-
-      categoriaSelect.innerHTML = '<option value="">Selecione</option>';
-
-      const sugeridas = [];
-      const outras = [];
-
-      Object.entries(configCategorias.categorias_por_tipo).forEach(([categoria, tipos]) => {
-        if (tipos.includes(tipoSelecionado)) {
-          sugeridas.push(categoria);
-        } else {
-          outras.push(categoria);
-        }
-      });
-
-      sugeridas.forEach(cat => {
-        categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
-      });
-
-      if (outras.length > 0) {
-        categoriaSelect.innerHTML += '<option disabled>──────────────</option>';
-      }
-
-      outras.forEach(cat => {
-        categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+    const tipoTransacao = row.dataset.tipoTransacao;
+    const tipoSelect = row.querySelector('select[name="categoria_tipo"]');
+    tipoSelect.innerHTML = '<option value="">Selecione</option>';
+    if (configCategorias.tipos_por_transacao[tipoTransacao]) {
+      configCategorias.tipos_por_transacao[tipoTransacao].forEach(tipo => {
+        tipoSelect.innerHTML += `<option value="${tipo}">${tipo}</option>`;
       });
     }
+    row.querySelector('select[name="categoria_nome"]').innerHTML = '<option value="">Selecione</option>';
+  }
+
+
+  function atualizarCategorias(select) {
+    const row = select.closest('tr');
+    const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
+    const tipoSelecionado = select.value;
+
+    categoriaSelect.innerHTML = '<option value="">Selecione</option>';
+
+    const sugeridas = [];
+    const outras = [];
+
+    Object.entries(configCategorias.categorias_por_tipo).forEach(([categoria, tipos]) => {
+      if (tipos.includes(tipoSelecionado)) {
+        sugeridas.push(categoria);
+      } else {
+        outras.push(categoria);
+      }
+    });
+
+    sugeridas.forEach(cat => {
+      categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+    });
+
+    if (outras.length > 0) {
+      categoriaSelect.innerHTML += '<option disabled>──────────────</option>';
+    }
+
+    outras.forEach(cat => {
+      categoriaSelect.innerHTML += `<option value="${cat}">${cat}</option>`;
+    });
+  }
 
     function setStatus(btn, status) {
       const row = btn.closest('tr');
@@ -67,7 +220,7 @@
 
     function exportToCSV() {
       let csv = 'Data,Descrição,Valor,Tipo Transação,Documento,Contato,Tipo,Categoria,Status\n';
-      document.querySelectorAll('tbody tr').forEach(row => {
+      document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => {
         const cols = row.querySelectorAll('td');
         const tipo = row.querySelector('select[name="categoria_tipo"]').value || '';
         const categoria = row.querySelector('select[name="categoria_nome"]').value || '';
@@ -92,1094 +245,1816 @@
       document.body.removeChild(link);
     }
 
+    function aplicarRegras(row) {
+      const desc = row.cells[1].innerText;
+      const contato = row.cells[5].innerText;
+      regras.forEach(regra => {
+        let match = true;
+        if (regra.descricao_contain) {
+          match = regra.descricao_contain.every(p => desc.includes(p));
+        }
+        if (regra.descricao_regex && !(new RegExp(regra.descricao_regex).test(desc))) {
+          match = false;
+        }
+        if (regra.contato_igual && regra.contato_igual !== contato) {
+          match = false;
+        }
+
+        if (match) {
+          row.querySelector('select[name="categoria_tipo"]').value = regra.tipo;
+          atualizarCategorias(row.querySelector('select[name="categoria_tipo"]'));
+          row.querySelector('select[name="categoria_nome"]').value = regra.categoria;
+          row.classList.add('auto-classificado');
+        }
+      });
+    }
+
+    function adicionarRegra() {
+      const form = document.getElementById("form-regra");
+      const novaRegra = {
+        descricao_contain: form.descricao_contain.value.split(',').map(v => v.trim()).filter(Boolean),
+        descricao_regex: form.descricao_regex.value.trim() || null,
+        contato_igual: form.contato_igual.value.trim() || null,
+        tipo: form.tipo.value.trim(),
+        categoria: form.categoria.value.trim()
+      };
+      regras.push(novaRegra);
+      carregarRegras();
+    }
+
+    function carregarRegras() {
+  const corpo = document.querySelector("#tabela-regras tbody");
+  corpo.innerHTML = '';
+  regras.forEach((regra, index) => {
+    const linha = document.createElement('tr');
+    linha.innerHTML = `
+      <td>${(regra.descricao_contain || []).join(', ')}</td>
+      <td>${regra.descricao_regex || ''}</td>
+      <td>${regra.contato_igual || ''}</td>
+      <td>${regra.tipo}</td>
+      <td>${regra.categoria}</td>
+      <td><button onclick="removerRegra(${index})">🗑️</button></td>`;
+    corpo.appendChild(linha);
+  });
+
+  document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => aplicarRegras(row));
+}
+
+function removerRegra(index) {
+  regras.splice(index, 1);
+  carregarRegras();
+}
+
     document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('tbody tr').forEach(row => atualizarTipos(row));
+      abrirAba('transacoes');
+      document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => atualizarTipos(row));
+      carregarRegras();
     });
   </script>
 </head>
 <body>
   <h1>Relatório de Transações</h1>
-  <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
-  <table>
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Descrição</th>
-        <th>Valor</th>
-        <th>Tipo Transação</th>
-        <th>Documento</th>
-        <th>Contato</th>
-        <th>Tipo</th>
-        <th>Categoria</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>29/08/2024</td>
-        <td>TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA
+
+  <div>
+    <button onclick="abrirAba('transacoes')">📋 Transações</button>
+    <button onclick="abrirAba('regras')">🧠 Regras</button>
+  </div>
+
+  <div id="aba-transacoes" class="aba">
+    <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+          <th>Tipo Transação</th>
+          <th>Documento</th>
+          <th>Contato</th>
+          <th>Tipo</th>
+          <th>Categoria</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>29/08/2024</td>
+          <td>TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA
 Transferência Pix
 MMG LOCACAO DE MAQUINAS LTDA
 44.388.803 0001-30</td>
-        <td>-3040.0</td>
-        <td>Débito</td>
-        <td>68288762</td>
-        <td class="">
-          MMG LOCACAO DE MAQUINAS LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>28/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>3042.62</td>
-        <td>Crédito</td>
-        <td>1095092460</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>26/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-3040.0</td>
+          <td>Débito</td>
+          <td>68288762</td>
+          <td class="">
+            MMG LOCACAO DE MAQUINAS LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>28/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>3042.62</td>
+          <td>Crédito</td>
+          <td>1095092460</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>26/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.610.768-**</td>
-        <td>-2000.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>26/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-2000.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>26/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.610.768-**</td>
-        <td>-1064.7</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>22/08/2024</td>
-        <td>DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA
+          <td>-1064.7</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>22/08/2024</td>
+          <td>DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: INFINITY CARE MED LOCACOES LTDA
 Transferência Pix
 MMG LOCACAO DE MAQUINAS LTDA
 44.388.803 0001-30</td>
-        <td>-1250.0</td>
-        <td>Débito</td>
-        <td>68109919</td>
-        <td class="">
-          MMG LOCACAO DE MAQUINAS LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>22/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>949.79</td>
-        <td>Crédito</td>
-        <td>1092087243</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>22/08/2024</td>
-        <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
-        <td>447.35</td>
-        <td>Crédito</td>
-        <td>1092087242</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>21/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-1250.0</td>
+          <td>Débito</td>
+          <td>68109919</td>
+          <td class="">
+            MMG LOCACAO DE MAQUINAS LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>22/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>949.79</td>
+          <td>Crédito</td>
+          <td>1092087243</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>22/08/2024</td>
+          <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
+          <td>447.35</td>
+          <td>Crédito</td>
+          <td>1092087242</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>21/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 19.468.242 0001-32</td>
-        <td>-333.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          ZOOP TECNOLOGIA &amp; INSTITUICAO DE PAGAMENTO S.A.
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>21/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-333.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            ZOOP TECNOLOGIA &amp; INSTITUICAO DE PAGAMENTO S.A.
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>21/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 03.506.307 0001-57</td>
-        <td>-1000.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>21/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-1000.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            TICKET SOLUCOES HDFGT S/A
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>21/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.276.298-**</td>
-        <td>-10500.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>21/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>10750.25</td>
-        <td>Crédito</td>
-        <td>1091398281</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>20/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-10500.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Bruna Zavati Zavitoski
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>21/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>10750.25</td>
+          <td>Crédito</td>
+          <td>1091398281</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>20/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 35.727.790 0001-96</td>
-        <td>-704.52</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          EASY SEGUROS MEDICOS LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>16/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-704.52</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            EASY SEGUROS MEDICOS LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>16/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 19.468.242 0001-32</td>
-        <td>-200.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          ZOOP TECNOLOGIA &amp; INSTITUICAO DE PAGAMENTO S.A.
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>16/08/2024</td>
-        <td>DÉB.TIT.COMPE EFETIVADO</td>
-        <td>-227.42</td>
-        <td>Débito</td>
-        <td>67931272</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>16/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-200.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            ZOOP TECNOLOGIA &amp; INSTITUICAO DE PAGAMENTO S.A.
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>16/08/2024</td>
+          <td>DÉB.TIT.COMPE EFETIVADO</td>
+          <td>-227.42</td>
+          <td>Débito</td>
+          <td>67931272</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>16/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 42.876.309 0001-90</td>
-        <td>-1070.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          MICHEL ALEXANDRE DE PAULA 39977974802
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>16/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-1070.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            MICHEL ALEXANDRE DE PAULA 39977974802
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>16/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.276.298-**</td>
-        <td>-12239.5</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>16/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-12239.5</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Bruna Zavati Zavitoski
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>16/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.985.678-**
 Reembolso cartoes</td>
-        <td>-5131.42</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>16/08/2024</td>
-        <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
-        <td>9854.44</td>
-        <td>Crédito</td>
-        <td>1089115154</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>16/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>9854.44</td>
-        <td>Crédito</td>
-        <td>1089115155</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>15/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-5131.42</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Guilherme Borelli
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>16/08/2024</td>
+          <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
+          <td>9854.44</td>
+          <td>Crédito</td>
+          <td>1089115154</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>16/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>9854.44</td>
+          <td>Crédito</td>
+          <td>1089115155</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>15/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 20.729.204 0001-75</td>
-        <td>-2440.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>15/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-2440.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>15/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.894.217-**</td>
-        <td>-1900.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>14/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-1900.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>14/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 30.383.069 0001-02</td>
-        <td>-24377.8</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="">
-          PERSONALITE RECUPERACAO DE CREDITO LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>14/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-24377.8</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            PERSONALITE RECUPERACAO DE CREDITO LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>14/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.688.488-**</td>
-        <td>-3200.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>13/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-3200.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>13/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.276.298-**</td>
-        <td>-6880.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>13/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>23293.38</td>
-        <td>Crédito</td>
-        <td>1086983706</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>13/08/2024</td>
-        <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
-        <td>19352.99</td>
-        <td>Crédito</td>
-        <td>1086983705</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>12/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-6880.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Bruna Zavati Zavitoski
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>13/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>23293.38</td>
+          <td>Crédito</td>
+          <td>1086983706</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>13/08/2024</td>
+          <td>CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa</td>
+          <td>19352.99</td>
+          <td>Crédito</td>
+          <td>1086983705</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>12/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.413.468-**</td>
-        <td>-1900.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>09/08/2024</td>
-        <td>CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA
+          <td>-1900.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>09/08/2024</td>
+          <td>CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA
 Transferência Pix
 SUELLEN D. DA S. MENDES ESTETICA
 54.668.555 0001-35</td>
-        <td>497.0</td>
-        <td>Crédito</td>
-        <td>4434</td>
-        <td class="">
-          SUELLEN D. DA S. MENDES ESTETICA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>08/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>497.0</td>
+          <td>Crédito</td>
+          <td>4434</td>
+          <td class="">
+            SUELLEN D. DA S. MENDES ESTETICA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>08/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.027.998-**</td>
-        <td>-1500.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>08/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>-1500.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>08/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.276.298-**</td>
-        <td>-8063.51</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>08/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>8063.15</td>
-        <td>Crédito</td>
-        <td>1084527951</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>06/08/2024</td>
-        <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
+          <td>-8063.51</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Bruna Zavati Zavitoski
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>08/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>8063.15</td>
+          <td>Crédito</td>
+          <td>1084527951</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>06/08/2024</td>
+          <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
 PRISCILA SANTOS FAVARO STRUMMIELLO
 ***.677.528-**</td>
-        <td>497.0</td>
-        <td>Crédito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>05/08/2024</td>
-        <td>PIX EMITIDO OUTRA IF Pagamento Pix
+          <td>497.0</td>
+          <td>Crédito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>05/08/2024</td>
+          <td>PIX EMITIDO OUTRA IF Pagamento Pix
 ***.985.678-**</td>
-        <td>-3000.0</td>
-        <td>Débito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>05/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>472.5</td>
-        <td>Crédito</td>
-        <td>1082418267</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>02/08/2024</td>
-        <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
+          <td>-3000.0</td>
+          <td>Débito</td>
+          <td>Pix</td>
+          <td class="">
+            Guilherme Borelli
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>05/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>472.5</td>
+          <td>Crédito</td>
+          <td>1082418267</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>02/08/2024</td>
+          <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
 CAROLINE ALMEIDA LEVORCI
 ***.523.890-**</td>
-        <td>1000.0</td>
-        <td>Crédito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Débito">
-        <td>01/08/2024</td>
-        <td>DÉB.TIT.COMPE EFETIVADO</td>
-        <td>-7809.48</td>
-        <td>Débito</td>
-        <td>67429400</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>01/08/2024</td>
-        <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
+          <td>1000.0</td>
+          <td>Crédito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Débito">
+          <td>01/08/2024</td>
+          <td>DÉB.TIT.COMPE EFETIVADO</td>
+          <td>-7809.48</td>
+          <td>Débito</td>
+          <td>67429400</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>01/08/2024</td>
+          <td>PIX RECEBIDO - OUTRA IF Recebimento Pix
 Daniele Sabrina da Silva
 ***.254.608-**</td>
-        <td>497.0</td>
-        <td>Crédito</td>
-        <td>Pix</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>01/08/2024</td>
-        <td>CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO
+          <td>497.0</td>
+          <td>Crédito</td>
+          <td>Pix</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>01/08/2024</td>
+          <td>CRED.TRANSF.CONTAS INTERCREDIS REM.: GABRIELI ZAGO
 Transferência Pix
 GABRIELI ZAGO
 47.105.254 0001-38</td>
-        <td>497.0</td>
-        <td>Crédito</td>
-        <td>4423</td>
-        <td class="">
-          INFINITY COMPANY BY GG LTDA
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
+          <td>497.0</td>
+          <td>Crédito</td>
+          <td>4423</td>
+          <td class="">
+            INFINITY COMPANY BY GG LTDA
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>01/08/2024</td>
+          <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
+          <td>2729.55</td>
+          <td>Crédito</td>
+          <td>1080767848</td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>31/07/2024</td>
+          <td>SALDO BLOQUEADO ANTERIOR</td>
+          <td>0.0</td>
+          <td>Crédito</td>
+          <td></td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+        <tr class="pending" data-tipo-transacao="Crédito">
+          <td>31/07/2024</td>
+          <td>SALDO ANTERIOR</td>
+          <td>8035.51</td>
+          <td>Crédito</td>
+          <td></td>
+          <td class="contato-alert">
+            -
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              
+                <option value="Despesas Fixas">Despesas Fixas</option>
+              
+                <option value="Despesas Variaveis">Despesas Variaveis</option>
+              
+                <option value="Impostos">Impostos</option>
+              
+                <option value="Pessoas">Pessoas</option>
+              
+                <option value="Recebimentos">Recebimentos</option>
+              
+                <option value="Transferência">Transferência</option>
+              
+            </select>
+            
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="aba-regras" class="aba">
+    <h2>Regras de Classificação</h2>
+    <table id="tabela-regras">
+      <thead>
+        <tr><th>Descrição Contém</th><th>Regex</th><th>Contato</th><th>Tipo</th><th>Categoria</th><th></th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  
+    <h3>➕ Nova Regra</h3>
+    <form id="form-regra">
+      <input name="descricao_contain" placeholder="Descrição contém (vírgula separada)">
+      <input name="descricao_regex" placeholder="Regex de descrição">
+      <input name="contato_igual" placeholder="Nome do contato exato">
       
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>01/08/2024</td>
-        <td>CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard</td>
-        <td>2729.55</td>
-        <td>Crédito</td>
-        <td>1080767848</td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>31/07/2024</td>
-        <td>SALDO BLOQUEADO ANTERIOR</td>
-        <td>0.0</td>
-        <td>Crédito</td>
-        <td></td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-      <tr class="pending" data-tipo-transacao="Crédito">
-        <td>31/07/2024</td>
-        <td>SALDO ANTERIOR</td>
-        <td>8035.51</td>
-        <td>Crédito</td>
-        <td></td>
-        <td class="contato-alert">
-          -
-        </td>
-        <td>
-          <select name="categoria_tipo" onchange="atualizarCategorias(this)">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <select name="categoria_nome">
-            <option value="">Selecione</option>
-          </select>
-        </td>
-        <td>
-          <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
-          <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
-        </td>
-      </tr>
-      
-    </tbody>
-  </table>
+      <select name="tipo">
+        <option value="">Selecione o tipo</option>
+        <script>
+          configCategorias && Object.values(configCategorias.tipos_por_transacao).flat().filter((v, i, a) => a.indexOf(v) === i).forEach(t => {
+            document.write(`<option value="${t}">${t}</option>`);
+          });
+        </script>
+      </select>
+  
+      <select name="categoria">
+        <option value="">Selecione a categoria</option>
+        <script>
+          configCategorias && Object.keys(configCategorias.categorias_por_tipo).forEach(c => {
+            document.write(`<option value="${c}">${c}</option>`);
+          });
+        </script>
+      </select>
+  
+      <button type="button" onclick="adicionarRegra()">Salvar regra</button>
+    </form>
+  </div>
 </body>
 </html>

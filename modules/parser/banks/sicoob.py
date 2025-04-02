@@ -1,10 +1,58 @@
-# modules/parser/banks/sicoob.py
 import re
 from bs4 import BeautifulSoup
 import logging
 from modules.parser.base_parser import BankParser
+from modules.reconciler.utils import extrair_digitos
+
 
 class SicoobParser(BankParser):
+
+    def parse_transactions(self, statement_data: dict) -> list:
+        """
+        Processa os lançamentos, adicionando tipo de transação e extraindo CPF/CNPJ parcial.
+        """
+        transactions = statement_data.get("transactions", [])
+        enriched = []
+
+        for tx in transactions:
+            try:
+                amount = float(tx.get("amount", 0))
+            except Exception:
+                amount = 0.0
+
+            tx["transaction_type"] = "Débito" if amount < 0 else "Crédito"
+
+            desc = tx.get("description", "")
+            cpf_cnpj_parcial = ""
+
+            # Tenta extrair CPF completo (sem máscara)
+            match_cpf = re.search(r"\d{3}[.\s]?\d{3}[.\s]?\d{3}-?\d{2}", desc)
+            if match_cpf:
+                cpf_cnpj_parcial = extrair_digitos(match_cpf.group(0))[-6:]
+
+            # Tenta extrair CPF com máscara parcial (ex: ***.985.678-**)
+            if not cpf_cnpj_parcial:
+                match_mascarado = re.search(r"\*{3}[.\s]?(\d{3})[.\s]?(\d{3})-\*{2}", desc)
+                if match_mascarado:
+                    cpf_cnpj_parcial = match_mascarado.group(1) + match_mascarado.group(2)
+
+            # Tenta extrair CNPJ completo
+            if not cpf_cnpj_parcial:
+                match_cnpj = re.search(r"\d{2}[.\s]?\d{3}[.\s]?\d{3}[\/\s]?\d{4}-?\d{2}", desc)
+                if match_cnpj:
+                    cpf_cnpj_parcial = extrair_digitos(match_cnpj.group(0))[-6:]
+
+            # Fallback: últimos 6 dígitos de qualquer número longo
+            if not cpf_cnpj_parcial:
+                numeros = re.findall(r"\d{6,}", desc)
+                if numeros:
+                    cpf_cnpj_parcial = numeros[-1][-6:]
+
+            tx["cpf_cnpj_parcial"] = cpf_cnpj_parcial
+            enriched.append(tx)
+
+        return enriched
+
     def parse_statement(self) -> dict:
         """
         Faz o parse do extrato Sicoob em HTML e retorna um dicionário com cabeçalho,
@@ -69,10 +117,9 @@ class SicoobParser(BankParser):
                     document = cells[1].get_text(strip=True)
                     description = cells[2].get_text(separator=" ", strip=True)
                     value_text = cells[3].get_text(strip=True)
-                    
+
                     amount = self._parse_amount(value_text)
-                    
-                    # Ignora lançamentos de saldo
+
                     if "SALDO DO DIA" in description.upper():
                         continue
 
@@ -82,6 +129,7 @@ class SicoobParser(BankParser):
                         "description": description,
                         "amount": amount
                     })
+
         result["transactions"] = transactions
 
         # --- Resumo ---
@@ -99,44 +147,10 @@ class SicoobParser(BankParser):
                     except Exception:
                         value = value_str
                     summary[key] = value
-        result["summary"] = summary
 
+        result["summary"] = summary
         logging.debug("Parse do extrato Sicoob concluído.")
         return result
-
-
-    def parse_transactions(self, statement_data: dict) -> list:
-        """
-        Processa os lançamentos, adicionando tipo de transação e extraindo CPF/CNPJ parcial.
-        """
-        import re
-
-        transactions = statement_data.get("transactions", [])
-        enriched = []
-
-        for tx in transactions:
-            try:
-                amount = float(tx.get("amount", 0))
-            except Exception:
-                amount = 0.0
-
-            tx["transaction_type"] = "Débito" if amount < 0 else "Crédito"
-
-            desc = tx.get("description", "")
-
-            cpf_match = re.search(r"(\*{3}\.\d{3}\.\d{3}-\*{2}|\d{3}\.\d{3}\.\d{3}-\d{2})", desc)
-            cnpj_match = re.search(r"(\d{2}[.\s]?\d{3}[.\s]?\d{3}[\/\s]?\d{4}[-\s]?\d{2}|\d{14})", desc)
-
-            if cpf_match:
-                tx["cpf_cnpj_parcial"] = cpf_match.group(1)
-            elif cnpj_match:
-                tx["cpf_cnpj_parcial"] = cnpj_match.group(1)
-            else:
-                tx["cpf_cnpj_parcial"] = ""
-
-            enriched.append(tx)
-
-        return enriched
 
     def _parse_amount(self, amount_text: str) -> float:
         """

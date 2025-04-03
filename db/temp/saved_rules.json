@@ -1,0 +1,30 @@
+[
+  {
+    "categoria": "",
+    "contato_igual": "",
+    "descricao_contain": [
+      "MESMA TIT"
+    ],
+    "tipo": "Transferência"
+  },
+  {
+    "categoria": "Locação de equipamentos",
+    "contato_igual": "",
+    "descricao_contain": [
+      "CR ANTECIPAÇÃO"
+    ],
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "ZOOP",
+    "descricao_contain": "",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "LUME LASER",
+    "descricao_contain": "",
+    "tipo": "Despesas Variaveis"
+  }
+]

@@ -1,184 +1,245 @@
 /* Global Styles */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 20px;
-    background-color: #f5f6fa;
-    font-size: 14px;
-    color: #2f3640;
-  }
-  
-  /* Headings */
-  h1 {
-    text-align: center;
-    color: #353b48;
-    margin-bottom: 30px;
-  }
-  
-  /* Botões, Inputs e Selects */
-  button, select, input {
-    font-size: 14px;
-    padding: 6px 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover,
-  select:hover,
-  input:hover {
-    background-color: #dcdde1;
-    cursor: pointer;
-  }
-  
-  /* Estilização de Tabelas */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-top: 20px;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid #eee;
-    text-align: left;
-    word-wrap: break-word;
-  }
-  
-  th {
-    background-color: #f1f2f6;
-    color: #2f3640;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  tr:hover {
-    background-color: #f0f0f0;
-  }
-  
-  /* Estados das Linhas */
-  tr.pending {
-    background-color: #fff9c4; /* amarelo claro */
-  }
-  
-  tr.validated {
-    background-color: #d4edda; /* verde suave */
-  }
-  
-  tr.canceled {
-    background-color: #f8d7da; /* vermelho rosado */
-  }
-  
-  /* Linhas Auto-classificadas */
-  tr.auto-classificado td select {
-    background-color: #ffeaa7;
-  }
-  
-  /* Alerta para Contato */
-  .contato-alert {
-    background-color: #ffcccc;
-  }
-  
-  /* Abas (Tabs) */
-  .aba {
-    display: none;
-    animation: fadeIn 0.3s ease-in-out;
-  }
-  
-  .aba.visible {
-    display: block;
-  }
-  
-  /* Botão de Exportar CSV */
-  #export-btn {
-    background-color: #44bd32;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-    font-weight: bold;
-  }
-  
-  #export-btn:hover {
-    background-color: #4cd137;
-  }
-  
-  /* Botões de Status */
-  .status-btn {
-    padding: 5px 10px;
-    margin: 0 2px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .status-btn:hover {
-    opacity: 0.8;
-  }
-  
-  /* Formulário de Regras */
-  form#form-regra {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
-    margin-top: 15px;
-  }
-  
-  form#form-regra input,
-  form#form-regra select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-  
-  form#form-regra button {
-    background-color: #0984e3;
-    color: #fff;
-    grid-column: span 2;
-  }
-  
-  form#form-regra button:hover {
-    background-color: #74b9ff;
-  }
-  
-  /* Botão de Toggle para Abas */
-  button.aba-toggle {
-    background-color: #dcdde1;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 6px;
-    font-weight: bold;
-  }
-  
-  button.aba-toggle:hover {
-    background-color: #b2bec3;
-  }
-  
-  /* Animação de Fade */
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f5f6fa;
+  font-size: 1rem;
+  color: #2f3640;
+}
 
-  .spinner {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #ccc;
-    border-top-color: #3498db;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    vertical-align: middle;
-    margin-left: 8px;
+/* Container para centralizar o conteúdo */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #353b48;
+  margin-bottom: 2rem;
+}
+
+/* Botões, Inputs e Selects */
+button, select, input {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+button:hover,
+select:hover,
+input:hover {
+  background-color: #dcdde1;
+  cursor: pointer;
+}
+
+/* Estilização de Tabelas */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1rem;
+}
+
+.table-responsive table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed; /* Força largura fixa nas colunas */
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-top: 1.25rem;
+}
+
+th, td {
+  padding: 0.425rem;
+  border: 1px solid #eee;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+th {
+  background-color: #f1f2f6;
+  color: #2f3640;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estados das Linhas */
+tr.pending {
+  background-color: #fff9c4;
+}
+tr.validated {
+  background-color: #d4edda;
+}
+tr.canceled {
+  background-color: #f8d7da;
+}
+
+/* Linhas Auto-classificadas */
+tr.auto-classificado td select {
+  background-color: #ffeaa7;
+}
+
+/* Alerta para Contato */
+.contato-alert {
+  background-color: #ffcccc;
+}
+
+/* Botão de Exportar CSV */
+#export-btn {
+  background-color: #44bd32;
+  color: #fff;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  margin: 0.625rem 0;
+  font-weight: bold;
+}
+#export-btn:hover {
+  background-color: #4cd137;
+}
+
+/* Botões de Status */
+.status-btn {
+  padding: 0.3125rem 0.625rem;
+  margin: 0 0.125rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+.status-btn:hover {
+  opacity: 0.8;
+}
+
+/* Formulário de Regras */
+form#form-regra {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.625rem;
+  margin-top: 1rem;
+}
+form#form-regra input,
+form#form-regra select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+form#form-regra button {
+  background-color: #0984e3;
+  color: #fff;
+  grid-column: span 2;
+}
+form#form-regra button:hover {
+  background-color: #74b9ff;
+}
+
+/* Botão de Toggle para Abas */
+button.aba-toggle {
+  background-color: #dcdde1;
+  border: none;
+  padding: 0.625rem 0.9375rem;
+  margin: 0.3125rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+}
+button.aba-toggle:hover {
+  background-color: #b2bec3;
+}
+
+/* Animação de Fade */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Spinner */
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ccc;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem;
   }
   
-  @keyframes spin {
-    to { transform: rotate(360deg); }
+  form#form-regra {
+    grid-template-columns: 1fr;
   }
-    
+  
+  #export-btn {
+    width: 100%;
+  }
+}
+
+/* Exemplo de ajuste para coluna de Descrição */
+.table-responsive table th:nth-child(2),
+.table-responsive table td:nth-child(2) {
+  max-width: 300px;
+  /* Se preferir truncar, pode incluir:
+  overflow: hidden;
+  text-overflow: ellipsis;
+  */
+}
+
+/* Força o input memo a não expandir a coluna */
+td input[name="memo"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.thdata { width: 5%; }
+.thdescription { width: 15%; }
+.thvalor { width: 5%; }
+.thtipotransacao { width: 5%; }
+.thdocumento { width: 5%; }
+.thcontato { width: 10%; }
+.thtipo { width: 16%; }
+.thcategoria { width: 22%; }
+.thmemo { width: 15%; }
+.thstatus { width: 5%; }
+
+
+.aba {
+  display: none;
+}
+
+.aba.visible {
+  display: block;
+}
+
+
+/* Um verde um pouco mais saturado para Crédito */
+td.credito {
+  background-color: #2ecc71;  /* verde moderadamente saturado */
+  color: #fff;
+}
+
+/* Um vermelho um pouco mais saturado para Débito */
+td.debito {
+  background-color: #e74c3c;  /* vermelho moderadamente saturado */
+  color: #fff;
+}

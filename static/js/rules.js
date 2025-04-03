@@ -44,7 +44,6 @@ export function atualizarTipos(row, configCategorias) {
     });
   }
   
-  // Aplica as regras de classificação a uma linha (se necessário em sua interface)
   export function aplicarRegras(row, regras) {
     const desc = row.cells[1].innerText;
     const contato = row.cells[5].innerText;
@@ -65,21 +64,29 @@ export function atualizarTipos(row, configCategorias) {
         atualizarCategorias(tipoSelect, window.configCategorias);
         const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
         categoriaSelect.value = regra.categoria;
+        // Atualiza o campo de memo com o valor definido na regra
+        const memoInput = row.querySelector('input[name="memo"]');
+        if (memoInput) {
+          memoInput.value = regra.memo_rule || "";
+        }
         row.classList.add('auto-classificado');
       }
     });
   }
   
-  // Cria uma nova regra a partir dos dados do formulário
-  export function criarRegra(form) {
-    return {
-      descricao_contain: form.descricao_contain.value.split(',').map(v => v.trim()).filter(Boolean),
-      descricao_regex: form.descricao_regex.value.trim() || null,
-      contato_igual: form.contato_igual.value.trim() || null,
-      tipo: form.tipo.value.trim(),
-      categoria: form.categoria.value.trim()
-    };
-  }
+    // Cria uma nova regra a partir dos dados do formulário
+    export function criarRegra(form) {
+      return {
+        descricao_contain: form.descricao_contain.value.split(',').map(v => v.trim()).filter(Boolean),
+        descricao_regex: form.descricao_regex.value.trim() || null,
+        contato_igual: form.contato_igual.value.trim() || null,
+        tipo: form.tipo.value.trim(),
+        categoria: form.categoria.value.trim(),
+        memo_rule: form.memo_rule.value.trim() || null  // Adicionado campo memo_rule
+      };
+    }
+    
+
   
   // Carrega as regras e exibe na tabela de regras
   export function carregarRegras(regras, tableBodySelector) {
@@ -94,6 +101,7 @@ export function atualizarTipos(row, configCategorias) {
         <td>${regra.contato_igual || ''}</td>
         <td>${regra.tipo}</td>
         <td>${regra.categoria}</td>
+        <td>${regra.memo_rule || ''}</td>  <!-- Nova coluna para memo -->
         <td><button onclick="removerRule(${index})">🗑️</button></td>
       `;
       corpo.appendChild(linha);

@@ -43,6 +43,8 @@ import {
   cleanRulesOnServer
 } from './rules_state.js';
 
+
+
 // Expor funções para o pipeline e para o gerenciamento de estado da tabela
 window.runPipeline = runPipeline;
 window.captureState = captureState;
@@ -209,4 +211,95 @@ window.setStatus = function(button, status) {
   row.classList.add(status);
 };
 
-window.updateReport = updateReport;
+function updateReport() {
+  fetch('/data')
+    .then(response => {
+      if (!response.ok) throw new Error("Erro ao carregar dados do relatório.");
+      return response.json();
+    })
+    .then(data => {
+      const tbody = document.querySelector("#aba-transacoes tbody");
+      tbody.innerHTML = ""; // limpa tudo
+
+      data.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.classList.add("pending");
+        tr.setAttribute("data-tipo-transacao", item.transaction_type);
+
+        tr.innerHTML = `
+          <td>${item.date || ""}</td>
+          <td>${item.description || ""}</td>
+          <td>${item.amount || ""}</td>
+          <td>${item.transaction_type || ""}</td>
+          <td>${item.document || ""}</td>
+          <td class="${(!item.contato || !item.contato.cpf_cnpj) ? "contato-alert" : ""}">
+            ${item.contato ? item.contato.nome || "-" : "-"}
+          </td>
+          <td>
+            <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+              <option value="">Selecione</option>
+              ${window.configCategorias && window.configCategorias.tipos_por_transacao 
+                ? Object.values(window.configCategorias.tipos_por_transacao)
+                    .flat()
+                    .map(tipo => `<option value="${tipo}">${tipo}</option>`)
+                    .join("")
+                : ""
+              }
+            </select>
+          </td>
+          <td>
+            <select name="categoria_nome">
+              <option value="">Selecione</option>
+            </select>
+          </td>
+          <td>
+            <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+            <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+          </td>
+        `;
+
+        // ⬇️ Adiciona ao DOM
+        tbody.appendChild(tr);
+
+        // ⬇️ APLICA TUDO DEPOIS DE INSERIR
+        if (window.atualizarTipos) window.atualizarTipos(tr);
+        if (window.aplicarRegras) window.aplicarRegras(tr);
+      });
+    })
+    .catch(err => console.error(err));
+}
+
+window.exportToCSV = function() {
+  // Atualize o cabeçalho para incluir o campo Memo
+  let csv = 'Data,Descrição,Valor,Tipo Transação,Documento,Contato,Tipo,Categoria,Memo,Status\n';
+  const rows = document.querySelectorAll('#aba-transacoes tbody tr');
+  rows.forEach(row => {
+    // Seleciona as 6 primeiras células (Data, Descrição, Valor, Tipo Transação, Documento, Contato)
+    const cols = row.querySelectorAll('td');
+    // Busca os selects e input do memo
+    const tipo = row.querySelector('select[name="categoria_tipo"]').value || '';
+    const categoria = row.querySelector('select[name="categoria_nome"]').value || '';
+    const memo = row.querySelector('input[name="memo"]').value || '';
+    // Você está usando o nome da classe da linha para indicar status (por exemplo, "pending", "validated", etc.)
+    const status = row.className || '';
+    
+    // Constrói o array de valores na ordem das colunas do cabeçalho:
+    const values = [
+      ...Array.from(cols).slice(0, 6).map(td => td.innerText.trim()),
+      tipo,
+      categoria,
+      memo,
+      status
+    ];
+    csv += values.map(v => `"${v.replace(/"/g, '""')}"`).join(',') + '\n';
+  });
+
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.setAttribute('href', url);
+  link.setAttribute('download', 'relatorio_transacoes.csv');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};

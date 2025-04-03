@@ -59,6 +59,14 @@ def index():
     else:
         data = []  # Pode ser substituído por dados de teste
 
+    # Se os dois últimos registros forem os saldos, separe-os
+    if len(data) >= 2:
+        data_sem_saldo = data[:-2]
+        saldos = data[-2:]
+    else:
+        data_sem_saldo = data
+        saldos = []
+
     # Extrai os tipos para os selects a partir da configuração
     tipos = sorted({
         tipo 
@@ -66,7 +74,7 @@ def index():
         for tipo in tipos_list
     })
 
-    return render_template("dashboard.html", config_json=config_json, regras_json=regras_json, data=data, tipos=tipos)
+    return render_template("dashboard.html", config_json=config_json, regras_json=regras_json, data=data_sem_saldo, tipos=tipos, saldos=saldos)
 
 
 # Rota para disparar o pipeline

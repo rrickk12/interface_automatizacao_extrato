@@ -1,9 +1,355 @@
 [
     {
-        "date": "31/10/2024",
-        "document": "70268306",
-        "description": "TRANSF.REALIZADA PIX SICOOB FAV.: MARCUS VINICIUS MACHADO GONCALVES\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": -7500.0,
+        "date": "30/09/2024",
+        "document": "69292953",
+        "description": "DÉB.CONV.TRIBUTOS FEDERAIS - RFB",
+        "amount": -989.3,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "30/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 5.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "30/09/2024",
+        "document": "69291039",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 530.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "30/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+        "amount": -3259.73,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "276298",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "41927629861",
+            "nome": "Bruna Zavati Zavitoski",
+            "razao_social": "Bruna Zavati Zavitoski",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "30/09/2024",
+        "document": "69283220",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 900.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "30/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 1259.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "30/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+        "amount": -160.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "026268",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40102626804",
+            "nome": "Alex Eduardo Antunes PJ",
+            "razao_social": "Alex Eduardo Antunes PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "27/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+        "amount": -200.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "026268",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40102626804",
+            "nome": "Alex Eduardo Antunes PJ",
+            "razao_social": "Alex Eduardo Antunes PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "27/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 1900.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "27/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+        "amount": -50.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "395008",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "26/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -800.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "3506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "26/09/2024",
+        "document": "69188253",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 750.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "25/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -160.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "25/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nANDRESSA MIRELLA RESENDE GONCALVES\n***.801.248-**",
+        "amount": 200.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "801248",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "24/09/2024",
+        "document": "69133292",
+        "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": -2000.0,
         "transaction_type": "Débito",
         "cpf_cnpj_parcial": "000130",
         "possiveis_contatos": [],
@@ -29,8 +375,306 @@
         }
     },
     {
-        "date": "31/10/2024",
-        "document": "70266819",
+        "date": "24/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.420.638-**",
+        "amount": -3000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "420638",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "24/09/2024",
+        "document": "4277",
+        "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: TARGET LASER LOCACOES DE EQUIPAMEN\nTransferência Pix\nTARGET LASER LOCACOES DE EQUIPAMENTOS ME\n18.703.536 0001-39\nmmg",
+        "amount": 1800.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000139",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "24/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
+        "amount": -534.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000175",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "20729204000175",
+            "nome": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+            "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+            "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
+            "socios": [
+                {
+                    "nome_socio": "Marcelo Augusto Farias Jasset",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***878637**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "24/09/2024",
+        "document": "69125137",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 3720.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+        "amount": -2700.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "276298",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "41927629861",
+            "nome": "Bruna Zavati Zavitoski",
+            "razao_social": "Bruna Zavati Zavitoski",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 2240.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -1000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "3506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -184.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+        "amount": -350.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "026268",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40102626804",
+            "nome": "Alex Eduardo Antunes PJ",
+            "razao_social": "Alex Eduardo Antunes PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "23/09/2024",
+        "document": "69078364",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 1650.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "20/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+        "amount": -1250.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "395008",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "20/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
+        "amount": -2000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "776998",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "43677699843",
+            "nome": "André Luis Ribeiro PJ",
+            "razao_social": "André Luis Ribeiro PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "20/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
+        "amount": -1250.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "136228",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "51313622885",
+            "nome": "Gabriel Batista Santos PJ",
+            "razao_social": "Gabriel Batista Santos PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "20/09/2024",
+        "document": "69016697",
         "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
         "amount": 1200.0,
         "transaction_type": "Crédito",
@@ -58,50 +702,21 @@
         }
     },
     {
-        "date": "31/10/2024",
+        "date": "19/09/2024",
         "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
-        "amount": 2000.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000130",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "44388803000130",
-            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
-            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
-            "nome_fantasia": "",
-            "socios": [
-                {
-                    "nome_socio": "Guilherme Borelli",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***985678**"
-                },
-                {
-                    "nome_socio": "Marcus Vinicius Machado Goncalves",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***877988**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "31/10/2024",
-        "document": "1129728619",
-        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-        "amount": 4760.21,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "25/10/2024",
-        "document": "70128094",
-        "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": -2200.0,
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+        "amount": -50.0,
         "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "395008",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "19/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 3545.9,
+        "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "000130",
         "possiveis_contatos": [],
         "contato": {
@@ -126,20 +741,269 @@
         }
     },
     {
-        "date": "23/10/2024",
+        "date": "19/09/2024",
         "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRHTZ SERVICOS MEDICOS LTDA\n52.305.548 0001-43",
-        "amount": 2197.5,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000143",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+        "amount": -50.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "395008",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "18/10/2024",
+        "date": "19/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -80.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "19/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
+        "amount": -21.55,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000100",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "19/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
+        "amount": -45.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000100",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "19/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
+        "amount": -21.13,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000100",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "18/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+        "amount": -230.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "026268",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40102626804",
+            "nome": "Alex Eduardo Antunes PJ",
+            "razao_social": "Alex Eduardo Antunes PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "18/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -1000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "3506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "18/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.150.523 0001-61",
+        "amount": -1500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000161",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "18/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
+        "amount": -3419.47,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "17/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -230.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "17/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 3300.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "16/09/2024",
         "document": "Pix",
         "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-        "amount": -7638.0,
+        "amount": -1500.0,
         "transaction_type": "Débito",
         "cpf_cnpj_parcial": "276298",
         "possiveis_contatos": [],
@@ -152,137 +1016,33 @@
         }
     },
     {
-        "date": "18/10/2024",
-        "document": "69924038",
-        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": 500.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000130",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "44388803000130",
-            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
-            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
-            "nome_fantasia": "",
-            "socios": [
-                {
-                    "nome_socio": "Guilherme Borelli",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***985678**"
-                },
-                {
-                    "nome_socio": "Marcus Vinicius Machado Goncalves",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***877988**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "18/10/2024",
+        "date": "16/09/2024",
         "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": 2000.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000130",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "44388803000130",
-            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
-            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
-            "nome_fantasia": "",
-            "socios": [
-                {
-                    "nome_socio": "Guilherme Borelli",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***985678**"
-                },
-                {
-                    "nome_socio": "Marcus Vinicius Machado Goncalves",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "31-40",
-                    "tax_id": "***877988**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "16/10/2024",
-        "document": "Pix",
-        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.295.638-**",
-        "amount": -2500.0,
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+        "amount": -7653.1,
         "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "295638",
+        "cpf_cnpj_parcial": "985678",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "16/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMmg Natal Locacao De Maquinas E Equipame\n51.423.585 0001-93",
+        "amount": 12500.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000193",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "15/10/2024",
-        "document": "Pix",
-        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
-        "amount": -1620.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "000175",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "20729204000175",
-            "nome": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
-            "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
-            "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
-            "socios": [
-                {
-                    "nome_socio": "Marcelo Augusto Farias Jasset",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "51-60",
-                    "tax_id": "***878637**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "15/10/2024",
-        "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\n52 866 790 KAMILLY KOWALCZYK\n52.866.790 0001-96",
-        "amount": 200.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000196",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "35727790000196",
-            "nome": "EASY SEGUROS MEDICOS LTDA",
-            "razao_social": "EASY SEGUROS MEDICOS LTDA",
-            "nome_fantasia": "Easy Seguros Medicos",
-            "socios": [
-                {
-                    "nome_socio": "Humberto de Mattos Carrilho",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "51-60",
-                    "tax_id": "***243918**"
-                },
-                {
-                    "nome_socio": "Harlaine Ribeiro Luna",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "41-50",
-                    "tax_id": "***384810**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "11/10/2024",
-        "document": "1119296974",
-        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-        "amount": 8540.85,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "10/10/2024",
+        "date": "12/09/2024",
         "document": "Pix",
         "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
         "amount": -2532.63,
@@ -317,10 +1077,10 @@
         }
     },
     {
-        "date": "10/10/2024",
-        "document": "69649908",
-        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": 1680.0,
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
+        "amount": 1600.0,
         "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "000130",
         "possiveis_contatos": [],
@@ -346,30 +1106,184 @@
         }
     },
     {
-        "date": "10/10/2024",
-        "document": "1118480331",
-        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-        "amount": 1424.68,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "04/10/2024",
-        "document": "69448390",
-        "description": "DÉB.TIT.COMPE EFETIVADO",
-        "amount": -7314.45,
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+        "amount": -4163.1,
         "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.969.778-**",
+        "amount": -1000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "969778",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "03/10/2024",
+        "date": "12/09/2024",
         "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-        "amount": 3200.0,
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.881.488-**",
+        "amount": -1000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "881488",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -190.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "12/09/2024",
+        "document": "68757325",
+        "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: LUCAS LIMA LASER LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": -807.5,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000130",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMmg Natal Locacao De Maquinas E Equipame\n51.423.585 0001-93",
+        "amount": 5000.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000193",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -190.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "000132",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "12/09/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSCULPT BEAUTY LOUNGE COMERCIO E SERVICOS\n46.072.143 0001-00",
+        "amount": 810.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "000100",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "12/09/2024",
+        "document": "68753191",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 2660.0,
         "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "000130",
         "possiveis_contatos": [],
@@ -395,27 +1309,7 @@
         }
     },
     {
-        "date": "02/10/2024",
-        "document": "1113971104",
-        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
-        "amount": 3762.17,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "01/10/2024",
-        "document": "Pix",
-        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDERMA O C M LTDA - ME\n18.706.583 0001-36",
-        "amount": 396.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "000136",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "30/09/2024",
+        "date": "29/08/2024",
         "document": "",
         "description": "SALDO BLOQUEADO ANTERIOR",
         "amount": 0.0,
@@ -425,10 +1319,10 @@
         "contato": {}
     },
     {
-        "date": "30/09/2024",
+        "date": "29/08/2024",
         "document": "",
         "description": "SALDO ANTERIOR",
-        "amount": 2.01,
+        "amount": 2.62,
         "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],

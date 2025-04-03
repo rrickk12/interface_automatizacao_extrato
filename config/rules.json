@@ -1,26 +1,67 @@
 [
   {
     "descricao_contain": ["MESMA TIT"],
+    "descricao_regex": "",
     "contato_igual": "",
     "tipo": "Transferência",
-    "categoria": ""
+    "categoria": "",
+    "memo_rule": ""
   },
   {
     "descricao_contain": ["CR ANTECIPAÇÃO"],
+    "descricao_regex": "",
     "contato_igual": "",
     "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos"
+    "categoria": "Locação de equipamentos",
+    "memo_rule": ""
   },
   {
-    "descricao_contain": "",
+    "descricao_contain": [],
+    "descricao_regex": "",
     "contato_igual": "ZOOP",
     "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais"
+    "categoria": "Custos operacionais",
+    "memo_rule": "Alimentação e hospedagem"
   },
   {
-    "descricao_contain": "",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "contato_igual": "TICKET SOLUCOES",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Combustível"
+  },
+  {
+    "descricao_contain": [],
+    "descricao_regex": "",
     "contato_igual": "LUME LASER",
     "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais"
+    "categoria": "Custos operacionais",
+    "memo_rule": "Locação de equipamentos"
+  },
+  {
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "contato_igual": "Gabriel Batista Santos",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Gabriel"
+  },
+  {
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "contato_igual": "Alex Eduardo Antunes",
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Alex"
+  },
+  {
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "contato_igual": "André Luis Ribeiro",
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - André"
   }
+
 ]

@@ -11,33 +11,34 @@
   {% block head_extra %}{% endblock %}
 </head>
 <body>
-  <header>
-    <h1>{% block header %}Relatório de Transações{% endblock %}</h1>
-  </header>
-  <!-- Botões na barra de navegação -->
-  <nav>
-    <button onclick="abrirAba('transacoes')">📋 Transações</button>
-    <button onclick="abrirAba('regras')">🧠 Regras</button>
-    
-  </nav>
-  <!-- Botões de estado -->
-  <div id="state-actions" style="margin: 10px 0;">
-    <button onclick="saveState()">💾 Save State</button>
-    <button onclick="loadState()">📥 Load State</button>
-    <button onclick="cleanState()">🧹 Clean State</button>
-    <button onclick="undo()">↩️ Undo</button>
-    <button onclick="redo()">↪️ Redo</button>
-    <button onclick="exportState()">📄 Export State</button>
-    <button onclick="document.getElementById('import-state-input').click()">📂 Import State</button>
-    <input type="file" id="import-state-input" style="display: none;">
-  </div>
-  <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
-  <div id="process-status"></div>
-  <main>
-    {% block content %}{% endblock %}
-  </main>
-  {% block scripts_extra %}{% endblock %}
-  <!-- Carrega o script principal como módulo -->
-  <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <div class="container">
+    <header>
+      <h1>{% block header %}Relatório de Transações{% endblock %}</h1>
+    </header>
+    <!-- Botões na barra de navegação -->
+    <nav>
+      <button onclick="abrirAba('transacoes')">📋 Transações</button>
+      <button onclick="abrirAba('regras')">🧠 Regras</button>
+    </nav>
+    <!-- Botões de estado -->
+    <div id="state-actions" style="margin: 10px 0;">
+      <button onclick="saveState()">💾 Save State</button>
+      <button onclick="loadState()">📥 Load State</button>
+      <button onclick="cleanState()">🧹 Clean State</button>
+      <button onclick="undo()">↩️ Undo</button>
+      <button onclick="redo()">↪️ Redo</button>
+      <button onclick="exportState()">📄 Export State</button>
+      <button onclick="document.getElementById('import-state-input').click()">📂 Import State</button>
+      <input type="file" id="import-state-input" style="display: none;">
+    </div>
+    <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
+    <div id="process-status"></div>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+    {% block scripts_extra %}{% endblock %}
+    <!-- Carrega o script principal como módulo -->
+    <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </div> <!-- Fecha o container -->
 </body>
 </html>

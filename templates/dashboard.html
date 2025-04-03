@@ -8,33 +8,35 @@
     <input type="file" id="html-file-input" name="html_file" accept=".html">
     <button type="button" onclick="uploadHTML()">Carregar HTML</button>
     <button id="process-btn" onclick="runPipeline()">🚀 Executar Pipeline</button>
-
   </form>
 </div>
 
 <!-- Seção de Relatório (Transações) -->
 <div id="aba-transacoes" class="aba visible">
   <h2>Relatório de Transações</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Descrição</th>
-        <th>Valor</th>
-        <th>Tipo Transação</th>
-        <th>Documento</th>
-        <th>Contato</th>
-        <th>Tipo</th>
-        <th>Categoria</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in data %}
-        {% include "partials/row.html" %}
-      {% endfor %}
-    </tbody>
-  </table>
+  <div class="table-responsive table-responsive">
+    <table>
+      <thead>
+        <tr>
+          <th class="thdata">Data</th>
+          <th class="thdescription">Descrição</th>
+          <th class="thvalor">Valor</th>
+          <th class="thtipotransacao">Tipo Transação</th>
+          <th class="thdocumento">Documento</th>
+          <th class="thcontato">Contato</th>
+          <th class="thtipo">Tipo</th>
+          <th class="thcategoria">Categoria</th>
+          <th class="thmemo">Memo</th>
+          <th class="thstatus">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in data %}
+          {% include "partials/row.html" %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <!-- Seção de Gerenciador de Regras -->
@@ -50,7 +52,43 @@
     <button onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
     <input type="file" id="import-rules-input" style="display: none;">
   </div>
-
+  
+  <!-- Tabela para Exibir as Regras Atuais -->
+  <div class="table-responsive">
+    <table id="tabela-regras">
+      <thead>
+        <tr>
+          <th class="thdesccontain">Descrição Contém</th>
+          <th class="thregex">Regex</th>
+          <th class="thcontato">Contato (parcial)</th>
+          <th class="thtipo">Tipo</th>
+          <th class="thcategoria">Categoria</th>
+          <th class="thmemo">Memo</th>
+          <th class="thacoes">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for regra in regras_json %}
+          <tr>
+            <td>
+              {% if regra.descricao_contain %}
+                {{ regra.descricao_contain | join(', ') }}
+              {% endif %}
+            </td>
+            <td>{{ regra.descricao_regex }}</td>
+            <td>{{ regra.contato_igual }}</td>
+            <td>{{ regra.tipo }}</td>
+            <td>{{ regra.categoria }}</td>
+            <td>{{ regra.memo_rule }}</td>
+            <td>
+              <button onclick="removerRule({{ loop.index0 }})">🗑️</button>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  
   <!-- Formulário para Adicionar Nova Regra -->
   <form id="form-regra">
     <input name="descricao_contain" placeholder="Descrição contém (vírgula separada)">
@@ -79,22 +117,25 @@
       {% endfor %}
     </select>
     
+    <!-- Novo campo para definir a regra do memo -->
+    <input name="memo_rule" placeholder="Memo (preenchimento automático)">
+    
     <button type="button" onclick="adicionarRegra()">Salvar regra</button>
   </form>
-  
-  <!-- Tabela para Exibir as Regras Atuais -->
-  <table id="tabela-regras">
-    <thead>
-      <tr>
-        <th>Descrição Contém</th>
-        <th>Regex</th>
-        <th>Contato (parcial)</th>
-        <th>Tipo</th>
-        <th>Categoria</th>
-        <th>Ações</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
 </div>
+{% endblock %}
+
+{% block scripts_extra %}
+  <!-- Inclua jQuery e DataTables se ainda não estiverem incluídos -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#minha-tabela').DataTable({
+        "order": [[3, "asc"]] // Ordena pela quarta coluna (Tipo Transação)
+      });
+    });
+  </script>
 {% endblock %}

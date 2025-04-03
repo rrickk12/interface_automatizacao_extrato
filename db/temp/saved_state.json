@@ -1,33 +1,18 @@
 [
   {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
+    "tipo": "Impostos",
+    "categoria": "Despesas financeiras",
     "status": "validated"
   },
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "validated auto-classificado"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "validated auto-classificado"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
     "status": "auto-classificado validated"
   },
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "validated auto-classificado"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Pessoas",
@@ -42,26 +27,11 @@
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "validated auto-classificado"
+    "status": "auto-classificado validated"
   },
   {
-    "tipo": "",
-    "categoria": "",
-    "status": "pending"
-  },
-  {
-    "tipo": "",
-    "categoria": "",
-    "status": "pending"
-  },
-  {
-    "tipo": "",
-    "categoria": "",
-    "status": "pending"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
     "status": "auto-classificado validated"
   },
   {
@@ -72,32 +42,242 @@
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "validated auto-classificado"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
     "status": "auto-classificado validated"
   },
   {
-    "tipo": "",
-    "categoria": "",
-    "status": "pending"
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "validated auto-classificado"
+    "status": "auto-classificado validated"
   },
   {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
     "status": "auto-classificado validated"
   },
   {
     "tipo": "Recebimentos",
     "categoria": "Locação de equipamentos",
     "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Compra de ativos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Fixas",
+    "categoria": "Compra de ativos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Marketing",
+    "status": "validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "validated"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Recebimentos",
+    "categoria": "Locação de equipamentos",
+    "status": "validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "",

@@ -45,12 +45,12 @@ function updateReport() {
           </td>
         `;
 
-        // ⬇️ Adiciona ao DOM
         tbody.appendChild(tr);
 
-        // ⬇️ APLICA TUDO DEPOIS DE INSERIR
-        if (window.atualizarTipos) window.atualizarTipos(tr);
-        if (window.aplicarRegras) window.aplicarRegras(tr);
+        // Aplica as regras automaticamente apenas se o status for pending
+        if (tr.classList.contains('pending')) {
+          window.aplicarRegras(tr);
+        }
       });
     })
     .catch(err => console.error(err));

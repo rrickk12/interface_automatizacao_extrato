@@ -17,26 +17,11 @@
   {
     "tipo": "Pessoas",
     "categoria": "Despesas administrativas",
-    "status": "validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
     "status": "auto-classificado validated"
   },
   {
     "tipo": "Transferência",
     "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
     "status": "auto-classificado validated"
   },
   {
@@ -47,7 +32,22 @@
   {
     "tipo": "Despesas Variaveis",
     "categoria": "Custos operacionais",
-    "status": "validated"
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Despesas Variaveis",
@@ -77,7 +77,7 @@
   {
     "tipo": "Despesas Fixas",
     "categoria": "Compra de ativos",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Recebimentos",
@@ -97,7 +97,7 @@
   {
     "tipo": "Pessoas",
     "categoria": "Despesas administrativas",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Transferência",
@@ -115,26 +115,6 @@
     "status": "auto-classificado validated"
   },
   {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
     "tipo": "Despesas Variaveis",
     "categoria": "Custos operacionais",
     "status": "auto-classificado validated"
@@ -147,7 +127,17 @@
   {
     "tipo": "Pessoas",
     "categoria": "Custos operacionais",
-    "status": "validated"
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Transferência",
@@ -157,7 +147,17 @@
   {
     "tipo": "Pessoas",
     "categoria": "Custos operacionais",
-    "status": "validated"
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Transferência",
+    "categoria": "",
+    "status": "auto-classificado validated"
+  },
+  {
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Despesas Variaveis",
@@ -192,7 +192,7 @@
   {
     "tipo": "Despesas Fixas",
     "categoria": "Despesas administrativas",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Despesas Variaveis",
@@ -212,12 +212,12 @@
   {
     "tipo": "Pessoas",
     "categoria": "Despesas administrativas",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
-    "tipo": "Despesas Fixas",
-    "categoria": "Compra de ativos",
-    "status": "validated"
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Recebimentos",
@@ -242,12 +242,12 @@
   {
     "tipo": "Pessoas",
     "categoria": "Marketing",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Pessoas",
     "categoria": "Despesas administrativas",
-    "status": "validated"
+    "status": "auto-classificado validated"
   },
   {
     "tipo": "Despesas Variaveis",
@@ -255,8 +255,8 @@
     "status": "auto-classificado validated"
   },
   {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
+    "tipo": "",
+    "categoria": "",
     "status": "validated"
   },
   {
@@ -272,21 +272,11 @@
   {
     "tipo": "Recebimentos",
     "categoria": "Locação de equipamentos",
-    "status": "validated"
+    "status": "pending"
   },
   {
     "tipo": "Transferência",
     "categoria": "",
     "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "",
-    "categoria": "",
-    "status": "canceled"
-  },
-  {
-    "tipo": "",
-    "categoria": "",
-    "status": "canceled"
   }
 ]

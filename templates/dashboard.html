@@ -7,14 +7,14 @@
   <form id="upload-form" enctype="multipart/form-data">
     <input type="file" id="html-file-input" name="html_file" accept=".html">
     <button type="button" onclick="uploadHTML()">Carregar HTML</button>
-    <button id="process-btn" onclick="runPipeline()">🚀 Executar Pipeline</button>
+    <button id="process-btn" type="button" onclick="runPipeline()">🚀 Executar Pipeline</button>
   </form>
 </div>
 
 <!-- Seção de Relatório (Transações) -->
 <div id="aba-transacoes" class="aba visible">
   <h2>Relatório de Transações</h2>
-  <div class="table-responsive table-responsive">
+  <div class="table-responsive">
     <table>
       <thead>
         <tr>
@@ -45,11 +45,11 @@
   
   <!-- Botões de Ação para as Regras -->
   <div id="rules-actions" style="margin: 10px 0;">
-    <button onclick="saveRules()">💾 Save Rules</button>
-    <button onclick="loadRules()">📥 Load Rules</button>
-    <button onclick="cleanRules()">🧹 Clean Rules</button>
-    <button onclick="exportRules()">📄 Export Rules</button>
-    <button onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
+    <button type="button" onclick="saveRules()">💾 Save Rules</button>
+    <button type="button" onclick="loadRules()">📥 Load Rules</button>
+    <button type="button" onclick="cleanRules()">🧹 Clean Rules</button>
+    <button type="button" onclick="exportRules()">📄 Export Rules</button>
+    <button type="button" onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
     <input type="file" id="import-rules-input" style="display: none;">
   </div>
   
@@ -76,12 +76,16 @@
               {% endif %}
             </td>
             <td>{{ regra.descricao_regex }}</td>
-            <td>{{ regra.contato_igual }}</td>
+            <td>
+              <!-- Campo editável para "Contato (parcial)" -->
+              <input type="text" value="{{ regra.contato_igual }}" 
+                     onchange="updateRuleContato({{ loop.index0 }}, this.value)" />
+            </td>
             <td>{{ regra.tipo }}</td>
             <td>{{ regra.categoria }}</td>
             <td>{{ regra.memo_rule }}</td>
             <td>
-              <button onclick="removerRule({{ loop.index0 }})">🗑️</button>
+              <button type="button" onclick="removerRule({{ loop.index0 }})">🗑️</button>
             </td>
           </tr>
         {% endfor %}

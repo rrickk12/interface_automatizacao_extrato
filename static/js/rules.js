@@ -46,7 +46,8 @@ export function atualizarTipos(row, configCategorias) {
   
   export function aplicarRegras(row, regras) {
     const desc = row.cells[1].innerText;
-    const contato = row.cells[5].innerText;
+    const contatoElem = row.querySelector('input[name="contato_parcial"]');
+    const contato = contatoElem ? contatoElem.value : row.cells[5].innerText;
     regras.forEach(regra => {
       let match = true;
       if (regra.descricao_contain && Array.isArray(regra.descricao_contain)) {
@@ -64,7 +65,6 @@ export function atualizarTipos(row, configCategorias) {
         atualizarCategorias(tipoSelect, window.configCategorias);
         const categoriaSelect = row.querySelector('select[name="categoria_nome"]');
         categoriaSelect.value = regra.categoria;
-        // Atualiza o campo de memo com o valor definido na regra
         const memoInput = row.querySelector('input[name="memo"]');
         if (memoInput) {
           memoInput.value = regra.memo_rule || "";

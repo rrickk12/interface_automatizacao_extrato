@@ -211,16 +211,16 @@ td input[name="memo"] {
   box-sizing: border-box;
 }
 
-.thdata { width: 5%; }
-.thdescription { width: 15%; }
+.thdata { width: 3%; }
+.thdescription { width: 12%; }
 .thvalor { width: 5%; }
-.thtipotransacao { width: 5%; }
-.thdocumento { width: 5%; }
-.thcontato { width: 10%; }
+.thtipotransacao { width: 4%; }
+.thdocumento { width: 3%; }
+.thcontato { width: 19%; }
 .thtipo { width: 16%; }
-.thcategoria { width: 22%; }
+.thcategoria { width: 17%; }
 .thmemo { width: 15%; }
-.thstatus { width: 5%; }
+.thstatus { width: 3%; }
 
 
 .aba {
@@ -232,14 +232,12 @@ td input[name="memo"] {
 }
 
 
-/* Um verde um pouco mais saturado para Crédito */
-td.credito {
-  background-color: #2ecc71;  /* verde moderadamente saturado */
+td.debito {
+  background-color: #e74c3c;  /* vermelho para Débito */
   color: #fff;
 }
 
-/* Um vermelho um pouco mais saturado para Débito */
-td.debito {
-  background-color: #e74c3c;  /* vermelho moderadamente saturado */
+td.credito {
+  background-color: #27ae60;  /* verde para Crédito */
   color: #fff;
 }

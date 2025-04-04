@@ -89,10 +89,10 @@
         })
         .then(state => {
           applyState(state);
-          alert("State loaded");
+          // alert("State loaded");
         })
         .catch(err => {
-          alert("Failed to load state: " + err.message);
+          // alert("Failed to load state: " + err.message);
           console.error(err);
         });
     };
@@ -106,7 +106,7 @@
       });
       fetch('/state/clean', { method: "POST" })
         .then(response => response.json())
-        .then(data => alert("State cleaned"))
+        // .then(data => alert("State cleaned"))
         .catch(err => console.error(err));
     };
   
@@ -127,7 +127,7 @@
         const prevState = JSON.parse(undoStack.pop());
         applyState(prevState);
       } else {
-        alert("No more undo actions available");
+        // alert("No more undo actions available");
       }
     };
   
@@ -139,7 +139,7 @@
         const nextState = JSON.parse(redoStack.pop());
         applyState(nextState);
       } else {
-        alert("No more redo actions available");
+        // alert("No more redo actions available");
       }
     };
   
@@ -165,9 +165,9 @@
         try {
           const state = JSON.parse(e.target.result);
           applyState(state);
-          alert("State imported successfully");
+          // alert("State imported successfully");
         } catch (err) {
-          alert("Failed to import state: " + err.message);
+          // alert("Failed to import state: " + err.message);
         }
       };
       reader.readAsText(file);

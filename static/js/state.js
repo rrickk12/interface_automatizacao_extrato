@@ -67,7 +67,7 @@ export function captureState() {
       const prevState = JSON.parse(undoStack.pop());
       applyState(prevState);
     } else {
-      alert("No more undo actions available");
+      // alert("No more undo actions available");
     }
   }
   
@@ -78,7 +78,7 @@ export function captureState() {
       const nextState = JSON.parse(redoStack.pop());
       applyState(nextState);
     } else {
-      alert("No more redo actions available");
+      // alert("No more redo actions available");
     }
   }
   

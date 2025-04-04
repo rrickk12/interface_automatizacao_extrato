@@ -1,7 +1,5 @@
-// Defina imediatamente a função global para abrir abas, 
-// mas certifique-se de não chamá-la antes que o DOM esteja pronto.
+// Função global para abrir abas (executada antes do DOM estar pronto)
 window.abrirAba = function(qual) {
-  // Tenta obter todas as abas; se nenhuma for encontrada, avisa
   const abas = document.querySelectorAll('.aba');
   if (!abas || abas.length === 0) {
     console.warn("Nenhuma aba encontrada no DOM.");
@@ -16,6 +14,16 @@ window.abrirAba = function(qual) {
   }
 };
 
+// Função debounce simples
+function debounce(func, delay) {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), delay);
+  };
+}
+
+// Importações dos módulos
 import { runPipeline } from './pipeline.js';
 import {
   captureState,
@@ -43,122 +51,148 @@ import {
   cleanRulesOnServer
 } from './rules_state.js';
 
-
-
-// Expor funções para o pipeline e para o gerenciamento de estado da tabela
+// ------------------------------
+// Funções de Estado (Transações)
+// ------------------------------
 window.runPipeline = runPipeline;
 window.captureState = captureState;
 window.applyState = applyState;
+
 window.saveState = function() {
   const state = captureState();
   saveStateToServer(state)
     .then(data => {
-      alert("State saved");
       pushStateToUndo();
     })
     .catch(err => console.error(err));
 };
+
 window.loadState = function() {
   loadStateFromServer()
     .then(state => {
       applyState(state);
-      alert("State loaded");
     })
-    .catch(err => {
-      alert("Failed to load state: " + err.message);
-      console.error(err);
-    });
+    .catch(err => console.error(err));
 };
+
 window.cleanState = function() {
   document.querySelectorAll("#aba-transacoes tbody tr").forEach(function(row) {
     row.querySelector('select[name="categoria_tipo"]').value = "";
     row.querySelector('select[name="categoria_nome"]').innerHTML = '<option value="">Selecione</option>';
-    row.className = "";
+    // Define o estado padrão como "pending" para que as regras possam ser aplicadas
+    row.className = "pending";
   });
   cleanStateOnServer()
     .then(data => alert("State cleaned"))
     .catch(err => console.error(err));
 };
+
 window.undo = undo;
 window.redo = redo;
 window.exportState = exportStateToFile;
+
 window.importState = function(event) {
   const file = event.target.files[0];
   if (!file) return;
   importStateFromFile(file)
     .then(state => {
       applyState(state);
-      alert("State imported successfully");
     })
-    .catch(err => {
-      alert("Failed to import state: " + err.message);
-      console.error(err);
-    });
+    .catch(err => console.error(err));
 };
 
-// Expor funções de regras para o gerenciamento de regras
+// ------------------------------
+// Funções de Regras
+// ------------------------------
 window.atualizarTipos = function(row) {
   atualizarTipos(row, window.configCategorias);
 };
+
 window.atualizarCategorias = function(selectElem) {
   atualizarCategorias(selectElem, window.configCategorias);
 };
+
+// Aplica regras somente se a linha estiver em "pending"
 window.aplicarRegras = function(row) {
+  if (!row.classList.contains('pending')) return;
   row.classList.remove('auto-classificado');
   aplicarRegras(row, window.regras);
 };
+
 window.adicionarRegra = function() {
   const form = document.getElementById("form-regra");
   const novaRegra = criarRegra(form);
+  window.regras = window.regras || [];
   window.regras.push(novaRegra);
   carregarRegras(window.regras, "#tabela-regras tbody");
 
-  // 🔁 Reaplica regras em todas as linhas da tabela
+  // Reaplica regras apenas nas linhas pending
   document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => {
     window.aplicarRegras(row);
   });
+
+  console.log("Regras atualizadas:", window.regras);
+  window.saveRules();
 };
+
 window.carregarRegras = function() {
   carregarRegras(window.regras, "#tabela-regras tbody");
 };
+
 window.removerRule = function(index) {
   window.regras = removerRegra(window.regras, index);
   carregarRegras(window.regras, "#tabela-regras tbody");
 
-  // 🔁 Reaplica regras em todas as linhas
+  // Reaplica regras apenas nas linhas pending
   document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => {
     window.aplicarRegras(row);
   });
+  window.saveRules();
+
 };
 
+window.importRules = function(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const importedRules = JSON.parse(e.target.result);
+      window.regras = importedRules;
+      carregarRegras(window.regras, "#tabela-regras tbody");
+      alert("Regras importadas com sucesso");
+    } catch (err) {
+      alert("Falha ao importar regras: " + err.message);
+      console.error(err);
+    }
+  };
+  reader.onerror = () => alert("Erro ao ler o arquivo");
+  reader.readAsText(file);
+};
 
-// Expor funções para gerenciamento do estado das regras
 window.saveRules = function() {
   saveRulesToServer(window.regras)
-    .then(() => alert("Rules state saved"))
     .catch(err => console.error(err));
 };
+
 window.loadRules = function() {
   loadRulesFromServer()
     .then(rulesState => {
       window.regras = rulesState;
       carregarRegras(window.regras, "#tabela-regras tbody");
-      alert("Rules state loaded");
     })
-    .catch(err => {
-      alert("Failed to load rules: " + err.message);
-      console.error(err);
-    });
+    .catch(err => console.error(err));
 };
+
 window.cleanRules = function() {
   window.regras = [];
   carregarRegras(window.regras, "#tabela-regras tbody");
   cleanRulesOnServer()
-    .then(() => alert("Rules state cleaned"))
     .catch(err => console.error(err));
 };
+
 window.exportRules = function() {
-  const blob = new Blob([JSON.stringify(window.regras, null, 2)], {type: "application/json"});
+  const blob = new Blob([JSON.stringify(window.regras, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
@@ -168,12 +202,21 @@ window.exportRules = function() {
   document.body.removeChild(link);
 };
 
+// Função para atualizar o campo "Contato (parcial)" na regra editada
+function updateRuleContato(index, value) {
+  if (!window.regras || !window.regras[index]) return;
+  window.regras[index].contato_igual = value;
+  console.log("Atualizando regra " + index + " com novo contato:", value);
+  // Opcional: salve automaticamente as regras após a alteração
+  window.saveRules();
+}
+
+// ------------------------------
+// Função para Upload de HTML
+// ------------------------------
 window.uploadHTML = function() {
   const input = document.getElementById("html-file-input");
-  if (!input.files[0]) {
-    alert("Selecione um arquivo HTML.");
-    return;
-  }
+  if (!input.files[0]) return;
   const formData = new FormData();
   formData.append("html_file", input.files[0]);
   
@@ -183,25 +226,52 @@ window.uploadHTML = function() {
   })
   .then(response => response.json())
   .then(data => {
-    alert(data.message);
+    // Processar a resposta, se necessário
   })
   .catch(err => {
     console.error(err);
-    alert("Erro ao carregar o arquivo HTML.");
   });
 };
 
-
-// Inicialização da interface, somente se os elementos existirem
+// ------------------------------
+// Registro de Event Listeners
+// ------------------------------
 document.addEventListener('DOMContentLoaded', () => {
+  // Abre a aba de transações e atualiza os tipos das linhas, se presentes
   if (document.getElementById('aba-transacoes')) {
     window.abrirAba('transacoes');
     document.querySelectorAll('#aba-transacoes tbody tr').forEach(row => window.atualizarTipos(row));
   } else {
     console.warn("Elemento 'aba-transacoes' não encontrado.");
   }
+  
+  // Carrega as regras na tabela de regras
   if (document.getElementById('tabela-regras')) {
     carregarRegras(window.regras, "#tabela-regras tbody");
+  }
+  
+  // Configura o input para importar regras
+  const importRulesInput = document.getElementById('import-rules-input');
+  if (importRulesInput) {
+    importRulesInput.addEventListener('change', window.importRules);
+  }
+  
+  // Cria a função debounced para salvar o estado das transações
+  const debouncedSaveState = debounce(window.saveState, 500);
+  
+  // Listener para mudanças em inputs e selects na tabela de transações
+  document.addEventListener('change', function(event) {
+    if (event.target.matches('#aba-transacoes tbody tr select, #aba-transacoes tbody tr input')) {
+      debouncedSaveState();
+    }
+  });
+  
+  // Listener para alterações na tabela de regras (salva regras com debounce)
+  const tabelaRegras = document.getElementById('tabela-regras');
+  if (tabelaRegras) {
+    tabelaRegras.addEventListener('input', debounce(function(event) {
+      window.saveRules();
+    }, 500));
   }
 });
 
@@ -211,6 +281,9 @@ window.setStatus = function(button, status) {
   row.classList.add(status);
 };
 
+// ------------------------------
+// Funções Auxiliares
+// ------------------------------
 function updateReport() {
   fetch('/data')
     .then(response => {
@@ -219,13 +292,13 @@ function updateReport() {
     })
     .then(data => {
       const tbody = document.querySelector("#aba-transacoes tbody");
-      tbody.innerHTML = ""; // limpa tudo
-
+      tbody.innerHTML = ""; // Limpa o conteúdo existente
+      
       data.forEach(item => {
         const tr = document.createElement("tr");
         tr.classList.add("pending");
         tr.setAttribute("data-tipo-transacao", item.transaction_type);
-
+        
         tr.innerHTML = `
           <td>${item.date || ""}</td>
           <td>${item.description || ""}</td>
@@ -257,47 +330,45 @@ function updateReport() {
             <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
           </td>
         `;
-
-        // ⬇️ Adiciona ao DOM
+        
         tbody.appendChild(tr);
-
-        // ⬇️ APLICA TUDO DEPOIS DE INSERIR
-        if (window.atualizarTipos) window.atualizarTipos(tr);
-        if (window.aplicarRegras) window.aplicarRegras(tr);
+        
+        // Aplica as regras automaticamente (para linhas pending)
+        window.aplicarRegras(tr);
       });
     })
     .catch(err => console.error(err));
 }
+function getCellValue(td) {
+  const input = td.querySelector('input');
+  return input ? input.value.trim() : td.innerText.trim();
+}
 
 window.exportToCSV = function() {
-  // Atualize o cabeçalho para incluir o campo Memo
   let csv = 'Data,Descrição,Valor,Tipo Transação,Documento,Contato,Tipo,Categoria,Memo,Status\n';
   const rows = document.querySelectorAll('#aba-transacoes tbody tr');
   rows.forEach(row => {
-    // Seleciona as 6 primeiras células (Data, Descrição, Valor, Tipo Transação, Documento, Contato)
     const cols = row.querySelectorAll('td');
-    // Busca os selects e input do memo
-    const tipo = row.querySelector('select[name="categoria_tipo"]').value || '';
-    const categoria = row.querySelector('select[name="categoria_nome"]').value || '';
-    const memo = row.querySelector('input[name="memo"]').value || '';
-    // Você está usando o nome da classe da linha para indicar status (por exemplo, "pending", "validated", etc.)
-    const status = row.className || '';
-    
-    // Constrói o array de valores na ordem das colunas do cabeçalho:
+    // Use getCellValue para pegar o valor atualizado da célula, inclusive se contiver input
     const values = [
-      ...Array.from(cols).slice(0, 6).map(td => td.innerText.trim()),
-      tipo,
-      categoria,
-      memo,
-      status
+      getCellValue(cols[0]),
+      getCellValue(cols[1]),
+      getCellValue(cols[2]),
+      getCellValue(cols[3]),
+      getCellValue(cols[4]),
+      getCellValue(cols[5]),
+      row.querySelector('select[name="categoria_tipo"]').value || '',
+      row.querySelector('select[name="categoria_nome"]').value || '',
+      row.querySelector('input[name="memo"]') ? row.querySelector('input[name="memo"]').value : '',
+      row.className || ''
     ];
     csv += values.map(v => `"${v.replace(/"/g, '""')}"`).join(',') + '\n';
   });
-
+  
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
-  link.setAttribute('href', url);
+  link.href = url;
   link.setAttribute('download', 'relatorio_transacoes.csv');
   document.body.appendChild(link);
   link.click();

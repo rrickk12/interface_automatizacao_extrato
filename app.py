@@ -219,23 +219,27 @@ def clean_state():
         os.remove(temp_path)
     return jsonify({"status": "ok", "message": "Estado limpo com sucesso"})
 
+import json
+
 @app.route('/rules_state/save', methods=['POST'])
 def save_rules_state():
     rules_data = request.get_json()
-    temp_path = os.path.join(PATH_TEMP_FOLDER, "saved_rules.json")
-    write_json(rules_data, temp_path, indent=2)
+    # Se RULES_PATH já for o caminho completo para rules.json, use-o diretamente:
+    temp_path = RULES_PATH
+    with open(temp_path, "w") as f:
+        json.dump(rules_data, f, indent=2)
     return jsonify({"status": "ok", "message": "Estado das regras salvo com sucesso"})
 
 @app.route('/rules_state/load', methods=['GET'])
 def load_rules_state():
-    temp_path = os.path.join(PATH_TEMP_FOLDER, "saved_rules.json")
+    temp_path = os.path.join(RULES_PATH, "rules.json")
     if not os.path.exists(temp_path):
         return jsonify({"error": "Estado das regras não encontrado"}), 404
     return read_json(temp_path)
 
 @app.route('/rules_state/clean', methods=['POST'])
 def clean_rules_state():
-    temp_path = os.path.join(PATH_TEMP_FOLDER, "saved_rules.json")
+    temp_path = os.path.join(RULES_PATH, "saved_rules.json")
     if os.path.exists(temp_path):
         os.remove(temp_path)
     return jsonify({"status": "ok", "message": "Estado das regras limpo com sucesso"})

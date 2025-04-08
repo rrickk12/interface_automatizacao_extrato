@@ -1,0 +1,27 @@
+<!-- Formulário para Adicionar Contato -->
+<div id="addContactFormContainer" style="display: none; border: 1px solid #ccc; padding: 1rem; background: #f9f9f9;">
+    <h3>Adicionar Novo Contato</h3>
+    <form id="addContactForm">
+      <div>
+        <label for="cpf_cnpj">CPF/CNPJ:</label>
+        <input type="text" id="cpf_cnpj" name="cpf_cnpj" required>
+      </div>
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div>
+        <label for="razao_social">Razão Social:</label>
+        <input type="text" id="razao_social" name="razao_social">
+      </div>
+      <div>
+        <label for="nome_fantasia">Nome Fantasia:</label>
+        <input type="text" id="nome_fantasia" name="nome_fantasia">
+      </div>
+      <div>
+        <button type="submit">Adicionar Contato</button>
+        <button type="button" onclick="hideAddContactForm()">Cancelar</button>
+      </div>
+    </form>
+  </div>
+  

@@ -2,364 +2,640 @@
     "header": {
         "issue_date": "04/04/2025",
         "statement_type": "EXTRATO DE CONTA CORRENTE",
-        "time": "15:31:52",
+        "time": "15:32:33",
         "cooperative": "3188-7 / SICOOB CREDICITRUS",
         "account": "171.185-7 / MMG LOCACAO DE MAQUINAS LTDA"
     },
     "transactions": [
         {
-            "date": "30/09/2024",
-            "document": "69292953",
-            "description": "DÉB.CONV.TRIBUTOS FEDERAIS - RFB",
-            "amount": -989.3
-        },
-        {
-            "date": "30/09/2024",
+            "date": "26/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 5.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.536.998-**",
+            "amount": -550.0
         },
         {
-            "date": "30/09/2024",
-            "document": "69291039",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 530.0
+            "date": "24/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.597.878-**",
+            "amount": -4500.0
         },
         {
-            "date": "30/09/2024",
+            "date": "23/12/2024",
+            "document": "1157505718",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 942.99
+        },
+        {
+            "date": "23/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.877.988-**",
+            "amount": -7000.0
+        },
+        {
+            "date": "23/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCarla Rocha Farias Estetica Avancada\n44.556.201 0001-45",
+            "amount": 1576.0
+        },
+        {
+            "date": "23/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDENISE DE MELLO NERY\n***.703.688-**",
+            "amount": 1412.0
+        },
+        {
+            "date": "23/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+            "amount": -120.0
+        },
+        {
+            "date": "20/12/2024",
+            "document": "71948256",
+            "description": "TRANSF.REALIZADA PIX SICOOB FAV.: PHYTOCHEM LABORATORIO DE ANALISES,\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": -600.0
+        },
+        {
+            "date": "20/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -4000.0
+        },
+        {
+            "date": "20/12/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -3259.73
+            "amount": -4000.0
         },
         {
-            "date": "30/09/2024",
-            "document": "69283220",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 900.0
-        },
-        {
-            "date": "30/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 1259.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
+            "amount": -78.0
         },
         {
-            "date": "30/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
-            "amount": -160.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
+            "amount": -78.0
         },
         {
-            "date": "27/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
-            "amount": -200.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nNICLOS COML LTDA\n43.372.119 0001-06",
+            "amount": 1104.0
         },
         {
-            "date": "27/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 1900.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nNICLOS COML LTDA\n43.372.119 0001-06",
+            "amount": 458.9
         },
         {
-            "date": "27/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
-            "amount": -50.0
-        },
-        {
-            "date": "26/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
-            "amount": -800.0
-        },
-        {
-            "date": "26/09/2024",
-            "document": "69188253",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 750.0
-        },
-        {
-            "date": "25/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -160.0
-        },
-        {
-            "date": "25/09/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nANDRESSA MIRELLA RESENDE GONCALVES\n***.801.248-**",
-            "amount": 200.0
-        },
-        {
-            "date": "24/09/2024",
-            "document": "69133292",
-            "description": "TRANSF.REALIZADA PIX SICOOB-MESMA TIT. FAV.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.198.178-**",
             "amount": -2000.0
         },
         {
-            "date": "24/09/2024",
+            "date": "20/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.420.638-**",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n02.754.732 0001-00",
+            "amount": -1458.6
+        },
+        {
+            "date": "19/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n47.121.800 0001-24",
+            "amount": -3189.2
+        },
+        {
+            "date": "19/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRITA TOBAL DINIZ\n04.938.736 0001-66",
+            "amount": 1750.0
+        },
+        {
+            "date": "19/12/2024",
+            "document": "4140",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58",
+            "amount": 80.0
+        },
+        {
+            "date": "19/12/2024",
+            "document": "1155556689",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 193.53
+        },
+        {
+            "date": "19/12/2024",
+            "document": "1155556690",
+            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+            "amount": 4322.51
+        },
+        {
+            "date": "18/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.877.988-**",
             "amount": -3000.0
         },
         {
-            "date": "24/09/2024",
-            "document": "4277",
-            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: TARGET LASER LOCACOES DE EQUIPAMEN\nTransferência Pix\nTARGET LASER LOCACOES DE EQUIPAMENTOS ME\n18.703.536 0001-39\nmmg",
-            "amount": 1800.0
-        },
-        {
-            "date": "24/09/2024",
+            "date": "18/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
-            "amount": -534.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBIANCA SILVA BRANDAO 42062293844\n39.886.582 0001-90",
+            "amount": 5902.2
         },
         {
-            "date": "24/09/2024",
-            "document": "69125137",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 3720.0
-        },
-        {
-            "date": "23/09/2024",
+            "date": "18/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -2700.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
+            "amount": -4672.07
         },
         {
-            "date": "23/09/2024",
+            "date": "18/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 2240.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nNICLOS COML LTDA\n43.372.119 0001-06",
+            "amount": 2062.1
         },
         {
-            "date": "23/09/2024",
+            "date": "17/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
-            "amount": -1000.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMELINA PENTEADO DA SILVA PINTO\n***.370.588-**",
+            "amount": 3578.7
         },
         {
-            "date": "23/09/2024",
+            "date": "17/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -184.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nGABRIELI ZAGO\n47.105.254 0001-38",
+            "amount": 2965.0
         },
         {
-            "date": "23/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
-            "amount": -350.0
-        },
-        {
-            "date": "23/09/2024",
-            "document": "69078364",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 1650.0
-        },
-        {
-            "date": "20/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
-            "amount": -1250.0
-        },
-        {
-            "date": "20/09/2024",
+            "date": "17/12/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
             "amount": -2000.0
         },
         {
-            "date": "20/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
-            "amount": -1250.0
+            "date": "17/12/2024",
+            "document": "71796103",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 1700.0
         },
         {
-            "date": "20/09/2024",
-            "document": "69016697",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "date": "17/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRHTZ SERVICOS MEDICOS LTDA\n52.305.548 0001-43",
+            "amount": 4800.0
+        },
+        {
+            "date": "17/12/2024",
+            "document": "4140",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58",
+            "amount": 4003.5
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.597.878-**",
+            "amount": -1870.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -2000.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -2000.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.877.988-**",
+            "amount": -4000.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n48.483.151 0001-74",
+            "amount": -1400.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nINGRIDY FERNANDA LOPES RIBEIRO\n***.419.678-**",
+            "amount": 1400.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLucimara Patricia Goncalves\n***.131.438-**",
+            "amount": 1250.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROL DE MARCHI ODONTOLOGIA ESPECIALIZAD\n56.779.110 0001-58",
+            "amount": 6105.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nKatia Turino\n***.433.668-**",
+            "amount": 145.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n10.397.739 0001-32",
+            "amount": -2000.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
+            "amount": -200.0
+        },
+        {
+            "date": "16/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -250.0
+        },
+        {
+            "date": "13/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTHALITA ARAUJO ESTETICA E SAUDE INTEGRAD\n33.497.436 0001-97\nlavieen",
+            "amount": 1400.0
+        },
+        {
+            "date": "13/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
             "amount": 1200.0
         },
         {
-            "date": "19/09/2024",
+            "date": "13/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
-            "amount": -50.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n32.724.713 0001-94",
+            "amount": -200.0
         },
         {
-            "date": "19/09/2024",
+            "date": "13/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 3545.9
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -250.0
         },
         {
-            "date": "19/09/2024",
+            "date": "13/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
-            "amount": -50.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRaphaela de Souza Figueira\n***.372.298-**",
+            "amount": 1000.0
         },
         {
-            "date": "19/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -80.0
+            "date": "13/12/2024",
+            "document": "1152358818",
+            "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+            "amount": 1424.46
         },
         {
-            "date": "19/09/2024",
+            "date": "12/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
-            "amount": -21.55
-        },
-        {
-            "date": "19/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
-            "amount": -45.0
-        },
-        {
-            "date": "19/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.318.313 0001-00",
-            "amount": -21.13
-        },
-        {
-            "date": "18/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
-            "amount": -230.0
-        },
-        {
-            "date": "18/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
             "amount": -1000.0
         },
         {
-            "date": "18/09/2024",
+            "date": "12/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.150.523 0001-61",
-            "amount": -1500.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nP L DOTTO\n33.180.818 0001-92",
+            "amount": 132.75
         },
         {
-            "date": "18/09/2024",
+            "date": "12/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
-            "amount": -3419.47
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n14.265.814 0001-62",
+            "amount": -4464.0
         },
         {
-            "date": "17/09/2024",
+            "date": "12/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -230.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBEYOND CONSULTORIA\n19.549.581 0001-43",
+            "amount": 1600.0
         },
         {
-            "date": "17/09/2024",
-            "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 3300.0
+            "date": "12/12/2024",
+            "document": "1151290190",
+            "description": "CR COMPRAS MAESTRO SIPAG_Deb._Maestro",
+            "amount": 593.4
         },
         {
-            "date": "16/09/2024",
-            "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
-            "amount": -1500.0
+            "date": "11/12/2024",
+            "document": "71615026",
+            "description": "DÉB.TÍTULO COBRANÇA",
+            "amount": -3854.48
         },
         {
-            "date": "16/09/2024",
+            "date": "11/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSORRIDENTE - ASSISTENCIA ODONTOLOGIC\n05.311.364 0001-06\nLAVIEEN E ULTRAFORMER",
+            "amount": 1843.3
+        },
+        {
+            "date": "11/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -190.0
+        },
+        {
+            "date": "11/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF - MESMA TIT. Pagamento Pix\n44.388.803 0001-30",
+            "amount": -450.0
+        },
+        {
+            "date": "11/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
+            "amount": -1178.0
+        },
+        {
+            "date": "11/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n32.724.713 0001-94",
+            "amount": -100.0
+        },
+        {
+            "date": "10/12/2024",
+            "document": "5042",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: MARIANA LUCHIN DERMATOLOGIA E ESTE\nTransferência Pix\nMARIANA LUCHIN DERMATOLOGIA E ESTETICA L\n40.710.160 0001-49",
+            "amount": 2250.0
+        },
+        {
+            "date": "10/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
+            "amount": -1450.0
+        },
+        {
+            "date": "10/12/2024",
+            "document": "1150183785",
+            "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+            "amount": 2718.88
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nNEWTON SANCHES JUNIOR\n***.368.348-**\nAnna Pegova Guarulhos",
+            "amount": 1750.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.415.146 0001-08",
+            "amount": -350.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n52.325.738 0001-22",
+            "amount": -1700.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -240.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nEVANIA FRANCOSO TAMOS TONETTO\n***.012.548-**",
+            "amount": 2027.85
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
+            "amount": -1000.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nFrancielle dos Santos Deolindo\n***.613.458-**",
+            "amount": 1300.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
+            "amount": -167.99
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n14.380.200 0001-21\nIFOODBR",
+            "amount": -49.62
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nDANIELE BASILIO BRESAOLA\n***.414.748-**",
+            "amount": 2500.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.414.748-**",
+            "amount": -2880.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCHRISTIANE FARIA\n***.991.148-**",
+            "amount": 1650.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -260.0
+        },
+        {
+            "date": "09/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32\nIFOODBENEFITS",
+            "amount": -220.0
+        },
+        {
+            "date": "06/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLINICA DE ESTETICA INDAIATUBA LTBA ME\n42.847.005 0001-02",
+            "amount": 1600.0
+        },
+        {
+            "date": "06/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.057.948-**",
+            "amount": -3000.0
+        },
+        {
+            "date": "06/12/2024",
+            "document": "71427341",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 400.0
+        },
+        {
+            "date": "04/12/2024",
+            "document": "71340401",
+            "description": "DÉB.TÍTULO COBRANÇA",
+            "amount": -3953.21
+        },
+        {
+            "date": "04/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nVictorya Carolina Rosales Pena Botelho B\n***.916.587-**",
+            "amount": 294.0
+        },
+        {
+            "date": "04/12/2024",
+            "document": "71340367",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3400.0
+        },
+        {
+            "date": "04/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n10.397.739 0001-32",
+            "amount": -1600.0
+        },
+        {
+            "date": "03/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCarla Rocha Farias Estetica Avancada\n44.556.201 0001-45\nLocacao Equipamentos",
+            "amount": 1306.0
+        },
+        {
+            "date": "03/12/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
-            "amount": -7653.1
+            "amount": -2000.0
         },
         {
-            "date": "16/09/2024",
+            "date": "03/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMmg Natal Locacao De Maquinas E Equipame\n51.423.585 0001-93",
-            "amount": 12500.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -2000.0
         },
         {
-            "date": "12/09/2024",
+            "date": "03/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
+            "amount": -1600.0
+        },
+        {
+            "date": "03/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSANDRA TAKAKI FRANCA\n***.280.478-**\nultraformer",
+            "amount": 5700.0
+        },
+        {
+            "date": "03/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.877.988-**",
+            "amount": -2000.0
+        },
+        {
+            "date": "03/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCristiane de Cassia Ribeiro\n***.296.728-**",
+            "amount": 1500.0
+        },
+        {
+            "date": "02/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+            "amount": -2000.0
+        },
+        {
+            "date": "02/12/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRITA TOBAL DINIZ\n04.938.736 0001-66",
+            "amount": 1750.0
+        },
+        {
+            "date": "02/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -2000.0
+        },
+        {
+            "date": "02/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n01.515.951 0001-66",
+            "amount": -1200.0
+        },
+        {
+            "date": "02/12/2024",
             "document": "Pix",
             "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
             "amount": -2532.63
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
-            "amount": 1600.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.557.588-**",
+            "amount": -2500.0
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
-            "amount": -4163.1
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nEliana Fonseca costa\n***.443.008-**\nLavieen LILI",
+            "amount": 1500.0
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.969.778-**",
-            "amount": -1000.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nANGELA CRISTINA MARQUES DI VERNIERI\n***.697.648-**",
+            "amount": 2068.0
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.881.488-**",
-            "amount": -1000.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nL E M PLENITUDE E BELEZA LTDA\n55.499.539 0001-29",
+            "amount": 4410.0
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -190.0
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMM ODONTOLOGIA PREMIUM LTDA ME\n50.632.839 0001-10\nUltraformer",
+            "amount": 2596.65
         },
         {
-            "date": "12/09/2024",
-            "document": "68757325",
-            "description": "DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS FAV.: LUCAS LIMA LASER LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": -807.5
-        },
-        {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMmg Natal Locacao De Maquinas E Equipame\n51.423.585 0001-93",
-            "amount": 5000.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n14.380.200 0001-21\nIFOODBR",
+            "amount": -177.3
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
-            "amount": -190.0
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57\nPedido TicketLog",
+            "amount": -500.0
         },
         {
-            "date": "12/09/2024",
+            "date": "02/12/2024",
             "document": "Pix",
-            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSCULPT BEAUTY LOUNGE COMERCIO E SERVICOS\n46.072.143 0001-00",
-            "amount": 810.0
-        },
-        {
-            "date": "12/09/2024",
-            "document": "68753191",
-            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
-            "amount": 2660.0
-        },
-        {
-            "date": "29/08/2024",
-            "document": "",
-            "description": "SALDO BLOQUEADO ANTERIOR",
-            "amount": 0.0
-        },
-        {
-            "date": "29/08/2024",
-            "document": "",
-            "description": "SALDO ANTERIOR",
-            "amount": 2.62
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nKatia Turino\n***.433.668-**",
+            "amount": 150.0
         }
     ],
     "summary": {
-        "Saldo em conta corrente": 2.01,
+        "Saldo em conta corrente": 4.65,
         "Limite cheque especial empresarial (+)": 0.0,
-        "Saldo disponível": 2.01,
+        "Saldo disponível": 4.65,
         "Saldo bloqueado em conta corrente": "0,00*",
         "Vencimento cheque especial empresarial": "",
         "Taxa cheque especial empresarial (a.m.)": "7,50%",

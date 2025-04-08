@@ -1,0 +1,13 @@
+<div id="upload-html">
+  <h3>Carregar Arquivo de Extrato</h3>
+  <form id="upload-form" enctype="multipart/form-data">
+    <input type="file" id="html-file-input" name="extrato_file" accept=".html,.ofx">
+    <select id="banco-select" name="banco">
+      <option value="sicoob">Sicoob (HTML)</option>
+      <option value="bb">Banco do Brasil (OFX)</option>
+    </select>
+    <button type="button" onclick="uploadHTML()">📤 Carregar Arquivo</button>
+    <button id="process-btn" type="button" onclick="runPipeline()">🚀 Executar Pipeline</button>
+  </form>
+  <div id="process-status" style="margin-top: 10px;"></div>
+</div>

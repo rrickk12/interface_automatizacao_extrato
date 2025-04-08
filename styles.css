@@ -1,0 +1,343 @@
+/* ========== Global Styles ========== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f5f6fa;
+  font-size: 1rem;
+  color: #2f3640;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #353b48;
+  margin-bottom: 1.5rem;
+}
+
+/* ========== Botões, Inputs e Selects ========== */
+button,
+select,
+input {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+select:hover,
+input:hover {
+  background-color: #dcdde1;
+  cursor: pointer;
+}
+
+/* ========== Estilização de Tabelas ========== */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1rem;
+}
+
+.table-responsive table {
+  width: 100%;
+  table-layout: fixed; /* Largura fixa para as colunas */
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-top: 1.25rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #f1f2f6;
+  font-weight: 600;
+}
+
+/* Linhas alternadas e hover */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estados de Linha */
+tr.pending { background-color: #fff9c4; }
+tr.validated { background-color: #d4edda; }
+tr.canceled { background-color: #f8d7da; }
+
+/* Linhas auto-classificadas */
+tr.auto-classificado td select {
+  background-color: #ffeaa7;
+}
+
+/* Alerta para Contato */
+.contato-alert {
+  background-color: #ffcccc;
+}
+
+/* ========== Botões Específicos ========== */
+#export-btn {
+  background-color: #44bd32;
+  color: #fff;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  margin: 0.625rem 0;
+  font-weight: bold;
+}
+
+#export-btn:hover {
+  background-color: #4cd137;
+}
+
+.status-btn {
+  padding: 0.3125rem 0.625rem;
+  margin: 0 0.125rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.status-btn:hover { opacity: 0.8; }
+
+/* ========== Formulário de Regras ========== */
+form#form-regra {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+form#form-regra input,
+form#form-regra select {
+  width: 100%;
+  padding: 0.45rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+form#form-regra button {
+  grid-column: 1 / -1;  /* O botão ocupa toda a linha */
+  background-color: #0984e3;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+form#form-regra button:hover {
+  background-color: #74b9ff;
+}
+
+/* ========== Botão de Toggle para Abas ========== */
+button.aba-toggle {
+  background-color: #dcdde1;
+  border: none;
+  padding: 0.625rem 0.9375rem;
+  margin: 0.3125rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+}
+
+button.aba-toggle:hover {
+  background-color: #b2bec3;
+}
+
+/* ========== Spinner e Animação ========== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ccc;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ========== Media Queries ========== */
+@media (max-width: 768px) {
+  body { font-size: 0.875rem; }
+  
+  form#form-regra {
+    grid-template-columns: 1fr;
+  }
+  
+  #export-btn { width: 100%; }
+}
+
+/* ========== Ajustes Específicos para Tabelas ========== */
+/* Impede que a coluna de descrição quebre de forma descontrolada */
+.table-responsive table th:nth-child(2),
+.table-responsive table td:nth-child(2) {
+  max-width: 300px;
+  /* Caso deseje truncar com elipse:
+  overflow: hidden;
+  text-overflow: ellipsis;
+  */
+}
+
+/* Força o input memo a se ajustar sem expandir a coluna */
+td input[name="memo"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tamanhos de colunas (ajuste conforme necessário) */
+.thdata { width: 3%; }
+.thdescription { width: 12%; }
+.thvalor { width: 5%; }
+.thtipotransacao { width: 4%; }
+.thdocumento { width: 3%; }
+.thcontato { width: 19%; }
+.thtipo { width: 16%; }
+.thcategoria { width: 17%; }
+.thmemo { width: 15%; }
+.thstatus { width: 3%; }
+
+/* ========== Ajustes Específicos para o Gerenciador de Regras ========== */
+
+/* Container do Gerenciador de Regras */
+#aba-regras {
+  padding: 1rem;
+}
+
+/* Título centralizado */
+#aba-regras h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Barra de Ações das Regras */
+#rules-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+#rules-actions button {
+  font-size: 0.9rem;
+  padding: 0.45rem 0.75rem;
+}
+
+/* Tabela de Regras: estilos para o thead */
+#tabela-regras thead th {
+  background-color: #ecf0f1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* Ajuste de inputs e selects dentro da tabela de regras */
+#tabela-regras input,
+#tabela-regras select {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  min-width: 80px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Botão de Remover Regra */
+#tabela-regras button {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#tabela-regras button:hover {
+  background-color: #c0392b;
+}
+
+/* ========== Ajustes para Abas e Exibição de Conteúdo ========== */
+.aba {
+  display: none;
+  animation: fadeIn 0.5s;
+}
+
+.aba.visible {
+  display: block;
+}
+
+/* ========== Cores para Transações ========== */
+td.debito {
+  background-color: #e74c3c;  /* vermelho para Débito */
+  color: #fff;
+}
+
+td.credito {
+  background-color: #27ae60;  /* verde para Crédito */
+  color: #fff;
+}
+
+
+/* Tabela de Regras (sem Regex) */
+#tabela-regras thead th {
+  background-color: #ecf0f1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#tabela-regras th.thdesccontain,
+#tabela-regras td:nth-child(1) {
+  width: 18%;
+}
+#tabela-regras th.thtransactionType,
+#tabela-regras td:nth-child(2) {
+  width: 12%;
+}
+#tabela-regras th.thcontato,
+#tabela-regras td:nth-child(3) {
+  width: 14%;
+}
+#tabela-regras th.thtipo,
+#tabela-regras td:nth-child(4) {
+  width: 14%;
+}
+#tabela-regras th.thcategoria,
+#tabela-regras td:nth-child(5) {
+  width: 18%;
+}
+#tabela-regras th.thmemo,
+#tabela-regras td:nth-child(6) {
+  width: 18%;
+}
+#tabela-regras th.thacoes,
+#tabela-regras td:nth-child(7) {
+  width: 6%;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+/* Estados das linhas */
+tr.pending {
+    background-color: #fff9c4;
+  }
+  
+  tr.validated {
+    background-color: #d4edda;
+  }
+  
+  tr.canceled {
+    background-color: #f8d7da;
+  }
+  
+  tr.auto-classificado td select {
+    background-color: #ffeaa7;
+  }
+  
+  /* Cor por tipo */
+  td.debito {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  td.credito {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  /* Alerta para Contato */
+  .contato-alert {
+    background-color: #ffcccc;
+  }
+  

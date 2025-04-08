@@ -1,0 +1,240 @@
+[
+  {
+    "categoria": "",
+    "contato_igual": "",
+    "descricao_contain": [
+      "MESMA TIT"
+    ],
+    "descricao_regex": "",
+    "memo_rule": "",
+    "tipo": "Transfer\u00eancia"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": "",
+    "descricao_contain": [
+      "CR ANTECIPA\u00c7\u00c3O"
+    ],
+    "descricao_regex": "",
+    "memo_rule": "",
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "ZOOP",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "memo_rule": "Alimenta\u00e7\u00e3o e hospedagem",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "TICKET SOLUCOES",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "memo_rule": "Combust\u00edvel",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "LUME LASER",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "memo_rule": "Loca\u00e7\u00e3o de equipamentos",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "Alex Eduardo Antunes",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "memo_rule": "Motorista - Alex",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "Andr\u00e9 Luis Ribeiro",
+    "descricao_contain": [],
+    "descricao_regex": "",
+    "memo_rule": "Motorista - Andr\u00e9",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": null,
+    "descricao_contain": [
+      "610.768"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Contrato Nat\u00e1lia Lopez",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "INFINITY CARE"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Loca\u00e7\u00e3o de equipamentos",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": "Bruna Zavati Zavitoski",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Bruna",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "EASY SEGUROS MEDICOS",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Seguro de equipamento",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Manuten\u00e7\u00e3o de ativos",
+    "contato_igual": "MICHEL ALEXANDRE DE PAULA",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Manuten\u00e7\u00e3o de ve\u00edculo",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": "Guilherme Borelli",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Pr\u00f3-Labore - Guilherme",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Compra de ativos",
+    "contato_igual": "PERSONALITE RECUPERACAO DE CREDITO LTDA",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Renegocia\u00e7\u00e3o boletos em atraso",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "SUELLEN D. DA S. MENDES"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "688.488"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Loca\u00e7\u00e3o de equipamentos",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": null,
+    "descricao_contain": [
+      "027.998"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Pr\u00f3-Labore - Thauana",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": "Gabriel Batista Santos",
+    "descricao_contain": [],
+    "descricao_regex": null,
+    "memo_rule": "Motorista - Gabriel",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "395.008"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Motorista - Matheus",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Compra de ativos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "420.638"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Compra de ativos - Cartucho",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": null,
+    "descricao_contain": [
+      "36.150.523"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Aluguel - Contrato Phytochem",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Marketing",
+    "contato_igual": null,
+    "descricao_contain": [
+      "969.778"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Marketing - Bruna Fernanda",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Despesas administrativas",
+    "contato_igual": null,
+    "descricao_contain": [
+      "881.488"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Auxiliar ADM - Maria Isabela",
+    "tipo": "Pessoas"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "RHTZ SERVICOS MEDICOS"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Manuten\u00e7\u00e3o de ativos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "10.397.739 0001-32"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "descricao_contain": [
+      "DEBITO AUTOMATICO FATURA CART\u00c3O"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Fatura Cart\u00e3o Visa"
+  }
+]

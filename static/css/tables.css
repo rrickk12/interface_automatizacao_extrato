@@ -1,0 +1,62 @@
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 1rem;
+  }
+  
+  .table-responsive table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-top: 1.25rem;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  th {
+    background-color: #f1f2f6;
+    font-weight: 600;
+  }
+  
+  /* Linhas alternadas e hover */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Tamanhos de colunas */
+  .thdata { width: 3%; }
+  .thdescription { width: 12%; }
+  .thvalor { width: 5%; }
+  .thtipotransacao { width: 4%; }
+  .thdocumento { width: 3%; }
+  .thcontato { width: 19%; }
+  .thtipo { width: 16%; }
+  .thcategoria { width: 17%; }
+  .thmemo { width: 15%; }
+  .thstatus { width: 3%; }
+  
+  /* Ajustes para coluna Descrição */
+  .table-responsive table th:nth-child(2),
+  .table-responsive table td:nth-child(2) {
+    max-width: 300px;
+  }
+  
+  /* Memo input full width */
+  td input[name="memo"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,1728 @@
+{
+    "header": {
+        "issue_date": "04/04/2025",
+        "statement_type": "EXTRATO DE CONTA CORRENTE",
+        "time": "15:29:58",
+        "cooperative": "3188-7 / SICOOB CREDICITRUS",
+        "account": "155.489-1 / MMG LOCACAO DE MAQUINAS LTDA"
+    },
+    "transactions": [
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRITA TOBAL DINIZ\n04.938.736 0001-66",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -50.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n01.515.951 0001-66",
+            "amount": -2400.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
+            "amount": -1550.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "688488",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBIANCA SILVA BRANDAO 42062293844\n39.886.582 0001-90",
+            "amount": 3568.8,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "293844",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -9211.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCarla Rocha Farias Estetica Avancada\n44.556.201 0001-45",
+            "amount": 1500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000145",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "68288762",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3040.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nFOXTROT LOCACOES MAQUINAS\n46.759.864 0001-92\nPagamento de relocacao",
+            "amount": 4000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000192",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "28/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 230.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.415.146 0001-08",
+            "amount": -525.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000108",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -1000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+            "amount": -270.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -112.52,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTALITA DE MATTOS SEYDELL\n***.886.318-**",
+            "amount": 1250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "886318",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -17801.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJOSE MARCOS GONCALVES\n***.536.998-**",
+            "amount": 6000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2600.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSimplestetica Saude E Bem Estar Ltda\n25.065.401 0001-50\ndisparos ultraformer",
+            "amount": 4450.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000150",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 3680.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.420.638-**",
+            "amount": -3962.5,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "420638",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "4434",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
+            "amount": 3966.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000135",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "21/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -424.3,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -1150.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "136228",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "776998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nClinica dra Marcela Hastenreiter\n18.151.164 0001-85\nLocacao Lavieen Ultraformer Pixie",
+            "amount": 2809.1,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000185",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nVICTORYA CAROLINA ROSALES PENA BOTE\n33.879.551 0001-26",
+            "amount": 2065.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000126",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -240.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -4163.1,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJessica Silverio dos Santos\n***.357.918-**",
+            "amount": 2754.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "357918",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCRISTIANE DE CASSIA RIBEIRO\n***.296.728-**\nLavieen",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "296728",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -3450.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "5042",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: MARIANA LUCHIN DERMATOLOGIA E ESTE\nTransferência Pix\nMARIANA LUCHIN DERMATOLOGIA E ESTETICA L\n40.710.160 0001-49\nLavieen",
+            "amount": 2250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000149",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -6547.6,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "310333047",
+            "description": "CRÉD.TED-STR ELENCO COSMETICOS E ESTETICA LTDA ME\n62.094.636 0001-05\nCODIGO TED: T929663331",
+            "amount": 2013.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLINICA DE ESTETICA INDAIATUBA LTBA ME\n42.847.005 0001-02",
+            "amount": 3200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTHIAGO ELIAS HENGLER\n***.587.358-**",
+            "amount": 1000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "587358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n29.811.363 0001-99",
+            "amount": -6880.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000199",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.368.359 0001-63",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000163",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSTEPHANIE LOLO BIOMEDICA ESTETA\n18.429.680 0001-29",
+            "amount": 2608.6,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000129",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUANA ARAUJO BI\n46.995.444 0001-05",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "4140",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58",
+            "amount": 4956.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000158",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUCIA FERNANDA LOPEZ PINEDO\n41.113.600 0001-43",
+            "amount": 2500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000143",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -835.75,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "ESTORNO DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": 20099.19,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMAPRILOC313 LOCACOES DE EQUIPAMENTOS LTD\n40.114.788 0001-81",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000181",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": -20099.19,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "TOKIO SEGU",
+            "description": "DÉB. CONV. SEGUROS",
+            "amount": -573.96,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.557.588-**",
+            "amount": -2500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "557588",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 918.51,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.232.358-**",
+            "amount": -600.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "232358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 2186.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "985678",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nEliana Fonseca costa\n***.443.008-**\nLavieen Lili",
+            "amount": 2700.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "443008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "01/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -6000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO BLOQUEADO ANTERIOR",
+            "amount": 0.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO ANTERIOR",
+            "amount": 7804.3,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        }
+    ],
+    "summary": {
+        "Saldo em conta corrente": 1751.62,
+        "Limite cheque especial empresarial (+)": 0.0,
+        "Saldo disponível": 1751.62,
+        "Saldo bloqueado em conta corrente": "0,00*",
+        "Vencimento cheque especial empresarial": "",
+        "Taxa cheque especial empresarial (a.m.)": "7,50%",
+        "Previsão CPMF": "D",
+        "Previsão IOF": "D",
+        "Previsão ENCARGOS": "D",
+        "Previsão TARIFAS": "D"
+    },
+    "enriched_transactions": [
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRITA TOBAL DINIZ\n04.938.736 0001-66",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -50.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n01.515.951 0001-66",
+            "amount": -2400.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
+            "amount": -1550.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "688488",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBIANCA SILVA BRANDAO 42062293844\n39.886.582 0001-90",
+            "amount": 3568.8,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "293844",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -9211.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCarla Rocha Farias Estetica Avancada\n44.556.201 0001-45",
+            "amount": 1500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000145",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "68288762",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3040.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nFOXTROT LOCACOES MAQUINAS\n46.759.864 0001-92\nPagamento de relocacao",
+            "amount": 4000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000192",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "28/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 230.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.415.146 0001-08",
+            "amount": -525.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000108",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -1000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+            "amount": -270.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -112.52,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTALITA DE MATTOS SEYDELL\n***.886.318-**",
+            "amount": 1250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "886318",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -17801.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJOSE MARCOS GONCALVES\n***.536.998-**",
+            "amount": 6000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2600.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSimplestetica Saude E Bem Estar Ltda\n25.065.401 0001-50\ndisparos ultraformer",
+            "amount": 4450.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000150",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 3680.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.420.638-**",
+            "amount": -3962.5,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "420638",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "4434",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
+            "amount": 3966.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000135",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "21/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -424.3,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -1150.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "136228",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "776998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nClinica dra Marcela Hastenreiter\n18.151.164 0001-85\nLocacao Lavieen Ultraformer Pixie",
+            "amount": 2809.1,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000185",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nVICTORYA CAROLINA ROSALES PENA BOTE\n33.879.551 0001-26",
+            "amount": 2065.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000126",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -240.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -4163.1,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJessica Silverio dos Santos\n***.357.918-**",
+            "amount": 2754.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "357918",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCRISTIANE DE CASSIA RIBEIRO\n***.296.728-**\nLavieen",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "296728",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -3450.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "5042",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: MARIANA LUCHIN DERMATOLOGIA E ESTE\nTransferência Pix\nMARIANA LUCHIN DERMATOLOGIA E ESTETICA L\n40.710.160 0001-49\nLavieen",
+            "amount": 2250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000149",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -6547.6,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "310333047",
+            "description": "CRÉD.TED-STR ELENCO COSMETICOS E ESTETICA LTDA ME\n62.094.636 0001-05\nCODIGO TED: T929663331",
+            "amount": 2013.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLINICA DE ESTETICA INDAIATUBA LTBA ME\n42.847.005 0001-02",
+            "amount": 3200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTHIAGO ELIAS HENGLER\n***.587.358-**",
+            "amount": 1000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "587358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n29.811.363 0001-99",
+            "amount": -6880.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000199",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.368.359 0001-63",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000163",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSTEPHANIE LOLO BIOMEDICA ESTETA\n18.429.680 0001-29",
+            "amount": 2608.6,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000129",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUANA ARAUJO BI\n46.995.444 0001-05",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "4140",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58",
+            "amount": 4956.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000158",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUCIA FERNANDA LOPEZ PINEDO\n41.113.600 0001-43",
+            "amount": 2500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000143",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -835.75,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "ESTORNO DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": 20099.19,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMAPRILOC313 LOCACOES DE EQUIPAMENTOS LTD\n40.114.788 0001-81",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000181",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": -20099.19,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "TOKIO SEGU",
+            "description": "DÉB. CONV. SEGUROS",
+            "amount": -573.96,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.557.588-**",
+            "amount": -2500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "557588",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 918.51,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.232.358-**",
+            "amount": -600.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "232358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 2186.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "985678",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nEliana Fonseca costa\n***.443.008-**\nLavieen Lili",
+            "amount": 2700.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "443008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "01/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -6000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO BLOQUEADO ANTERIOR",
+            "amount": 0.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO ANTERIOR",
+            "amount": 7804.3,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        }
+    ],
+    "conciliated_transactions": [
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRITA TOBAL DINIZ\n04.938.736 0001-66",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -50.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n01.515.951 0001-66",
+            "amount": -2400.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000166",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.688.488-**",
+            "amount": -1550.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "688488",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBIANCA SILVA BRANDAO 42062293844\n39.886.582 0001-90",
+            "amount": 3568.8,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "293844",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -9211.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCarla Rocha Farias Estetica Avancada\n44.556.201 0001-45",
+            "amount": 1500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000145",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "68288762",
+            "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 3040.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "29/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nFOXTROT LOCACOES MAQUINAS\n46.759.864 0001-92\nPagamento de relocacao",
+            "amount": 4000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000192",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "28/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 230.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n37.415.146 0001-08",
+            "amount": -525.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000108",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -1000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+            "amount": -270.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "27/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -112.52,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTALITA DE MATTOS SEYDELL\n***.886.318-**",
+            "amount": 1250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "886318",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n30.383.069 0001-02",
+            "amount": -17801.78,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJOSE MARCOS GONCALVES\n***.536.998-**",
+            "amount": 6000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 2600.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSimplestetica Saude E Bem Estar Ltda\n25.065.401 0001-50\ndisparos ultraformer",
+            "amount": 4450.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000150",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCappta\n13.966.572 0001-71",
+            "amount": 3680.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000171",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLAUDIA S B GASPAR\n***.584.498-**",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "584498",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.420.638-**",
+            "amount": -3962.5,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "420638",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "23/08/2024",
+            "document": "4434",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: SUELLEN D. DA S. MENDES ESTETICA\nTransferência Pix\nSUELLEN D. DA S. MENDES ESTETICA\n54.668.555 0001-35",
+            "amount": 3966.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000135",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "21/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -424.3,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.395.008-**",
+            "amount": -1150.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "395008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.136.228-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "136228",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.776.998-**",
+            "amount": -1250.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "776998",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nClinica dra Marcela Hastenreiter\n18.151.164 0001-85\nLocacao Lavieen Ultraformer Pixie",
+            "amount": 2809.1,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000185",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+            "amount": -800.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000157",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nVICTORYA CAROLINA ROSALES PENA BOTE\n33.879.551 0001-26",
+            "amount": 2065.2,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000126",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "20/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -240.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n54.575.080 0001-32",
+            "amount": -4163.1,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000132",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJessica Silverio dos Santos\n***.357.918-**",
+            "amount": 2754.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "357918",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "19/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCRISTIANE DE CASSIA RIBEIRO\n***.296.728-**\nLavieen",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "296728",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -3450.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "16/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 1200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "5042",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: MARIANA LUCHIN DERMATOLOGIA E ESTE\nTransferência Pix\nMARIANA LUCHIN DERMATOLOGIA E ESTETICA L\n40.710.160 0001-49\nLavieen",
+            "amount": 2250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000149",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "15/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -6547.6,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "310333047",
+            "description": "CRÉD.TED-STR ELENCO COSMETICOS E ESTETICA LTDA ME\n62.094.636 0001-05\nCODIGO TED: T929663331",
+            "amount": 2013.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "14/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCLINICA DE ESTETICA INDAIATUBA LTBA ME\n42.847.005 0001-02",
+            "amount": 3200.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000102",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nTHIAGO ELIAS HENGLER\n***.587.358-**",
+            "amount": 1000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "587358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n29.811.363 0001-99",
+            "amount": -6880.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000199",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.368.359 0001-63",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "000163",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nSTEPHANIE LOLO BIOMEDICA ESTETA\n18.429.680 0001-29",
+            "amount": 2608.6,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000129",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUANA ARAUJO BI\n46.995.444 0001-05",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000105",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "4140",
+            "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58",
+            "amount": 4956.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000158",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLUCIA FERNANDA LOPEZ PINEDO\n41.113.600 0001-43",
+            "amount": 2500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000143",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "13/08/2024",
+            "document": "DB.AUT.CRT",
+            "description": "DEBITO AUTOMATICO FATURA CARTÃO VISA Debito Automatico Cartao",
+            "amount": -835.75,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "ESTORNO DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": 20099.19,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMAPRILOC313 LOCACOES DE EQUIPAMENTOS LTD\n40.114.788 0001-81",
+            "amount": 1400.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000181",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "DBAUTO VIS",
+            "description": "DÉB.CONV.DEMAIS EMPRESAS",
+            "amount": -20099.19,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "12/08/2024",
+            "document": "TOKIO SEGU",
+            "description": "DÉB. CONV. SEGUROS",
+            "amount": -573.96,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.557.588-**",
+            "amount": -2500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "557588",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO MAQUINAS LTDA\n44.388.803 0001-30",
+            "amount": 918.51,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "000130",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.232.358-**",
+            "amount": -600.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "232358",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "06/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+            "amount": 2186.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "074825",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+            "amount": -4500.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "985678",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "05/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nEliana Fonseca costa\n***.443.008-**\nLavieen Lili",
+            "amount": 2700.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "443008",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "01/08/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.610.768-**",
+            "amount": -6000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "610768",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO BLOQUEADO ANTERIOR",
+            "amount": 0.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        },
+        {
+            "date": "30/07/2024",
+            "document": "",
+            "description": "SALDO ANTERIOR",
+            "amount": 7804.3,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "",
+            "possiveis_contatos": []
+        }
+    ]
+}

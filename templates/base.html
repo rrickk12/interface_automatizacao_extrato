@@ -3,10 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>{% block title %}Relatório de Transações{% endblock %}</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/form.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tables.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/states.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/rules.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/spinner.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/media_queries.css') }}">
+  
   <script>
-    window.configCategorias = {{ config_json | tojson | safe }};
-    window.regras = {{ regras_json | tojson | safe }};
+    window.config_json = {{ config_json | tojson | safe }};
+    window.regras_json = {{ regras_json | tojson | safe }};
   </script>
   {% block head_extra %}{% endblock %}
 </head>
@@ -15,30 +24,17 @@
     <header>
       <h1>{% block header %}Relatório de Transações{% endblock %}</h1>
     </header>
-    <!-- Botões na barra de navegação -->
+
     <nav>
-      <button onclick="abrirAba('transacoes')">📋 Transações</button>
-      <button onclick="abrirAba('regras')">🧠 Regras</button>
+      <button onclick="abrirAba('transacoes')">Transações</button>
+      <button onclick="abrirAba('regras')">Regras</button>
+      <button onclick="abrirAba('contatos')">Contatos</button>
     </nav>
-    <!-- Botões de estado -->
-    <div id="state-actions" style="margin: 10px 0;">
-      <button onclick="saveState()">💾 Save State</button>
-      <button onclick="loadState()">📥 Load State</button>
-      <button onclick="cleanState()">🧹 Clean State</button>
-      <button onclick="undo()">↩️ Undo</button>
-      <button onclick="redo()">↪️ Redo</button>
-      <button onclick="exportState()">📄 Export State</button>
-      <button onclick="document.getElementById('import-state-input').click()">📂 Import State</button>
-      <input type="file" id="import-state-input" style="display: none;">
-    </div>
-    <button id="export-btn" onclick="exportToCSV()">📤 Exportar CSV</button>
-    <div id="process-status"></div>
-    <main>
-      {% block content %}{% endblock %}
-    </main>
+
+    {% block content %}{% endblock %}
+
     {% block scripts_extra %}{% endblock %}
-    <!-- Carrega o script principal como módulo -->
     <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
-  </div> <!-- Fecha o container -->
+  </div>
 </body>
 </html>

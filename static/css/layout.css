@@ -1,0 +1,16 @@
+.aba {
+    display: none;
+    animation: fadeIn 0.5s;
+  }
+  
+  .aba.visible {
+    display: block;
+  }
+  
+  nav {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  

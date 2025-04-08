@@ -1,0 +1,106 @@
+cpf_cnpj;nome;razao_social;nome_fantasia;socios
+40498567869;Guilherme Borelli;Guilherme Borelli;;
+41927629861;Bruna Zavati Zavitoski;Bruna Zavati Zavitoski;;
+31687798818;Marcus Vinicius Machado Gonçalves;Marcus Vinicius Machado Gonçalves;;
+43677699843;André Luis Ribeiro PJ;André Luis Ribeiro PJ;;
+51313622885;Gabriel Batista Santos PJ;Gabriel Batista Santos PJ;;
+40102626804;Alex Eduardo Antunes PJ;Alex Eduardo Antunes PJ;;
+49155758886;Isabela Betti Stavarengo;Isabela Betti Stavarengo;;
+34505794873;Marcelo Eliseu Urbano PJ;Marcelo Eliseu Urbano PJ;;
+03506307000157;TICKET SOLUCOES HDFGT S/A;TICKET SOLUCOES HDFGT S/A;Ticket Log;"[{""nome_socio"": ""Gilles Andre Coccoli"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***843778**""}, {""nome_socio"": ""Douglas Almeida Pina"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***074816**""}, {""nome_socio"": ""Haroldo Pimentel Stumpf"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***781420**""}, {""nome_socio"": ""Philippe Pierre Marie Blecon"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***034898**""}, {""nome_socio"": ""Ricardo Ernesto Correa da Silva"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""51-60"", ""tax_id"": ""***307800**""}, {""nome_socio"": ""Diane Emmanuelle Anne Coliche"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""41-50"", ""tax_id"": ""***876938**""}, {""nome_socio"": ""Mathieu Dehaine"", ""tipo"": ""NATURAL"", ""faixa_etaria"": ""31-40"", ""tax_id"": ""***588878**""}]"
+19468242000132;ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.;ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.;Zoop Brasil;"[
+    {
+        ""nome_socio"": ""Fabiano Teixeira da Cruz"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***951767**""
+    },
+    {
+        ""nome_socio"": ""Ricardo Oishi Sonoda"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***761648**""
+    },
+    {
+        ""nome_socio"": ""Andre Luiz Fonseca da Silva Martins"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***351418**""
+    }
+]"
+20729204000175;LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA;LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA;Lume Laser Locacoes de Equipamentos Para Estetica;"[
+    {
+        ""nome_socio"": ""Marcelo Augusto Farias Jasset"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***878637**""
+    }
+]"
+30383069000102;PERSONALITE RECUPERACAO DE CREDITO LTDA;PERSONALITE RECUPERACAO DE CREDITO LTDA;Personalite Recuperacao de Credito;"[
+    {
+        ""nome_socio"": ""Edson Vieira Xavier"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***290248**""
+    },
+    {
+        ""nome_socio"": ""Fabio Lavor Pereira"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***284857**""
+    }
+]"
+35727790000196;EASY SEGUROS MEDICOS LTDA;EASY SEGUROS MEDICOS LTDA;Easy Seguros Medicos;"[
+    {
+        ""nome_socio"": ""Humberto de Mattos Carrilho"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""51-60"",
+        ""tax_id"": ""***243918**""
+    },
+    {
+        ""nome_socio"": ""Harlaine Ribeiro Luna"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""41-50"",
+        ""tax_id"": ""***384810**""
+    }
+]"
+42876309000190;MICHEL ALEXANDRE DE PAULA 39977974802;MICHEL ALEXANDRE DE PAULA 39977974802;;
+44388803000130;MMG LOCACAO DE MAQUINAS LTDA;MMG LOCACAO DE MAQUINAS LTDA;;"[
+    {
+        ""nome_socio"": ""Guilherme Borelli"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""31-40"",
+        ""tax_id"": ""***985678**""
+    },
+    {
+        ""nome_socio"": ""Marcus Vinicius Machado Goncalves"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""31-40"",
+        ""tax_id"": ""***877988**""
+    }
+]"
+47105254000138;INFINITY COMPANY BY GG LTDA;INFINITY COMPANY BY GG LTDA;;"[
+    {
+        ""nome_socio"": ""Gabrieli Zago"",
+        ""tipo"": ""NATURAL"",
+        ""faixa_etaria"": ""21-30"",
+        ""tax_id"": ""***836968**""
+    }
+]"
+54668555000135;SUELLEN D. DA S. MENDES ESTETICA;SUELLEN D. DA S. MENDES ESTETICA;Dra. Suellen Mendes;
+37415146000108;Bruno Barbosa;;;
+00000536998;José Marcos Gonçalves;;;
+00000597878;Rennan Alexandre de Paula;;;
+17390640000158;GILIOLI SERVICOS ODONTOLOGICOS S S LTDA;;;
+52305548000143;RHTZ SERVICOS MEDICOS LTDA;;;
+04938736000166;RITA TOBAL DINIZ;;;
+43372119000106;NICLOS COML LTDA;;;
+36695060000113;CINTIA ALVES DE MENEZES;;;
+33180818000192;Paula L. Dotto;;;
+40710160000149;MARIANA LUCHIN DERMATOLOGIA E ESTETICA LTDA;;;
+42847005000102;CLINICA DE ESTETICA INDAIATUBA LTBA;;;
+44556201000145;Carla Rocha Farias Estética Avancada;;;
+47121800000124;J. A. Locação e Serviços;;;
+32724713000194;Tupinambá Energia e Publicidade LTDA;;;
+14265814000162;S Cosméticos do Bem Indústria e Comércio LTDA;;;
+01515951000166;Chiarelli Contabilidade S/S LTDA;;;

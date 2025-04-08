@@ -1,0 +1,1969 @@
+{
+    "header": {
+        "issue_date": "20250407",
+        "statement_type": "EXTRATO DE CONTA CORRENTE",
+        "time": "",
+        "cooperative": "BANCO DO BRASIL",
+        "account": "99621-1 / "
+    },
+    "transactions": [
+        {
+            "date": "20240902",
+            "document": "20240902049000",
+            "description": "PIX - RECEBIDO - 02/09 05:32 00006884858710 CAROLINA TU",
+            "amount": 490.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "884858"
+        },
+        {
+            "date": "20240902",
+            "document": "202409020175000",
+            "description": "PIX - RECEBIDO - 02/09 16:17 43372119000106 NICLO'S COM",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "119000"
+        },
+        {
+            "date": "20240902",
+            "document": "20240902075000",
+            "description": "PIX - RECEBIDO - 02/09 07:59 47437294168 LARA DONATONI",
+            "amount": 750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "294168"
+        },
+        {
+            "date": "20240902",
+            "document": "202409021317",
+            "description": "DÉBITO SERVIÇO COBRANÇA - TAR. AGRUPADAS - OCORRENCIA 30/08/2024",
+            "amount": -3.17,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240902",
+            "document": "202409021713",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 26/08/2024",
+            "amount": -7.13,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240903",
+            "document": "202409030100000",
+            "description": "PIX - RECEBIDO - 03/09 16:46 18703536000139 TARGET LASE",
+            "amount": 1000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536000"
+        },
+        {
+            "date": "20240903",
+            "document": "202409031120000",
+            "description": "PIX - ENVIADO - 03/09 14:12 TICKET LOG",
+            "amount": -1200.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240904",
+            "document": "2024090401022195",
+            "description": "BB CONSÓRCIO-CARTA CRÉDIT - BB ADMINISTRADORA DE CONSORCIOS S.A",
+            "amount": 10221.95,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240904",
+            "document": "2024090411300100",
+            "description": "PIX - ENVIADO - 04/09 15:54 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -13001.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "202409050200000",
+            "description": "COBRANÇA",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905047137",
+            "description": "PIX - RECEBIDO - 05/09 07:30 22420969820 PRISCILA PAIVA",
+            "amount": 471.37,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "969820"
+        },
+        {
+            "date": "20240905",
+            "document": "20240905035083",
+            "description": "PIX - RECEBIDO - 05/09 07:58 25894570816 ADRIANA YUMIKO",
+            "amount": 350.83,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "570816"
+        },
+        {
+            "date": "20240905",
+            "document": "202409051282285",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -2822.85,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906065000",
+            "description": "PIX - RECEBIDO - 06/09 05:40 00005839062812 LUCIA HELEN",
+            "amount": 650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "839062"
+        },
+        {
+            "date": "20240906",
+            "document": "20240906043334",
+            "description": "PIX - RECEBIDO - 06/09 05:43 00029802218804 LUCIANA VIE",
+            "amount": 433.34,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "802218"
+        },
+        {
+            "date": "20240906",
+            "document": "202409061108334",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1083.34,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "202409061679004",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6790.04,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "202409060679004",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6790.04,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409090381000",
+            "description": "PIX - RECEBIDO - 08/09 09:54 00049641530100 GISELE DONA",
+            "amount": 3810.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "641530"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909057500",
+            "description": "PIX - RECEBIDO - 07/09 07:08 21257782894 FERNANDO PELLI",
+            "amount": 575.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "782894"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909026000",
+            "description": "PIX - RECEBIDO - 07/09 07:53 11186781840 MARCIA DE CAMP",
+            "amount": 260.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "781840"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909055000",
+            "description": "PIX - RECEBIDO - 08/09 12:06 36829903807 NATASHA SACCO",
+            "amount": 550.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "903807"
+        },
+        {
+            "date": "20240909",
+            "document": "202409091519500",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -5195.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409091693706",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6937.06,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409090693706",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6937.06,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "20240909127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "20240909027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910054750",
+            "description": "PIX - RECEBIDO - 10/09 06:13 00016753494871 LUCIANA A S",
+            "amount": 547.5,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "753494"
+        },
+        {
+            "date": "20240910",
+            "document": "20240910154750",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -547.5,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "202409101694370",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6943.7,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "202409100694370",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6943.7,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910163631",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
+            "amount": -636.31,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910063631",
+            "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
+            "amount": 636.31,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910188147",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
+            "amount": -881.47,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910088147",
+            "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
+            "amount": 881.47,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409110175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409111175000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1750.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409111695033",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6950.33,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409110695033",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6950.33,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "20240911127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "20240911027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409120175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409121175000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1750.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409121695697",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6956.97,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409120695697",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6956.97,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "20240912127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "20240912027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409131317286",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -3172.86,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409130317286",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 3172.86,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409131696362",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6963.62,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409130696362",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6963.62,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "20240913127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "20240913027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916060000",
+            "description": "PIX - RECEBIDO - 16/09 06:07 17045688890 SILVIA LETICIA",
+            "amount": 600.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "688890"
+        },
+        {
+            "date": "20240916",
+            "document": "20240916160000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -600.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "202409161697490",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6974.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "202409160697490",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6974.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916127727",
+            "description": "PAGTO PREMIO SEGURO - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "2024091705000000",
+            "description": "PIX - RECEBIDO - 17/09 13:37 54575080000132 CRISTAL E S",
+            "amount": 50000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "080000"
+        },
+        {
+            "date": "20240917",
+            "document": "2024091712966080",
+            "description": "PIX - ENVIADO - 17/09 14:12 MARCUS VINICIUS MACHADO GO",
+            "amount": -29660.8,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171100000",
+            "description": "PIX - ENVIADO - 17/09 14:15 MARIA ISABELA GOMES CORRÊA",
+            "amount": -1000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171336000",
+            "description": "PIX - ENVIADO - 17/09 14:18 JÉSSICA PEREIRA DA SILVA",
+            "amount": -3360.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171311100",
+            "description": "PAGAMENTO DE BOLETO - BANCO DO BRASIL S/A - BRASILIA",
+            "amount": -3111.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171330000",
+            "description": "PIX - ENVIADO - 17/09 19:07 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -3300.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171257696",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -2576.96,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171698158",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6981.58,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "20240917127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "20240917027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091803041",
+            "description": "CAP GIRO DIGITAL ESTORNO",
+            "amount": 30.41,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "202409180168426",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 1684.26,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091801939",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 19.39,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "202409180221000",
+            "description": "PIX - RECEBIDO - 18/09 12:37 17174890873 MONICA DE AZEV",
+            "amount": 2210.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "890873"
+        },
+        {
+            "date": "20240918",
+            "document": "20240918190145",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO",
+            "amount": -901.45,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "20240918165074",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO",
+            "amount": -650.74,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091815836",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -58.36,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091812000",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 17/09/2024",
+            "amount": -20.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "20240918127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240919",
+            "document": "2024091905712",
+            "description": "CAP GIRO DIGITAL ESTORNO",
+            "amount": 57.12,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240919",
+            "document": "202409190150000",
+            "description": "PIX - RECEBIDO - 19/09 16:01 43372119000106 NICLO'S COM",
+            "amount": 1500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "119000"
+        },
+        {
+            "date": "20240919",
+            "document": "202409191354590",
+            "description": "PIX - ENVIADO - 19/09 18:42 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -3545.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "202409200325000",
+            "description": "COBRANÇA",
+            "amount": 3250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "202409201330712",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -3307.12,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "2024092019990",
+            "description": "PAGAMENTOS DIVERSOS - CIELO",
+            "amount": -99.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "2024092009990",
+            "description": "ESTORNO DE DÉBITO - CIELO",
+            "amount": 99.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "202409230175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "20240923050000",
+            "description": "PIX - RECEBIDO - 22/09 07:43 00035037985870 KARLA SENGE",
+            "amount": 500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "037985"
+        },
+        {
+            "date": "20240923",
+            "document": "202409231224000",
+            "description": "PIX - ENVIADO - 23/09 18:01 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -2240.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "2024092311000",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -10.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409240198",
+            "description": "CIELO VENDAS DÉBITO",
+            "amount": 1.98,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409241513918",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -5139.18,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409240513918",
+            "description": "ESTORNO DE DÉBITO - EMPRESARIAL VISA",
+            "amount": 5139.18,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409241198",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 19/09/2024",
+            "amount": -1.98,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925058333",
+            "description": "PIX - RECEBIDO - 25/09 05:41 00020085093890 ANA CARLA P",
+            "amount": 583.33,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "085093"
+        },
+        {
+            "date": "20240925",
+            "document": "20240925158333",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -583.33,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "2024092609814",
+            "description": "CIELO VENDAS DÉBITO",
+            "amount": 98.14,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926087296",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 872.96,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926197110",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -971.1,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "202409270206451",
+            "description": "COBRANÇA",
+            "amount": 2064.51,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "202409271190000",
+            "description": "PIX - ENVIADO - 27/09 20:21 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -1900.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927116451",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -164.51,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409300173646",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 1736.46,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409300165000",
+            "description": "PIX - RECEBIDO - 30/09 10:47 40901286000109 CLINICA DE",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "286000"
+        },
+        {
+            "date": "20240930",
+            "document": "202409300180000",
+            "description": "PIX - RECEBIDO - 30/09 15:18 44388803000130 MMG LOCACAO",
+            "amount": 1800.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "803000"
+        },
+        {
+            "date": "20240930",
+            "document": "202409301382500",
+            "description": "PIX - ENVIADO - 30/09 16:11 BRUNA ZAVATI ZAVITOSKI",
+            "amount": -3825.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409301125900",
+            "description": "PIX - ENVIADO - 30/09 16:24 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -1259.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409301500",
+            "description": "PIX - ENVIADO - 30/09 17:57 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -5.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "2024093019746",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -97.46,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "20240930127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "20240930027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        }
+    ],
+    "summary": {
+        "Saldo em conta corrente": 0.0,
+        "Saldo disponível": 0.0
+    },
+    "enriched_transactions": [
+        {
+            "date": "20240902",
+            "document": "20240902049000",
+            "description": "PIX - RECEBIDO - 02/09 05:32 00006884858710 CAROLINA TU",
+            "amount": 490.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "884858"
+        },
+        {
+            "date": "20240902",
+            "document": "202409020175000",
+            "description": "PIX - RECEBIDO - 02/09 16:17 43372119000106 NICLO'S COM",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "119000"
+        },
+        {
+            "date": "20240902",
+            "document": "20240902075000",
+            "description": "PIX - RECEBIDO - 02/09 07:59 47437294168 LARA DONATONI",
+            "amount": 750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "294168"
+        },
+        {
+            "date": "20240902",
+            "document": "202409021317",
+            "description": "DÉBITO SERVIÇO COBRANÇA - TAR. AGRUPADAS - OCORRENCIA 30/08/2024",
+            "amount": -3.17,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240902",
+            "document": "202409021713",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 26/08/2024",
+            "amount": -7.13,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240903",
+            "document": "202409030100000",
+            "description": "PIX - RECEBIDO - 03/09 16:46 18703536000139 TARGET LASE",
+            "amount": 1000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536000"
+        },
+        {
+            "date": "20240903",
+            "document": "202409031120000",
+            "description": "PIX - ENVIADO - 03/09 14:12 TICKET LOG",
+            "amount": -1200.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240904",
+            "document": "2024090401022195",
+            "description": "BB CONSÓRCIO-CARTA CRÉDIT - BB ADMINISTRADORA DE CONSORCIOS S.A",
+            "amount": 10221.95,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240904",
+            "document": "2024090411300100",
+            "description": "PIX - ENVIADO - 04/09 15:54 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -13001.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "202409050200000",
+            "description": "COBRANÇA",
+            "amount": 2000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905047137",
+            "description": "PIX - RECEBIDO - 05/09 07:30 22420969820 PRISCILA PAIVA",
+            "amount": 471.37,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "969820"
+        },
+        {
+            "date": "20240905",
+            "document": "20240905035083",
+            "description": "PIX - RECEBIDO - 05/09 07:58 25894570816 ADRIANA YUMIKO",
+            "amount": 350.83,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "570816"
+        },
+        {
+            "date": "20240905",
+            "document": "202409051282285",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -2822.85,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240905",
+            "document": "20240905027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906065000",
+            "description": "PIX - RECEBIDO - 06/09 05:40 00005839062812 LUCIA HELEN",
+            "amount": 650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "839062"
+        },
+        {
+            "date": "20240906",
+            "document": "20240906043334",
+            "description": "PIX - RECEBIDO - 06/09 05:43 00029802218804 LUCIANA VIE",
+            "amount": 433.34,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "802218"
+        },
+        {
+            "date": "20240906",
+            "document": "202409061108334",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1083.34,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "202409061679004",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6790.04,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "202409060679004",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6790.04,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240906",
+            "document": "20240906027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409090381000",
+            "description": "PIX - RECEBIDO - 08/09 09:54 00049641530100 GISELE DONA",
+            "amount": 3810.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "641530"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909057500",
+            "description": "PIX - RECEBIDO - 07/09 07:08 21257782894 FERNANDO PELLI",
+            "amount": 575.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "782894"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909026000",
+            "description": "PIX - RECEBIDO - 07/09 07:53 11186781840 MARCIA DE CAMP",
+            "amount": 260.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "781840"
+        },
+        {
+            "date": "20240909",
+            "document": "20240909055000",
+            "description": "PIX - RECEBIDO - 08/09 12:06 36829903807 NATASHA SACCO",
+            "amount": 550.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "903807"
+        },
+        {
+            "date": "20240909",
+            "document": "202409091519500",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -5195.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409091693706",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6937.06,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "202409090693706",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6937.06,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "20240909127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240909",
+            "document": "20240909027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910054750",
+            "description": "PIX - RECEBIDO - 10/09 06:13 00016753494871 LUCIANA A S",
+            "amount": 547.5,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "753494"
+        },
+        {
+            "date": "20240910",
+            "document": "20240910154750",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -547.5,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "202409101694370",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6943.7,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "202409100694370",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6943.7,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910163631",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
+            "amount": -636.31,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910063631",
+            "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
+            "amount": 636.31,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910188147",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
+            "amount": -881.47,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910088147",
+            "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
+            "amount": 881.47,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240910",
+            "document": "20240910027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409110175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409111175000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1750.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409111695033",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6950.33,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "202409110695033",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6950.33,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "20240911127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240911",
+            "document": "20240911027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409120175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409121175000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -1750.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409121695697",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6956.97,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "202409120695697",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6956.97,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "20240912127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240912",
+            "document": "20240912027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409131317286",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -3172.86,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409130317286",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 3172.86,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409131696362",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6963.62,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "202409130696362",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6963.62,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "20240913127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240913",
+            "document": "20240913027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916060000",
+            "description": "PIX - RECEBIDO - 16/09 06:07 17045688890 SILVIA LETICIA",
+            "amount": 600.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "688890"
+        },
+        {
+            "date": "20240916",
+            "document": "20240916160000",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -600.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "202409161697490",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6974.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "202409160697490",
+            "description": "ESTORNO DE DÉBITO",
+            "amount": 6974.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916127727",
+            "description": "PAGTO PREMIO SEGURO - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240916",
+            "document": "20240916027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "2024091705000000",
+            "description": "PIX - RECEBIDO - 17/09 13:37 54575080000132 CRISTAL E S",
+            "amount": 50000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "080000"
+        },
+        {
+            "date": "20240917",
+            "document": "2024091712966080",
+            "description": "PIX - ENVIADO - 17/09 14:12 MARCUS VINICIUS MACHADO GO",
+            "amount": -29660.8,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171100000",
+            "description": "PIX - ENVIADO - 17/09 14:15 MARIA ISABELA GOMES CORRÊA",
+            "amount": -1000.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171336000",
+            "description": "PIX - ENVIADO - 17/09 14:18 JÉSSICA PEREIRA DA SILVA",
+            "amount": -3360.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171311100",
+            "description": "PAGAMENTO DE BOLETO - BANCO DO BRASIL S/A - BRASILIA",
+            "amount": -3111.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171330000",
+            "description": "PIX - ENVIADO - 17/09 19:07 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -3300.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171257696",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -2576.96,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "202409171698158",
+            "description": "BB GIRO PRONAMPE",
+            "amount": -6981.58,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "20240917127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240917",
+            "document": "20240917027727",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.27,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091803041",
+            "description": "CAP GIRO DIGITAL ESTORNO",
+            "amount": 30.41,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "202409180168426",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 1684.26,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091801939",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 19.39,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "202409180221000",
+            "description": "PIX - RECEBIDO - 18/09 12:37 17174890873 MONICA DE AZEV",
+            "amount": 2210.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "890873"
+        },
+        {
+            "date": "20240918",
+            "document": "20240918190145",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO",
+            "amount": -901.45,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "20240918165074",
+            "description": "BB CONSÓRCIO - PRESTAÇÃO",
+            "amount": -650.74,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091815836",
+            "description": "CAP GIRO DIG AMORTIZAÇÃO",
+            "amount": -58.36,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "2024091812000",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 17/09/2024",
+            "amount": -20.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240918",
+            "document": "20240918127727",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.27,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240919",
+            "document": "2024091905712",
+            "description": "CAP GIRO DIGITAL ESTORNO",
+            "amount": 57.12,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240919",
+            "document": "202409190150000",
+            "description": "PIX - RECEBIDO - 19/09 16:01 43372119000106 NICLO'S COM",
+            "amount": 1500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "119000"
+        },
+        {
+            "date": "20240919",
+            "document": "202409191354590",
+            "description": "PIX - ENVIADO - 19/09 18:42 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -3545.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "202409200325000",
+            "description": "COBRANÇA",
+            "amount": 3250.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "202409201330712",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -3307.12,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "2024092019990",
+            "description": "PAGAMENTOS DIVERSOS - CIELO",
+            "amount": -99.9,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240920",
+            "document": "2024092009990",
+            "description": "ESTORNO DE DÉBITO - CIELO",
+            "amount": 99.9,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "202409230175000",
+            "description": "COBRANÇA",
+            "amount": 1750.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "20240923050000",
+            "description": "PIX - RECEBIDO - 22/09 07:43 00035037985870 KARLA SENGE",
+            "amount": 500.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "037985"
+        },
+        {
+            "date": "20240923",
+            "document": "202409231224000",
+            "description": "PIX - ENVIADO - 23/09 18:01 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -2240.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240923",
+            "document": "2024092311000",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -10.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409240198",
+            "description": "CIELO VENDAS DÉBITO",
+            "amount": 1.98,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409241513918",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -5139.18,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409240513918",
+            "description": "ESTORNO DE DÉBITO - EMPRESARIAL VISA",
+            "amount": 5139.18,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240924",
+            "document": "202409241198",
+            "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 19/09/2024",
+            "amount": -1.98,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925058333",
+            "description": "PIX - RECEBIDO - 25/09 05:41 00020085093890 ANA CARLA P",
+            "amount": 583.33,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "085093"
+        },
+        {
+            "date": "20240925",
+            "document": "20240925158333",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -583.33,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240925",
+            "document": "20240925027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "2024092609814",
+            "description": "CIELO VENDAS DÉBITO",
+            "amount": 98.14,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926087296",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 872.96,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926197110",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -971.1,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240926",
+            "document": "20240926027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "202409270206451",
+            "description": "COBRANÇA",
+            "amount": 2064.51,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "202409271190000",
+            "description": "PIX - ENVIADO - 27/09 20:21 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -1900.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927116451",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -164.51,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240927",
+            "document": "20240927027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409300173646",
+            "description": "CIELO ANTECIPAÇÃO DE RECE",
+            "amount": 1736.46,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409300165000",
+            "description": "PIX - RECEBIDO - 30/09 10:47 40901286000109 CLINICA DE",
+            "amount": 1650.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "286000"
+        },
+        {
+            "date": "20240930",
+            "document": "202409300180000",
+            "description": "PIX - RECEBIDO - 30/09 15:18 44388803000130 MMG LOCACAO",
+            "amount": 1800.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "803000"
+        },
+        {
+            "date": "20240930",
+            "document": "202409301382500",
+            "description": "PIX - ENVIADO - 30/09 16:11 BRUNA ZAVATI ZAVITOSKI",
+            "amount": -3825.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409301125900",
+            "description": "PIX - ENVIADO - 30/09 16:24 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -1259.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "202409301500",
+            "description": "PIX - ENVIADO - 30/09 17:57 MMG LOCACAO DE MAQUINAS LT",
+            "amount": -5.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "2024093019746",
+            "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
+            "amount": -97.46,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "20240930127721",
+            "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
+            "amount": -277.21,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": ""
+        },
+        {
+            "date": "20240930",
+            "document": "20240930027721",
+            "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
+            "amount": 277.21,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": ""
+        }
+    ]
+}

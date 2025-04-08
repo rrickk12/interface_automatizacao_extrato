@@ -1,0 +1,159 @@
+/* ===== Área Principal ===== */
+#aba-regras {
+  padding: 2rem 1rem;
+  background-color: #f9f9fb;
+}
+
+/* ===== Título ===== */
+#aba-regras h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2f3640;
+  font-size: 1.6rem;
+}
+
+/* ===== Ações (botões superiores) ===== */
+#rules-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#rules-actions button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  background-color: #dcdde1;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+#rules-actions button:hover {
+  background-color: #b2bec3;
+  cursor: pointer;
+}
+
+/* ===== Tabela de Regras ===== */
+#tabela-regras {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Bloco visual por regra */
+.rule-row-top,
+.rule-row-bottom {
+  background-color: #ffffff;
+}
+
+.rule-row-top td,
+.rule-row-bottom td {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #ffffff;
+}
+.rule-row-bottom td {
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+/* Rounded top for top row */
+.rule-row-top td {
+  border-radius: 8px 8px 0 0;
+}
+/* Spacer row to add space between blocks */
+.rule-spacer-row td {
+  padding: 0.3rem;
+  background-color: #f9f9fb;
+  border: none;
+  
+}
+.rule-spacer-row:hover {
+  padding: 0.3rem;
+  background-color: #f9f9fb;
+  border: none;
+  
+}
+.rule-row-top td,
+.rule-row-bottom td {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.rule-row-top {
+  background-color: #f0f2f5;
+}
+
+.rule-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-right: 1.2rem;
+  font-size: 0.92rem;
+  color: #333;
+  flex-wrap: wrap;
+}
+
+.rule-row input,
+.rule-row select {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  min-width: 140px;
+}
+
+.rule-row input:focus,
+.rule-row select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* ===== Botão de remover ===== */
+.remove-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 0.45rem 0.7rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+  cursor: pointer;
+}
+
+.rule-row-top td > div {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #718093;
+}
+
+
+/* ===== Responsivo ===== */
+@media (max-width: 768px) {
+  .rule-row label {
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+
+  .rule-row input,
+  .rule-row select {
+    width: 100%;
+  }
+
+  .remove-btn {
+    display: block;
+    margin: 1rem auto 0 auto;
+  }
+}
+
+
+.rule-row-top td > div {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #718093;
+}

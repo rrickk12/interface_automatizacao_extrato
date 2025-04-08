@@ -32,7 +32,7 @@ def conciliar_extrato_contatos(lancamentos: list, caminho_contatos_csv: str) -> 
                         matches.append(row.to_dict())
             lanc["possiveis_contatos"] = matches
 
-        elif len(apenas_numeros) == 14:
+        elif len(apenas_numeros) > 11:
             matches = []
             for _, row in df_contatos.iterrows():
                 cnpj_contato = str(

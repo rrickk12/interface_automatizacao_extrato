@@ -1,0 +1,19 @@
+form#form-regra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  form#form-regra input,
+  form#form-regra select {
+    width: 100%;
+    padding: 0.45rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+  }
+  

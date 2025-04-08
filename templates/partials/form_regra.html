@@ -1,0 +1,25 @@
+<!-- Formulário para Adicionar Nova Regra -->
+<form id="form-regra">
+    <input name="descricao_contain" placeholder="Descrição contém (vírgula separada)">
+    <select name="transaction_type">
+      <option value="Indefinido">Indefinido</option>
+      <option value="Crédito">Crédito</option>
+      <option value="Débito">Débito</option>
+    </select>
+    <input name="contato_igual" placeholder="Parte do nome do contato (opcional)">
+    <select name="tipo">
+      <option value="">Selecione o tipo</option>
+      {% for t in tipos %}
+        <option value="{{ t }}">{{ t }}</option>
+      {% endfor %}
+    </select>
+    <select name="categoria">
+      <option value="">Selecione a categoria</option>
+      {% for c in config_json.categorias_por_tipo %}
+        <option value="{{ c }}">{{ c }}</option>
+      {% endfor %}
+    </select>
+    <input name="memo_rule" placeholder="Memo (preenchimento automático)">
+    <button type="button" onclick="adicionarRegra()">Salvar regra</button>
+  </form>
+  

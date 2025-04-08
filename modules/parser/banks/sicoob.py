@@ -4,12 +4,13 @@ import logging
 from modules.parser.base_parser import BankParser
 from modules.reconciler.utils import extrair_digitos
 
-
 class SicoobParser(BankParser):
 
     def parse_transactions(self, statement_data: dict) -> list:
         """
         Processa os lançamentos, adicionando tipo de transação e extraindo CPF/CNPJ parcial.
+        Para CNPJ, extrai o número completo (14 dígitos). Para CPF mascarado (***.xxx.xxx-**),
+        extrai os últimos 6 dígitos.
         """
         transactions = statement_data.get("transactions", [])
         enriched = []
@@ -25,22 +26,26 @@ class SicoobParser(BankParser):
             desc = tx.get("description", "")
             cpf_cnpj_parcial = ""
 
-            # Tenta extrair CPF completo (sem máscara)
+            # Tenta extrair CPF completo (sem máscara) – retorna apenas os últimos 6 dígitos
             match_cpf = re.search(r"\d{3}[.\s]?\d{3}[.\s]?\d{3}-?\d{2}", desc)
             if match_cpf:
                 cpf_cnpj_parcial = extrair_digitos(match_cpf.group(0))[-6:]
 
-            # Tenta extrair CPF com máscara parcial (ex: ***.985.678-**)
+            # Tenta extrair CPF mascarado (ex: ***.985.678-**)
             if not cpf_cnpj_parcial:
                 match_mascarado = re.search(r"\*{3}[.\s]?(\d{3})[.\s]?(\d{3})-\*{2}", desc)
                 if match_mascarado:
                     cpf_cnpj_parcial = match_mascarado.group(1) + match_mascarado.group(2)
 
-            # Tenta extrair CNPJ completo
+            # Tenta extrair CNPJ completo – agora retorna o número completo (14 dígitos)
             if not cpf_cnpj_parcial:
                 match_cnpj = re.search(r"\d{2}[.\s]?\d{3}[.\s]?\d{3}[\/\s]?\d{4}-?\d{2}", desc)
                 if match_cnpj:
-                    cpf_cnpj_parcial = extrair_digitos(match_cnpj.group(0))[-6:]
+                    cnpj = extrair_digitos(match_cnpj.group(0))
+                    if len(cnpj) == 14:
+                        cpf_cnpj_parcial = cnpj
+                    else:
+                        cpf_cnpj_parcial = cnpj[-6:]
 
             # Fallback: últimos 6 dígitos de qualquer número longo
             if not cpf_cnpj_parcial:
@@ -120,6 +125,7 @@ class SicoobParser(BankParser):
 
                     amount = self._parse_amount(value_text)
 
+                    # Se a descrição contiver "SALDO DO DIA", pula essa linha
                     if "SALDO DO DIA" in description.upper():
                         continue
 
@@ -129,6 +135,11 @@ class SicoobParser(BankParser):
                         "description": description,
                         "amount": amount
                     })
+
+        # Exclui as duas últimas transações (presumindo que são sempre "SALDO BLOQUEADO ANTERIOR"
+        # e "SALDO ANTERIOR")
+        if len(transactions) >= 2:
+            transactions = transactions[:-2]
 
         result["transactions"] = transactions
 

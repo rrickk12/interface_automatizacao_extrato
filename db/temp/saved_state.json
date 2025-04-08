@@ -1,282 +1,522 @@
 [
   {
-    "tipo": "Impostos",
-    "categoria": "Despesas financeiras",
-    "status": "validated"
-  },
-  {
-    "tipo": "Transferência",
+    "tipo": "",
     "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
-    "status": "validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Fixas",
-    "categoria": "Compra de ativos",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
-    "status": "validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Fixas",
-    "categoria": "Despesas administrativas",
-    "status": "validated"
-  },
-  {
-    "tipo": "Despesas Fixas",
-    "categoria": "Despesas administrativas",
-    "status": "validated"
-  },
-  {
-    "tipo": "Despesas Fixas",
-    "categoria": "Despesas administrativas",
-    "status": "validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Fixas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
-    "status": "validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Transferência",
-    "categoria": "",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Marketing",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Pessoas",
-    "categoria": "Despesas administrativas",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
+    "status": "pending"
   },
   {
     "tipo": "",
     "categoria": "",
-    "status": "validated"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
-    "status": "validated"
-  },
-  {
-    "tipo": "Despesas Variaveis",
-    "categoria": "Custos operacionais",
-    "status": "auto-classificado validated"
-  },
-  {
-    "tipo": "Recebimentos",
-    "categoria": "Locação de equipamentos",
     "status": "pending"
   },
   {
-    "tipo": "Transferência",
+    "tipo": "",
     "categoria": "",
-    "status": "auto-classificado validated"
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
+  },
+  {
+    "tipo": "",
+    "categoria": "",
+    "status": "pending"
   }
 ]

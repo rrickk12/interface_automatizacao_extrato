@@ -1,0 +1,28 @@
+<!-- Seção de Relatório (Transações) -->
+<div id="aba-transacoes" class="aba visible">
+    <h2>Relatório de Transações</h2>
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th class="thdata">Data</th>
+            <th class="thdescription">Descrição</th>
+            <th class="thvalor">Valor</th>
+            <th class="thtipotransacao">Tipo Transação</th>
+            <th class="thdocumento">Documento</th>
+            <th class="thcontato">Contato</th>
+            <th class="thtipo">Tipo</th>
+            <th class="thcategoria">Categoria</th>
+            <th class="thmemo">Memo</th>
+            <th class="thstatus">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in data %}
+            {% include "partials/row.html" %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

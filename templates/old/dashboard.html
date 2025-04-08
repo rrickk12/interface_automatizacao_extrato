@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Seção para Upload do Arquivo HTML -->
+<div id="upload-html">
+  <h3>Carregar Arquivo HTML</h3>
+  <form id="upload-form" enctype="multipart/form-data">
+    <input type="file" id="html-file-input" name="extrato_file" accept=".html,.ofx">
+    <select id="banco-select" name="banco">
+      <option value="sicoob">Sicoob (HTML)</option>
+      <option value="bb">Banco do Brasil (OFX)</option>
+    </select>
+    <button type="button" onclick="uploadHTML()">Carregar HTML</button>
+
+    <button id="process-btn" type="button" onclick="runPipeline()">🚀 Executar Pipeline</button>
+  </form>
+</div>
+
+<!-- Seção de Relatório (Transações) -->
+<div id="aba-transacoes" class="aba visible">
+  <h2>Relatório de Transações</h2>
+  <div class="table-responsive">
+    <table>
+      <thead>
+        <tr>
+          <th class="thdata">Data</th>
+          <th class="thdescription">Descrição</th>
+          <th class="thvalor">Valor</th>
+          <th class="thtipotransacao">Tipo Transação</th>
+          <th class="thdocumento">Documento</th>
+          <th class="thcontato">Contato</th>
+          <th class="thtipo">Tipo</th>
+          <th class="thcategoria">Categoria</th>
+          <th class="thmemo">Memo</th>
+          <th class="thstatus">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in data %}
+          {% include "partials/row.html" %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Seção de Gerenciador de Regras -->
+<div id="aba-regras" class="aba">
+  <h2>Gerenciador de Regras</h2>
+  
+  <!-- Botões de Ação para as Regras -->
+  <div id="rules-actions" style="margin: 10px 0;">
+    <button type="button" onclick="saveRules()">💾 Save Rules</button>
+    <button type="button" onclick="loadRules()">📥 Load Rules</button>
+    <button type="button" onclick="cleanRules()">🧹 Clean Rules</button>
+    <button type="button" onclick="exportRules()">📄 Export Rules</button>
+    <button type="button" onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
+    <input type="file" id="import-rules-input" style="display: none;">
+  </div>
+  
+  <!-- Tabela para Exibir as Regras (Sem Regex) -->
+  <div class="table-responsive">
+    <table id="tabela-regras">
+      <thead>
+        <tr>
+          <th class="thdesccontain">Descrição Contém</th>
+          <th class="thtransactionType">Tipo Transação</th>
+          <th class="thcontato">Contato (parcial)</th>
+          <th class="thtipo">Tipo</th>
+          <th class="thcategoria">Categoria</th>
+          <th class="thmemo">Memo</th>
+          <th class="thacoes">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Será preenchido dinamicamente pelo JS -->
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Formulário para Adicionar Nova Regra (Removendo Regex) -->
+  <form id="form-regra">
+    <input type="text" name="descricao_contain" placeholder="Descrição contém (vírgula separada)">
+    
+    <!-- Tipo de Transação -->
+    <select name="transaction_type">
+      <option value="Indefinido">Indefinido</option>
+      <option value="Crédito">Crédito</option>
+      <option value="Débito">Débito</option>
+    </select>
+    
+    <!-- Contato (parcial) -->
+    <input type="text" name="contato_igual" placeholder="Parte do nome do contato (opcional)">
+    
+    <!-- Tipo (Ex.: Recebimentos, Transferência, etc.) -->
+    <select name="tipo">
+      <option value="">Selecione o Tipo</option>
+      <option value="Recebimentos">Recebimentos</option>
+      <option value="Transferência">Transferência</option>
+      <!-- Outras opções -->
+    </select>
+    
+    <!-- Categoria (Ex.: Locação de equipamentos, Custos operacionais etc.) -->
+    <select name="categoria">
+      <option value="">Selecione a Categoria</option>
+      <option value="Locação de equipamentos">Locação de equipamentos</option>
+      <!-- Outras opções -->
+    </select>
+    
+    <!-- Memo -->
+    <input type="text" name="memo_rule" placeholder="Memo (preenchimento automático)">
+    
+    <button type="button" onclick="adicionarRegra()">Salvar Regra</button>
+  </form>
+</div>
+
+
+  
+
+<!-- Aba de Contatos -->
+<div id="aba-contatos" class="aba">
+  <h2>Gerenciador de Contatos</h2>
+  
+  <!-- Botões de Ação para Contatos -->
+  <div id="contacts-actions" style="margin: 10px 0;">
+    <button onclick="showAddContactForm()">➕Adicionar Contato</button>
+    <button type="button" onclick="exportContacts()">📄 Exportar Contatos</button>
+    <button type="button" onclick="document.getElementById('import-contacts-input').click()">📂 Importar Contatos</button>
+    <input type="file" id="import-contacts-input" style="display: none;">
+  </div>
+  <!-- Botão para exibir o formulário -->
+
+
+<!-- Container do formulário (pode ser um modal ou uma div fixa) -->
+<div id="addContactFormContainer" style="display: none; border: 1px solid #ccc; padding: 1rem; background: #f9f9f9;">
+  <h3>Adicionar Novo Contato</h3>
+  <form id="addContactForm">
+    <div>
+      <label for="cpf_cnpj">CPF/CNPJ:</label>
+      <input type="text" id="cpf_cnpj" name="cpf_cnpj" required>
+    </div>
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    <div>
+      <label for="razao_social">Razão Social:</label>
+      <input type="text" id="razao_social" name="razao_social">
+    </div>
+    <div>
+      <label for="nome_fantasia">Nome Fantasia:</label>
+      <input type="text" id="nome_fantasia" name="nome_fantasia">
+    </div>
+    <!-- Se não usar 'socios' pode ser omitido ou definido como oculto -->
+    <div>
+      <button type="submit">Adicionar Contato</button>
+      <button type="button" onclick="hideAddContactForm()">Cancelar</button>
+    </div>
+  </form>
+</div>
+  <!-- Tabela para Exibir os Contatos -->
+  <div class="table-responsive">
+    <table id="tabela-contatos">
+      <thead>
+        <tr>
+          <th>CPF/CNPJ</th>
+          <th>Nome</th>
+          <th>Razão Social</th>
+          <th>Nome Fantasia</th>
+          <th>Sócios</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Será preenchido dinamicamente -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts_extra %}
+  <!-- Inclua jQuery e DataTables se ainda não estiverem incluídos -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#minha-tabela').DataTable({
+        "order": [[3, "asc"]] // Ordena pela quarta coluna (Tipo Transação)
+      });
+    });
+  </script>
+{% endblock %}

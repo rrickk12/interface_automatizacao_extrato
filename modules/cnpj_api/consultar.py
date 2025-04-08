@@ -28,7 +28,18 @@ def save_cache(cache_path: str, cnpj: str, resultado: dict):
     except Exception as e:
         logging.error(f"Erro ao salvar o cache em {cache_path}: {e}")
 
-def consultar_cnpj(cnpj: str, cache_path: str = "db/cnpj_cache.json", max_retries: int = 3, wait_time: int = 3, fonte: str = "cnpja") -> dict:
+def consultar_cnpj(
+    cnpj: str,
+    cache_path: str = "db/cnpj_cache.json",
+    max_retries: int = 3,
+    wait_time: int = 3,
+    fonte: str = "cnpja"
+) -> dict:
+    """
+    Consulta o CNPJ na API, mas primeiro verifica se ele já foi consultado
+    e está presente no cache. Se sim, retorna os dados do cache.
+    Caso contrário, tenta consultar a API (até max_retries tentativas).
+    """
     cnpj_normalizado = normalize_cnpj(cnpj)
 
     if not cnpj_normalizado or cnpj_normalizado == "00000000000000" or len(cnpj_normalizado) != 14:
@@ -48,7 +59,6 @@ def consultar_cnpj(cnpj: str, cache_path: str = "db/cnpj_cache.json", max_retrie
             logging.info("Consulta ao CNPJ %s bem-sucedida.", cnpj_normalizado)
             save_cache(cache_path, cnpj_normalizado, resultado)
             return resultado
-
         attempt += 1
         logging.warning("Tentativa %d para consultar CNPJ %s falhou. Retentando em %d segundos...", attempt, cnpj_normalizado, wait_time)
         time.sleep(wait_time)

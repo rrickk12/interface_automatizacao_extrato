@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    body {
+      font-size: 0.875rem;
+    }
+  
+    form#form-regra {
+      grid-template-columns: 1fr;
+    }
+  
+    #export-btn {
+      width: 100%;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+  
+    .container {
+      padding: 0 1rem;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+<!-- Seção de Gerenciador de Regras -->
+<div id="aba-regras" class="aba">
+    <h2>Gerenciador de Regras</h2>
+  
+    <div id="rules-actions" style="margin: 10px 0;">
+      <button type="button" onclick="saveRules()">💾 Save Rules</button>
+      <button type="button" onclick="loadRules()">📥 Load Rules</button>
+      <button type="button" onclick="cleanRules()">🧹 Clean Rules</button>
+      <button type="button" onclick="exportRules()">📄 Export Rules</button>
+      <button type="button" onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
+      <input type="file" id="import-rules-input" style="display: none;">
+    </div>
+    {% include "partials/form_regra.html" %}
+    <div class="table-responsive">
+      <table id="tabela-regras">
+        <tbody>
+          <!-- Preenchido pelo JS -->
+        </tbody>
+      </table>
+    </div>
+  
+
+  </div>
+  

@@ -1,0 +1,31 @@
+<!-- Aba de Contatos -->
+<div id="aba-contatos" class="aba">
+    <h2>Gerenciador de Contatos</h2>
+  
+    <div id="contacts-actions" style="margin: 10px 0;">
+      <button onclick="showAddContactForm()">➕Adicionar Contato</button>
+      <button type="button" onclick="exportContacts()">📄 Exportar Contatos</button>
+      <button type="button" onclick="document.getElementById('import-contacts-input').click()">📂 Importar Contatos</button>
+      <input type="file" id="import-contacts-input" style="display: none;">
+    </div>
+  
+    {% include "partials/form_contato.html" %}
+  
+    <div class="table-responsive">
+      <table id="tabela-contatos">
+        <thead>
+          <tr>
+            <th>CPF/CNPJ</th>
+            <th>Nome</th>
+            <th>Razão Social</th>
+            <th>Nome Fantasia</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Preenchido pelo JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

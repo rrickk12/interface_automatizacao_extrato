@@ -1,0 +1,38 @@
+<tr class="pending" data-tipo-transacao="{{ item.transaction_type }}">
+  <td class="thdata">{{ item.get('date', '') }}</td>
+  <td class="thdescription">{{ item.get('description', '') }}</td>
+  <td class="thvalor">{{ item.get('amount', '') }}</td>
+  <td class="thtipotransacao {% if item.get('transaction_type', '') == 'Débito' %}debito{% elif item.get('transaction_type', '') == 'Crédito' %}credito{% endif %}">
+    {{ item.get('transaction_type', '') }}
+  </td>
+  
+  <td class="thdocumento">{{ item.get('document', '') }}</td>
+  <td class="thcontato">
+    <!-- Campo editável para contato parcial -->
+    <input type="text" name="contato_parcial" value="{{ item.get('contato', {}).get('nome', '-') }}" 
+           class="{{ 'contato-alert' if not item.get('contato', {}).get('cpf_cnpj') else '' }}">
+  </td>
+  <td class="thtipo">
+    <select name="categoria_tipo" onchange="atualizarCategorias(this)">
+      <option value="">Selecione</option>
+      {% for tipo in tipos %}
+        <option value="{{ tipo }}" {% if item.get('categoria_tipo') == tipo %}selected{% endif %}>{{ tipo }}</option>
+      {% endfor %}
+    </select>
+  </td>
+  <td class="thcategoria">
+    <select name="categoria_nome">
+      <option value="">Selecione</option>
+      {% if item.get('categoria_nome') %}
+        <option value="{{ item.get('categoria_nome') }}" selected>{{ item.get('categoria_nome') }}</option>
+      {% endif %}
+    </select>
+  </td>
+  <td class="thmemo">
+    <input type="text" name="memo" value="{{ item.get('memo', '') }}" placeholder="Digite uma descrição">
+  </td>
+  <td class="thstatus">
+    <button class="status-btn" onclick="setStatus(this, 'validated')">✅</button>
+    <button class="status-btn" onclick="setStatus(this, 'canceled')">❌</button>
+  </td>
+</tr>

@@ -1,0 +1,20 @@
+"transactions": [
+        {
+            "date": "26/12/2024",
+            "document": "Pix",
+            "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.536.998-**",
+            "amount": -550.0,
+            "transaction_type": "Débito",
+            "cpf_cnpj_parcial": "536998",
+            "possiveis_contatos": []
+        }, 
+
+        {
+            "date": "26/08/2024",
+            "document": "Pix",
+            "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nJOSE MARCOS GONCALVES\n***.536.998-**",
+            "amount": 6000.0,
+            "transaction_type": "Crédito",
+            "cpf_cnpj_parcial": "536998",
+            "possiveis_contatos": []
+        },

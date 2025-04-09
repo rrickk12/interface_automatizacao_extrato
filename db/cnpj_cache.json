@@ -1,4 +1,36 @@
 {
+  "01515951000166": {
+    "cnpj": "01515951000166",
+    "razao_social": "CHIARELLI CONTABILIDADE S/S LTDA",
+    "nome_fantasia": "Chiarelli Contabilidade",
+    "qsa": [
+      {
+        "nome_socio": "Orlando Chiarelli",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***121799**"
+      },
+      {
+        "nome_socio": "Marcos Cardoso de Moraes",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***233288**"
+      }
+    ]
+  },
+  "02754732000100": {
+    "cnpj": "02754732000100",
+    "razao_social": "ROBERT JAGER RESTAURANTE LTDA",
+    "nome_fantasia": "",
+    "qsa": [
+      {
+        "nome_socio": "Robert Jager",
+        "tipo": "NATURAL",
+        "faixa_etaria": "61-70",
+        "tax_id": "***853306**"
+      }
+    ]
+  },
   "03506307000157": {
     "cnpj": "03506307000157",
     "razao_social": "TICKET SOLUCOES HDFGT S/A",
@@ -45,158 +77,6 @@
         "tipo": "NATURAL",
         "faixa_etaria": "31-40",
         "tax_id": "***588878**"
-      }
-    ]
-  },
-  "19468242000132": {
-    "cnpj": "19468242000132",
-    "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
-    "nome_fantasia": "Zoop Brasil",
-    "qsa": [
-      {
-        "nome_socio": "Fabiano Teixeira da Cruz",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***951767**"
-      },
-      {
-        "nome_socio": "Ricardo Oishi Sonoda",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***761648**"
-      },
-      {
-        "nome_socio": "Andre Luiz Fonseca da Silva Martins",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***351418**"
-      }
-    ]
-  },
-  "20729204000175": {
-    "cnpj": "20729204000175",
-    "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
-    "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
-    "qsa": [
-      {
-        "nome_socio": "Marcelo Augusto Farias Jasset",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***878637**"
-      }
-    ]
-  },
-  "30383069000102": {
-    "cnpj": "30383069000102",
-    "razao_social": "PERSONALITE RECUPERACAO DE CREDITO LTDA",
-    "nome_fantasia": "Personalite Recuperacao de Credito",
-    "qsa": [
-      {
-        "nome_socio": "Edson Vieira Xavier",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***290248**"
-      },
-      {
-        "nome_socio": "Fabio Lavor Pereira",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***284857**"
-      }
-    ]
-  },
-  "35727790000196": {
-    "cnpj": "35727790000196",
-    "razao_social": "EASY SEGUROS MEDICOS LTDA",
-    "nome_fantasia": "Easy Seguros Medicos",
-    "qsa": [
-      {
-        "nome_socio": "Humberto de Mattos Carrilho",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***243918**"
-      },
-      {
-        "nome_socio": "Harlaine Ribeiro Luna",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***384810**"
-      }
-    ]
-  },
-  "42876309000190": {
-    "cnpj": "42876309000190",
-    "razao_social": "MICHEL ALEXANDRE DE PAULA 39977974802",
-    "nome_fantasia": "",
-    "qsa": []
-  },
-  "44388803000130": {
-    "cnpj": "44388803000130",
-    "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Guilherme Borelli",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***985678**"
-      },
-      {
-        "nome_socio": "Marcus Vinicius Machado Goncalves",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***877988**"
-      }
-    ]
-  },
-  "47105254000138": {
-    "cnpj": "47105254000138",
-    "razao_social": "INFINITY COMPANY BY GG LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Gabrieli Zago",
-        "tipo": "NATURAL",
-        "faixa_etaria": "21-30",
-        "tax_id": "***836968**"
-      }
-    ]
-  },
-  "54668555000135": {
-    "cnpj": "54668555000135",
-    "razao_social": "SUELLEN D. DA S. MENDES ESTETICA",
-    "nome_fantasia": "Dra. Suellen Mendes",
-    "qsa": []
-  },
-  "01515951000166": {
-    "cnpj": "01515951000166",
-    "razao_social": "CHIARELLI CONTABILIDADE S/S LTDA",
-    "nome_fantasia": "Chiarelli Contabilidade",
-    "qsa": [
-      {
-        "nome_socio": "Orlando Chiarelli",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***121799**"
-      },
-      {
-        "nome_socio": "Marcos Cardoso de Moraes",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***233288**"
-      }
-    ]
-  },
-  "02754732000100": {
-    "cnpj": "02754732000100",
-    "razao_social": "ROBERT JAGER RESTAURANTE LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Robert Jager",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***853306**"
       }
     ]
   },
@@ -307,17 +187,34 @@
       }
     ]
   },
-  "19305880000132": {
-    "cnpj": "19305880000132",
-    "razao_social": "R GUIDON",
-    "nome_fantasia": "R Guidon",
-    "qsa": []
+  "19468242000132": {
+    "cnpj": "19468242000132",
+    "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+    "nome_fantasia": "Zoop Brasil",
+    "qsa": [
+      {
+        "nome_socio": "Fabiano Teixeira da Cruz",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***951767**"
+      },
+      {
+        "nome_socio": "Ricardo Oishi Sonoda",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***761648**"
+      },
+      {
+        "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***351418**"
+      }
+    ]
   },
-  "19549581000143": {
-    "cnpj": "19549581000143",
-    "razao_social": "ANDRE VORONIUK DE FIGUEIREDO",
-    "nome_fantasia": "Bcinovatec - Alem da Inovacao em Tecnologia",
-    "qsa": []
+  "20729204000175": {
+    "cnpj": "20729204000175",
+    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175"
   },
   "32724713000194": {
     "cnpj": "32724713000194",
@@ -329,13 +226,16 @@
   },
   "33497436000197": {
     "cnpj": "33497436000197",
-    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33497436000197"
-  },
-  "37415146000108": {
-    "cnpj": "37415146000108",
-    "razao_social": "BRUNO BARBOSA 34804460861",
-    "nome_fantasia": "",
-    "qsa": []
+    "razao_social": "THALITA ARAUJO ESTETICA E SAUDE INTEGRADA LTDA",
+    "nome_fantasia": "Thalita Araujo",
+    "qsa": [
+      {
+        "nome_socio": "Thalita Silva Araujo",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***690988**"
+      }
+    ]
   },
   "40710160000149": {
     "cnpj": "40710160000149",
@@ -388,6 +288,25 @@
       }
     ]
   },
+  "44388803000130": {
+    "cnpj": "44388803000130",
+    "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+    "nome_fantasia": "",
+    "qsa": [
+      {
+        "nome_socio": "Guilherme Borelli",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***985678**"
+      },
+      {
+        "nome_socio": "Marcus Vinicius Machado Goncalves",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***877988**"
+      }
+    ]
+  },
   "44556201000145": {
     "cnpj": "44556201000145",
     "razao_social": "CARLA ROCHA FARIAS ESTETICA AVANCADA LTDA",
@@ -398,6 +317,19 @@
         "tipo": "NATURAL",
         "faixa_etaria": "31-40",
         "tax_id": "***345458**"
+      }
+    ]
+  },
+  "47105254000138": {
+    "cnpj": "47105254000138",
+    "razao_social": "INFINITY COMPANY BY GG LTDA",
+    "nome_fantasia": "",
+    "qsa": [
+      {
+        "nome_socio": "Gabrieli Zago",
+        "tipo": "NATURAL",
+        "faixa_etaria": "21-30",
+        "tax_id": "***836968**"
       }
     ]
   },
@@ -442,35 +374,11 @@
   },
   "52305548000143": {
     "cnpj": "52305548000143",
-    "razao_social": "RHTZ SERVICOS MEDICOS LTDA",
-    "nome_fantasia": "Rhtz Servicos Medicos",
-    "qsa": [
-      {
-        "nome_socio": "Tarek Abdul Latif Majzoub",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***137738**"
-      }
-    ]
+    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143"
   },
   "52325738000122": {
     "cnpj": "52325738000122",
-    "razao_social": "LOCABEAUTE LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Julio Cesar Lopes Bezerra",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***506738**"
-      },
-      {
-        "nome_socio": "Amanda Xavier Antunes",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***556538**"
-      }
-    ]
+    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122"
   },
   "54575080000132": {
     "cnpj": "54575080000132",
@@ -478,462 +386,27 @@
   },
   "55499539000129": {
     "cnpj": "55499539000129",
-    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/55499539000129"
+    "razao_social": "L & M PLENITUDE E BELEZA LTDA",
+    "nome_fantasia": "Oligoflora Paulinia",
+    "qsa": [
+      {
+        "nome_socio": "Marilda Felix da Silva Pereira",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***278368**"
+      },
+      {
+        "nome_socio": "Alexandre Felix Pereira",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***436642**"
+      }
+    ]
   },
   "56779110000158": {
     "cnpj": "56779110000158",
-    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/56779110000158"
-  },
-  "05848810000116": {
-    "cnpj": "05848810000116",
-    "razao_social": "SESCAMP COMERCIO DE ALIMENTOS LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Sidnei do Espirito Santo",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***212228**"
-      },
-      {
-        "nome_socio": "Gabriela Rodrigues do Espirito Santo Donati",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***467738**"
-      }
-    ]
-  },
-  "18151164000185": {
-    "cnpj": "18151164000185",
-    "razao_social": "MARCELA HASTENREITER PORTES DUAR MOL",
-    "nome_fantasia": "Mh Uniq Esthetic",
+    "razao_social": "CAROLYNE MARTINS DE MARCHI",
+    "nome_fantasia": "Carol de Marchi Odontologia Especializada",
     "qsa": []
-  },
-  "18429680000129": {
-    "cnpj": "18429680000129",
-    "razao_social": "STEPHANIE LOLO BIOMEDICA ESTETA LTDA",
-    "nome_fantasia": "Stephanie Lolo Biomedica Esteta",
-    "qsa": [
-      {
-        "nome_socio": "Stephanie Almeida de Lolo",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***296018**"
-      }
-    ]
-  },
-  "31463285000120": {
-    "cnpj": "31463285000120",
-    "razao_social": "ANA SANCHES COSMETICOS E ESTETICA LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Samantha Regina Galo Sanches",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***860808**"
-      },
-      {
-        "nome_socio": "Newton Sanches Junior",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***368348**"
-      }
-    ]
-  },
-  "40656554000166": {
-    "cnpj": "40656554000166",
-    "razao_social": "INSTITUTO VIA ESTETICA LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Marcela Patera Ribeiro dos Santos",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***970208**"
-      },
-      {
-        "nome_socio": "Mariela Scheren",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***791580**"
-      }
-    ]
-  },
-  "40901286000109": {
-    "cnpj": "40901286000109",
-    "razao_social": "CLINICA DE ESTETICA JUNDIAI LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Thiago Luis Venturi",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***141728**"
-      }
-    ]
-  },
-  "43327671000174": {
-    "cnpj": "43327671000174",
-    "razao_social": "INFINITY CARE MED LOCACOES LTDA",
-    "nome_fantasia": "Infinity Care",
-    "qsa": [
-      {
-        "nome_socio": "Ivanildo Gomes Cazumba",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***845561**"
-      }
-    ]
-  },
-  "43776517000180": {
-    "cnpj": "43776517000180",
-    "razao_social": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO - SABESP",
-    "nome_fantasia": "Sabesp",
-    "qsa": [
-      {
-        "nome_socio": "Alexandre Goncalves Silva",
-        "tipo": "NATURAL",
-        "faixa_etaria": "71-80",
-        "tax_id": "***153817**"
-      },
-      {
-        "nome_socio": "Daniel Szlak",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***988698**"
-      },
-      {
-        "nome_socio": "Tiago de Almeida Noel",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***581217**"
-      },
-      {
-        "nome_socio": "Anderson Marcio de Oliveira",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***741924**"
-      },
-      {
-        "nome_socio": "Gustavo Rocha Gattass",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***302477**"
-      },
-      {
-        "nome_socio": "Claudia Polto da Cunha",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***276788**"
-      },
-      {
-        "nome_socio": "Nerylson Lima da Silva",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***475664**"
-      },
-      {
-        "nome_socio": "Karolina Fonseca Lima",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***926613**"
-      },
-      {
-        "nome_socio": "Tinn Freire Amado",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***589836**"
-      },
-      {
-        "nome_socio": "Karla Bertocco Trindade",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***211228**"
-      },
-      {
-        "nome_socio": "Augusto Miranda da Paz Junior",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***053015**"
-      },
-      {
-        "nome_socio": "Roberval Tavares de Souza",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***543688**"
-      },
-      {
-        "nome_socio": "Carlos Augusto Leone Piani",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***323737**"
-      },
-      {
-        "nome_socio": "Mateus Affonso Bandeira",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***483970**"
-      }
-    ]
-  },
-  "46995444000105": {
-    "cnpj": "46995444000105",
-    "razao_social": "LUANA ARAUJO BIOMEDICINA ESTETICA LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Luana da Silva Araujo",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***599508**"
-      }
-    ]
-  },
-  "48327325000100": {
-    "cnpj": "48327325000100",
-    "razao_social": "STATERA CORPO & MENTE LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Ricardo Carpintero Lauer",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***075848**"
-      }
-    ]
-  },
-  "57277724000102": {
-    "cnpj": "57277724000102",
-    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/57277724000102"
-  },
-  "62094636000105": {
-    "cnpj": "62094636000105",
-    "erro": "429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/62094636000105"
-  },
-  "13966572000171": {
-    "cnpj": "13966572000171",
-    "razao_social": "CAPPTA INSTITUICAO DE PAGAMENTO S.A",
-    "nome_fantasia": "Cappta",
-    "qsa": [
-      {
-        "nome_socio": "Carlos Seara da Costa Pinto",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***699397**"
-      },
-      {
-        "nome_socio": "Rodrigo Rasera",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***133848**"
-      },
-      {
-        "nome_socio": "Gabriel Henrique Malachias",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***339568**"
-      },
-      {
-        "nome_socio": "Ceres Elisa Silvano",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***574440**"
-      },
-      {
-        "nome_socio": "Antonio Tadeu Lyrio de Almeida Junior",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***830086**"
-      },
-      {
-        "nome_socio": "Ricardo Rasera",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***855908**"
-      },
-      {
-        "nome_socio": "Emerson Pereira de Freitas",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***649978**"
-      }
-    ]
-  },
-  "25065401000150": {
-    "cnpj": "25065401000150",
-    "razao_social": "SIMPLESTETICA SAUDE E BEM ESTAR LTDA",
-    "nome_fantasia": "Simplestetica By Carol Simplicio",
-    "qsa": [
-      {
-        "nome_socio": "Caroline Simplicio",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***011558**"
-      }
-    ]
-  },
-  "29811363000199": {
-    "cnpj": "29811363000199",
-    "razao_social": "29.811.363 ERIKA CHOMA PRILUTSKY",
-    "nome_fantasia": "",
-    "qsa": []
-  },
-  "33879551000126": {
-    "cnpj": "33879551000126",
-    "razao_social": "VICTORYA CAROLINA ROSALES PENA BOTELHO BALDEZ 13291658701",
-    "nome_fantasia": "",
-    "qsa": []
-  },
-  "36368359000163": {
-    "cnpj": "36368359000163",
-    "razao_social": "ACADEMY CENTRO DE TREINAMENTO ACADEMICO S.A",
-    "nome_fantasia": "Faculdades Cta",
-    "qsa": [
-      {
-        "nome_socio": "Kelly Christiane Ricca Martins",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***680268**"
-      },
-      {
-        "nome_socio": "Indalecio Villar Neto",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***426768**"
-      },
-      {
-        "nome_socio": "Shyrley de Oliveira Martins",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***036138**"
-      },
-      {
-        "nome_socio": "Lis Figueiredo Martins",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***155678**"
-      },
-      {
-        "nome_socio": "Kurt Waldemar Oberhuber Junior",
-        "tipo": "NATURAL",
-        "faixa_etaria": "61-70",
-        "tax_id": "***361468**"
-      },
-      {
-        "nome_socio": "Joy Martins",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***547758**"
-      }
-    ]
-  },
-  "40114788000181": {
-    "cnpj": "40114788000181",
-    "razao_social": "MAPRILOC313 LOCACOES DE EQUIPAMENTOS LTDA",
-    "nome_fantasia": "Mapriloc313 Locacoes",
-    "qsa": [
-      {
-        "nome_socio": "Mario Rubens Holtz de Almeida",
-        "tipo": "NATURAL",
-        "faixa_etaria": "81+",
-        "tax_id": "***823328**"
-      }
-    ]
-  },
-  "41113600000143": {
-    "cnpj": "41113600000143",
-    "razao_social": "LUCIA FERNANDA LOPEZ PINEDO",
-    "nome_fantasia": "Instituto Lopez",
-    "qsa": []
-  },
-  "46759864000192": {
-    "cnpj": "46759864000192",
-    "razao_social": "FOXTROT LOCACOES DE MAQUINAS E EQUIPAMENTOS LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Thierry Tavares Mantovani",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***817468**"
-      }
-    ]
-  },
-  "18706583000136": {
-    "cnpj": "18706583000136",
-    "razao_social": "DERMA OFFICE CLINICA MEDICA LTDA",
-    "nome_fantasia": "Derma Office",
-    "qsa": [
-      {
-        "nome_socio": "Vanessa Barcellos Duque Estrada Medeiros",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***432048**"
-      },
-      {
-        "nome_socio": "Arnaldo Duque Estrada Medeiros",
-        "tipo": "NATURAL",
-        "faixa_etaria": "51-60",
-        "tax_id": "***415657**"
-      }
-    ]
-  },
-  "52866790000196": {
-    "cnpj": "52866790000196",
-    "razao_social": "52.866.790 KAMILLY KOWALCZYK",
-    "nome_fantasia": "",
-    "qsa": []
-  },
-  "07006586000140": {
-    "cnpj": "07006586000140",
-    "razao_social": "MARIA CRISTINA RODRIGUES PECAS",
-    "nome_fantasia": "Posto de Molas Parana",
-    "qsa": []
-  },
-  "24434731000103": {
-    "cnpj": "24434731000103",
-    "razao_social": "MICHELE FELETO RODRIGUES",
-    "nome_fantasia": "Clinica Michele Feleto",
-    "qsa": []
-  },
-  "36253659000105": {
-    "cnpj": "36253659000105",
-    "razao_social": "GARNI COMFORT FOOD LTDA",
-    "nome_fantasia": "Garni Comfort Food Eventos",
-    "qsa": [
-      {
-        "nome_socio": "Mayara Bedotti",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***272218**"
-      }
-    ]
-  },
-  "47226627000129": {
-    "cnpj": "47226627000129",
-    "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
-    "nome_fantasia": "Fumagalli Biomedicina Estetica",
-    "qsa": [
-      {
-        "nome_socio": "Marieli Fumagalli Megda Blascke",
-        "tipo": "NATURAL",
-        "faixa_etaria": "31-40",
-        "tax_id": "***418188**"
-      }
-    ]
-  },
-  "55239603000132": {
-    "cnpj": "55239603000132",
-    "razao_social": "CSG ESTETICA AVANCADA LTDA",
-    "nome_fantasia": "",
-    "qsa": [
-      {
-        "nome_socio": "Juciara de Souza Gimenes",
-        "tipo": "NATURAL",
-        "faixa_etaria": "41-50",
-        "tax_id": "***067278**"
-      }
-    ]
   }
 }

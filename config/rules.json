@@ -1,14 +1,13 @@
 [
   {
-    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "categoria": "",
     "contato_igual": "",
     "descricao_contain": [
       "MESMA TIT"
     ],
     "descricao_regex": "",
     "memo_rule": "",
-    "tipo": "Recebimentos",
-    "transaction_type": "Cr\u00e9dito"
+    "tipo": "Transfer\u00eancia"
   },
   {
     "categoria": "Loca\u00e7\u00e3o de equipamentos",
@@ -18,8 +17,7 @@
     ],
     "descricao_regex": "",
     "memo_rule": "",
-    "tipo": "Recebimentos",
-    "transaction_type": "Cr\u00e9dito"
+    "tipo": "Recebimentos"
   },
   {
     "categoria": "Custos operacionais",
@@ -103,8 +101,7 @@
     "descricao_contain": [],
     "descricao_regex": null,
     "memo_rule": "Manuten\u00e7\u00e3o de ve\u00edculo",
-    "tipo": "Despesas Variaveis",
-    "transaction_type": "Indefinido"
+    "tipo": "Despesas Variaveis"
   },
   {
     "categoria": "Despesas administrativas",
@@ -379,5 +376,335 @@
     "descricao_regex": null,
     "memo_rule": null,
     "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "44.556.201 0001-45"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "0.901.286 0001-09"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Empr\u00e9stimo",
+    "contato_igual": null,
+    "descricao_contain": [
+      "54.575.080 0001-32"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Devolu\u00e7\u00e3o de empr\u00e9stimo - Contrato XXX",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "25.065.401 0001-50"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "37.411.026 0001-32"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "33.879.551 0001-26"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "SANDRA TAKAKI FRANCA"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "32.724.713 0001-94"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Energia - reembolso (combust\u00edvel)",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "42.847.005 0001-02"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Manuten\u00e7\u00e3o de ativos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "52.650.974 0001-14"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Manuten\u00e7\u00e3o de equipamento - OS XXX",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Manuten\u00e7\u00e3o de ativos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "597.878"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Manuten\u00e7\u00e3o veicular - Saveiros",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "contato_igual": null,
+    "descricao_contain": [
+      "28.976.547 0001-46"
+    ],
+    "descricao_regex": null,
+    "memo_rule": null,
+    "tipo": "Recebimentos"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "04.088.208 0001-65"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Ped\u00e1gios - Sem Parar",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Custos operacionais",
+    "contato_igual": null,
+    "descricao_contain": [
+      "16.577.631 0002-99"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Ped\u00e1gios - Conectcar",
+    "tipo": "Despesas Variaveis"
+  },
+  {
+    "categoria": "Despesas financeiras",
+    "contato_igual": null,
+    "descricao_contain": [
+      "TARIFA COBRAN\u00c7A"
+    ],
+    "descricao_regex": null,
+    "memo_rule": "Tarifas Banc\u00e1rias",
+    "tipo": "Despesas Fixas"
+  },
+  {
+    "descricao_contain": [
+      "CAROLINA TU"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Recebimentos",
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "memo_rule": null
+  },
+  {
+    "descricao_contain": [
+      "LARA DONATONI"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Recebimentos",
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "memo_rule": null
+  },
+  {
+    "descricao_contain": [
+      "STRIPE"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas administrativas",
+    "memo_rule": "App gest\u00e3o financeira - Procfy"
+  },
+  {
+    "descricao_contain": [
+      "ZOOP TECNOLOGIA"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Alimenta\u00e7\u00e3o e hospedagem"
+  },
+  {
+    "descricao_contain": [
+      "EMPRESARIAL VISA"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Fatura Cart\u00e3o Visa"
+  },
+  {
+    "descricao_contain": [
+      "CAP GIRO"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas financeiras",
+    "memo_rule": "Amortiza\u00e7\u00e3o Giro BB"
+  },
+  {
+    "descricao_contain": [
+      "CAPPTA"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Recebimentos",
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "memo_rule": null
+  },
+  {
+    "descricao_contain": [
+      "TICKET LOG"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Variaveis",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Combust\u00edvel"
+  },
+  {
+    "descricao_contain": [
+      "GABRIEL BATISTA SANTOS"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Gabriel"
+  },
+  {
+    "descricao_contain": [
+      "ANDRE LUIS RIBEIRO"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Andr\u00e9"
+  },
+  {
+    "descricao_contain": [
+      "ALEX EDUARDO ANTUNES"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Alex"
+  },
+  {
+    "descricao_contain": [
+      "MATHEUS MOTTA NUNES"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Custos operacionais",
+    "memo_rule": "Motorista - Matheus"
+  },
+  {
+    "descricao_contain": [
+      "MARIA ISABELA GOMES CORR\u00caA"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "memo_rule": "Auxiliar ADM - Maria Isabela"
+  },
+  {
+    "descricao_contain": [
+      "BRUNA FERNANDA PEREIRA"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Marketing",
+    "memo_rule": "Marketing - Bruna Fernanda"
+  },
+  {
+    "descricao_contain": [
+      "PRONAMPE"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas financeiras",
+    "memo_rule": "Pronampe"
+  },
+  {
+    "descricao_contain": [
+      "LUCIA HELEN"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Recebimentos",
+    "categoria": "Loca\u00e7\u00e3o de equipamentos",
+    "memo_rule": null
+  },
+  {
+    "descricao_contain": [
+      "SESCAMP COM DE"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Pessoas",
+    "categoria": "Despesas administrativas",
+    "memo_rule": "Cesta b\u00e1sica - Sescamp"
+  },
+  {
+    "descricao_contain": [
+      "TAR. AGRUPADAS"
+    ],
+    "descricao_regex": null,
+    "contato_igual": null,
+    "tipo": "Despesas Fixas",
+    "categoria": "Despesas financeiras",
+    "memo_rule": "Tarifas banc\u00e1rias"
   }
 ]

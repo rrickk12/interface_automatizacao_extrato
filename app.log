@@ -19066,3 +19066,1588 @@ AttributeError: 'list' object has no attribute 'columns'
 2025-04-09 01:02:37,200 - INFO - 127.0.0.1 - - [09/Apr/2025 01:02:37] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
 2025-04-09 01:02:37,201 - INFO - 127.0.0.1 - - [09/Apr/2025 01:02:37] "GET /rules HTTP/1.1" 200 -
 2025-04-09 01:02:37,288 - INFO - 127.0.0.1 - - [09/Apr/2025 01:02:37] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:05:13,486 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5010
+ * Running on http://10.0.0.222:5010
+2025-04-09 11:05:13,486 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 11:05:13,487 - INFO -  * Restarting with stat
+2025-04-09 11:05:14,006 - WARNING -  * Debugger is active!
+2025-04-09 11:05:14,007 - INFO -  * Debugger PIN: 623-232-086
+2025-04-09 11:05:18,452 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET / HTTP/1.1" 200 -
+2025-04-09 11:05:18,518 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/main.js?v=1744207518 HTTP/1.1" 200 -
+2025-04-09 11:05:18,530 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,536 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,539 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,539 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,540 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,541 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,542 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,543 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,547 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,548 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/expose.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,550 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/init.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,644 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,647 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,652 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,657 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,664 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,670 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,688 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/pipeline/run.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,692 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/pipeline/upload.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,694 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,697 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,699 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,702 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,710 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,714 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,722 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,727 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/rules/render.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,728 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,731 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,745 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,746 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,756 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,760 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,760 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,768 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,770 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /static/js/contacts/render.js HTTP/1.1" 200 -
+2025-04-09 11:05:18,772 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,773 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,790 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,821 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:05:18,821 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:05:18,866 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:05:18,969 - INFO - 127.0.0.1 - - [09/Apr/2025 11:05:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-09 11:09:05,198 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "GET / HTTP/1.1" 200 -
+2025-04-09 11:09:05,235 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,236 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,237 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,247 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,250 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,251 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,252 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,259 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,261 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "GET /static/js/main.js?v=1744207745 HTTP/1.1" 200 -
+2025-04-09 11:09:05,264 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,279 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,282 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,287 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,291 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,292 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,300 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,303 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,304 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,305 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,310 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,313 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,314 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,316 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,319 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,323 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,323 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,324 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,329 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,331 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,331 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,332 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,337 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,338 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,338 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,345 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,345 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,346 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,350 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,351 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,352 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:05,420 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:09:05,422 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:09:05,450 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:05] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:09:26,214 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:26] "POST /upload_html HTTP/1.1" 200 -
+2025-04-09 11:09:26,218 - INFO - Iniciando pipeline de processamento...
+2025-04-09 11:09:26,250 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:26,265 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/pessoas_cpf_MMG25_corrigido.csv
+2025-04-09 11:09:26,265 - INFO - Aliases file loaded successfully.
+2025-04-09 11:09:26,267 - DEBUG - Alias 'Guilherme Borelli' with CPF 40498567869 already exists in the contacts database.
+2025-04-09 11:09:26,267 - DEBUG - Alias 'Bruna Zavati Zavitoski' with CPF 41927629861 already exists in the contacts database.
+2025-04-09 11:09:26,268 - DEBUG - Alias 'Marcus Vinicius Machado Gonçalves' with CPF 31687798818 already exists in the contacts database.
+2025-04-09 11:09:26,269 - DEBUG - Alias 'André Luis Ribeiro PJ' with CPF 43677699843 already exists in the contacts database.
+2025-04-09 11:09:26,270 - DEBUG - Alias 'Gabriel Batista Santos PJ' with CPF 51313622885 already exists in the contacts database.
+2025-04-09 11:09:26,273 - DEBUG - Alias 'Alex Eduardo Antunes PJ' with CPF 40102626804 already exists in the contacts database.
+2025-04-09 11:09:26,275 - DEBUG - Alias 'Isabela Betti Stavarengo' with CPF 49155758886 already exists in the contacts database.
+2025-04-09 11:09:26,277 - DEBUG - Alias 'Marcelo Eliseu Urbano PJ' with CPF 34505794873 already exists in the contacts database.
+2025-04-09 11:09:26,294 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:26,295 - INFO - Contatos atualizados com aliases integrados.
+2025-04-09 11:09:26,463 - DEBUG - Lendo extrato do arquivo: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato.html
+2025-04-09 11:09:26,536 - DEBUG - Parse do extrato Sicoob concluído.
+2025-04-09 11:09:26,542 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob.json
+2025-04-09 11:09:26,542 - INFO - Extrato parseado com sucesso.
+2025-04-09 11:09:26,549 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_enriched.json
+2025-04-09 11:09:26,549 - INFO - Lançamentos enriquecidos.
+2025-04-09 11:09:26,554 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:27,011 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_conciliated.json
+2025-04-09 11:09:27,011 - INFO - Lançamentos conciliados com contatos.
+2025-04-09 11:09:27,012 - INFO - 🔍 Consultando 11 CNPJs não conciliados...
+2025-04-09 11:09:27,012 - INFO - [1/11] Consultando CNPJ: 01515951000166 ...
+2025-04-09 11:09:27,012 - INFO - CNPJ 01515951000166 encontrado no cache.
+2025-04-09 11:09:27,013 - INFO - ✅ OK
+2025-04-09 11:09:27,014 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:29,014 - INFO - [2/11] Consultando CNPJ: 02754732000100 ...
+2025-04-09 11:09:29,015 - INFO - CNPJ 02754732000100 encontrado no cache.
+2025-04-09 11:09:29,015 - INFO - ✅ OK
+2025-04-09 11:09:29,019 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:31,019 - INFO - [3/11] Consultando CNPJ: 03506307000157 ...
+2025-04-09 11:09:31,020 - INFO - CNPJ 03506307000157 encontrado no cache.
+2025-04-09 11:09:31,020 - INFO - ✅ OK
+2025-04-09 11:09:31,025 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:33,026 - INFO - [4/11] Consultando CNPJ: 04938736000166 ...
+2025-04-09 11:09:33,027 - INFO - CNPJ 04938736000166 encontrado no cache.
+2025-04-09 11:09:33,028 - INFO - ✅ OK
+2025-04-09 11:09:33,032 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:35,033 - INFO - [5/11] Consultando CNPJ: 05311364000106 ...
+2025-04-09 11:09:35,034 - INFO - CNPJ 05311364000106 encontrado no cache.
+2025-04-09 11:09:35,035 - INFO - ✅ OK
+2025-04-09 11:09:35,040 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:37,040 - INFO - [6/11] Consultando CNPJ: 32724713000194 ...
+2025-04-09 11:09:37,041 - INFO - CNPJ 32724713000194 encontrado no cache.
+2025-04-09 11:09:37,042 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:09:37,043 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:39,044 - INFO - [7/11] Consultando CNPJ: 33180818000192 ...
+2025-04-09 11:09:39,045 - INFO - CNPJ 33180818000192 encontrado no cache.
+2025-04-09 11:09:39,045 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:09:39,048 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:41,049 - INFO - [8/11] Consultando CNPJ: 33497436000197 ...
+2025-04-09 11:09:41,050 - INFO - CNPJ 33497436000197 encontrado no cache.
+2025-04-09 11:09:41,050 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33497436000197
+2025-04-09 11:09:41,054 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:43,055 - INFO - [9/11] Consultando CNPJ: 54575080000132 ...
+2025-04-09 11:09:43,056 - INFO - CNPJ 54575080000132 encontrado no cache.
+2025-04-09 11:09:43,057 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:09:43,061 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:45,062 - INFO - [10/11] Consultando CNPJ: 55499539000129 ...
+2025-04-09 11:09:45,062 - INFO - CNPJ 55499539000129 encontrado no cache.
+2025-04-09 11:09:45,063 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/55499539000129
+2025-04-09 11:09:45,066 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:47,067 - INFO - [11/11] Consultando CNPJ: 56779110000158 ...
+2025-04-09 11:09:47,068 - INFO - CNPJ 56779110000158 encontrado no cache.
+2025-04-09 11:09:47,068 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/56779110000158
+2025-04-09 11:09:47,072 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:09:49,073 - INFO - Consulta massiva de CNPJs concluída.
+2025-04-09 11:09:49,082 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:50,593 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.json
+2025-04-09 11:09:50,601 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.csv
+2025-04-09 11:09:50,602 - INFO - Vínculos candidatos gerados e exportados.
+2025-04-09 11:09:50,607 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:50,647 - INFO - ➕ Adding new contact for CNPJ 03506307000157
+2025-04-09 11:09:50,650 - INFO - ✅ CNPJ 19468242000132 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,652 - INFO - ✅ CNPJ 20729204000175 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,654 - INFO - ✅ CNPJ 30383069000102 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,658 - INFO - ✅ CNPJ 35727790000196 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,660 - INFO - ✅ CNPJ 42876309000190 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,662 - INFO - ✅ CNPJ 44388803000130 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,663 - INFO - ✅ CNPJ 47105254000138 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,665 - INFO - ✅ CNPJ 54668555000135 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,666 - INFO - ➕ Adding new contact for CNPJ 01515951000166
+2025-04-09 11:09:50,667 - INFO - ➕ Adding new contact for CNPJ 02754732000100
+2025-04-09 11:09:50,669 - INFO - ➕ Adding new contact for CNPJ 04938736000166
+2025-04-09 11:09:50,672 - INFO - ➕ Adding new contact for CNPJ 05311364000106
+2025-04-09 11:09:50,674 - INFO - ✅ CNPJ 10397739000132 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,676 - INFO - ✅ CNPJ 14265814000162 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,677 - INFO - ✅ CNPJ 14380200000121 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,679 - INFO - ✅ CNPJ 17390640000158 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,680 - INFO - ✅ CNPJ 19305880000132 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,681 - INFO - ✅ CNPJ 19549581000143 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,683 - INFO - ✅ CNPJ 32724713000194 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,685 - INFO - ✅ CNPJ 33180818000192 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,689 - INFO - ✅ CNPJ 33497436000197 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,692 - INFO - ✅ CNPJ 37415146000108 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,693 - INFO - ✅ CNPJ 40710160000149 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,694 - INFO - ✅ CNPJ 42847005000102 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,696 - INFO - ✅ CNPJ 43372119000106 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,697 - INFO - ✅ CNPJ 44556201000145 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,699 - INFO - ✅ CNPJ 47121800000124 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,700 - INFO - ✅ CNPJ 48483151000174 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,701 - INFO - ✅ CNPJ 50632839000110 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,703 - INFO - ✅ CNPJ 52305548000143 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,706 - INFO - ✅ CNPJ 52325738000122 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,708 - INFO - ✅ CNPJ 54575080000132 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,709 - INFO - ✅ CNPJ 55499539000129 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,711 - INFO - ✅ CNPJ 56779110000158 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,713 - INFO - ➕ Adding new contact for CNPJ 05848810000116
+2025-04-09 11:09:50,715 - INFO - ✅ CNPJ 18151164000185 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,717 - INFO - ✅ CNPJ 18429680000129 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,719 - INFO - ✅ CNPJ 31463285000120 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,724 - INFO - ✅ CNPJ 40656554000166 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,725 - INFO - ✅ CNPJ 40901286000109 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,727 - INFO - ✅ CNPJ 43327671000174 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,729 - INFO - ✅ CNPJ 43776517000180 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,730 - INFO - ✅ CNPJ 46995444000105 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,732 - INFO - ✅ CNPJ 48327325000100 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,733 - INFO - ✅ CNPJ 57277724000102 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,734 - INFO - ✅ CNPJ 62094636000105 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,735 - INFO - ➕ Adding new contact for CNPJ 13966572000171
+2025-04-09 11:09:50,738 - INFO - ✅ CNPJ 25065401000150 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,741 - INFO - ➕ Adding new contact for CNPJ 29811363000199
+2025-04-09 11:09:50,743 - INFO - ✅ CNPJ 33879551000126 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,745 - INFO - ➕ Adding new contact for CNPJ 36368359000163
+2025-04-09 11:09:50,747 - INFO - ➕ Adding new contact for CNPJ 40114788000181
+2025-04-09 11:09:50,749 - INFO - ✅ CNPJ 41113600000143 already exists in the contacts database. Enriching...
+2025-04-09 11:09:50,750 - INFO - ➕ Adding new contact for CNPJ 46759864000192
+2025-04-09 11:09:50,752 - INFO - ➕ Adding new contact for CNPJ 18706583000136
+2025-04-09 11:09:50,754 - INFO - ➕ Adding new contact for CNPJ 52866790000196
+2025-04-09 11:09:50,757 - INFO - ➕ Adding new contact for CNPJ 07006586000140
+2025-04-09 11:09:50,759 - INFO - ➕ Adding new contact for CNPJ 24434731000103
+2025-04-09 11:09:50,761 - INFO - ➕ Adding new contact for CNPJ 36253659000105
+2025-04-09 11:09:50,762 - INFO - ➕ Adding new contact for CNPJ 47226627000129
+2025-04-09 11:09:50,764 - INFO - ➕ Adding new contact for CNPJ 55239603000132
+2025-04-09 11:09:50,768 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:50,768 - INFO - Contacts updated with CNPJ data saved in: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:50,768 - INFO - Contatos enriquecidos com dados dos CNPJs.
+2025-04-09 11:09:50,772 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:09:50,785 - DEBUG - [📋 Tabela de contatos] 85 entradas no dicionário.
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 536998
+2025-04-09 11:09:50,785 - DEBUG - [✅ Match exato] 536998 -> José Marcos Gonçalves
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 597878
+2025-04-09 11:09:50,785 - DEBUG - [✅ Match exato] 597878 -> Rennan Alexandre de Paula
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,785 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:09:50,785 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44556201000145
+2025-04-09 11:09:50,785 - DEBUG - [✅ Match exato] 44556201000145 -> Carla Rocha Farias Estética Avancada
+2025-04-09 11:09:50,785 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 703688
+2025-04-09 11:09:50,786 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 703688
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 026268
+2025-04-09 11:09:50,786 - DEBUG - [🟡 Match parcial via 'in'] 026268 ∈ 40102626804 -> Alex Eduardo Antunes PJ
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:09:50,786 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:09:50,786 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:09:50,786 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 136228
+2025-04-09 11:09:50,786 - DEBUG - [🟡 Match parcial via 'in'] 136228 ∈ 51313622885 -> Gabriel Batista Santos PJ
+2025-04-09 11:09:50,786 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 776998
+2025-04-09 11:09:50,786 - DEBUG - [🟡 Match parcial via 'in'] 776998 ∈ 43677699843 -> André Luis Ribeiro PJ
+2025-04-09 11:09:50,787 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:09:50,787 - DEBUG - [✅ Match exato] 43372119000106 -> NICLOS COML LTDA
+2025-04-09 11:09:50,787 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:09:50,787 - DEBUG - [✅ Match exato] 43372119000106 -> NICLOS COML LTDA
+2025-04-09 11:09:50,787 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 198178
+2025-04-09 11:09:50,787 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 198178
+2025-04-09 11:09:50,787 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 02754732000100
+2025-04-09 11:09:50,787 - DEBUG - [✅ Match exato] 02754732000100 -> ROBERT JAGER RESTAURANTE LTDA
+2025-04-09 11:09:50,787 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 47121800000124
+2025-04-09 11:09:50,787 - DEBUG - [✅ Match exato] 47121800000124 -> J. A. Locação e Serviços
+2025-04-09 11:09:50,788 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 04938736000166
+2025-04-09 11:09:50,788 - DEBUG - [✅ Match exato] 04938736000166 -> RITA TOBAL DINIZ
+2025-04-09 11:09:50,788 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 17390640000158
+2025-04-09 11:09:50,788 - DEBUG - [✅ Match exato] 17390640000158 -> GILIOLI SERVICOS ODONTOLOGICOS S S LTDA
+2025-04-09 11:09:50,788 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,788 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,788 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,788 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,788 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:09:50,788 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 293844
+2025-04-09 11:09:50,789 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 293844
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19305880000132
+2025-04-09 11:09:50,789 - DEBUG - [✅ Match exato] 19305880000132 -> R GUIDON
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:09:50,789 - DEBUG - [✅ Match exato] 43372119000106 -> NICLOS COML LTDA
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 370588
+2025-04-09 11:09:50,789 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 370588
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 47105254000138
+2025-04-09 11:09:50,789 - DEBUG - [✅ Match exato] 47105254000138 -> INFINITY COMPANY BY GG LTDA
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 776998
+2025-04-09 11:09:50,789 - DEBUG - [🟡 Match parcial via 'in'] 776998 ∈ 43677699843 -> André Luis Ribeiro PJ
+2025-04-09 11:09:50,789 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:09:50,790 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:09:50,790 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 52305548000143
+2025-04-09 11:09:50,790 - DEBUG - [✅ Match exato] 52305548000143 -> RHTZ SERVICOS MEDICOS LTDA
+2025-04-09 11:09:50,790 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 17390640000158
+2025-04-09 11:09:50,790 - DEBUG - [✅ Match exato] 17390640000158 -> GILIOLI SERVICOS ODONTOLOGICOS S S LTDA
+2025-04-09 11:09:50,790 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 597878
+2025-04-09 11:09:50,790 - DEBUG - [✅ Match exato] 597878 -> Rennan Alexandre de Paula
+2025-04-09 11:09:50,790 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:09:50,791 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:09:50,791 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:09:50,791 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 48483151000174
+2025-04-09 11:09:50,791 - DEBUG - [✅ Match exato] 48483151000174 -> INTERVISAO VISTORIAS VALINHOS LTDA
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 419678
+2025-04-09 11:09:50,791 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 419678
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 131438
+2025-04-09 11:09:50,791 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 131438
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 56779110000158
+2025-04-09 11:09:50,791 - DEBUG - [✅ Match exato] 56779110000158 -> Unknown
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 433668
+2025-04-09 11:09:50,791 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 433668
+2025-04-09 11:09:50,791 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 10397739000132
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 10397739000132 -> W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 33497436000197
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 33497436000197 -> Unknown
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 074825
+2025-04-09 11:09:50,792 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 074825
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 32724713000194
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 32724713000194 -> Tupinambá Energia e Publicidade LTDA
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 372298
+2025-04-09 11:09:50,792 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 372298
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,792 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,792 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 33180818000192
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 33180818000192 -> Paula L. Dotto
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14265814000162
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 14265814000162 -> S Cosméticos do Bem Indústria e Comércio LTDA
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19549581000143
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 19549581000143 -> ANDRE VORONIUK DE FIGUEIREDO
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 05311364000106
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 05311364000106 -> S. D. ODONTOLOGIA LTDA
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 20729204000175
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 20729204000175 -> LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 32724713000194
+2025-04-09 11:09:50,793 - DEBUG - [✅ Match exato] 32724713000194 -> Tupinambá Energia e Publicidade LTDA
+2025-04-09 11:09:50,793 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 40710160000149
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 40710160000149 -> MARIANA LUCHIN DERMATOLOGIA E ESTETICA LTDA
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 20729204000175
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 20729204000175 -> LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 368348
+2025-04-09 11:09:50,794 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 368348
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 37415146000108
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 37415146000108 -> Bruno Barbosa
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 52325738000122
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 52325738000122 -> LOCABEAUTE LTDA
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 012548
+2025-04-09 11:09:50,794 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 012548
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,794 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 613458
+2025-04-09 11:09:50,794 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 613458
+2025-04-09 11:09:50,794 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14380200000121
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 14380200000121 -> IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 414748
+2025-04-09 11:09:50,795 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 414748
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 414748
+2025-04-09 11:09:50,795 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 414748
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 991148
+2025-04-09 11:09:50,795 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 991148
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 42847005000102
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 42847005000102 -> CLINICA DE ESTETICA INDAIATUBA LTBA
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 057948
+2025-04-09 11:09:50,795 - DEBUG - [🟡 Match parcial via 'in'] 057948 ∈ 34505794873 -> Marcelo Eliseu Urbano PJ
+2025-04-09 11:09:50,795 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:09:50,795 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:09:50,796 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 916587
+2025-04-09 11:09:50,796 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 916587
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:09:50,796 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 10397739000132
+2025-04-09 11:09:50,796 - DEBUG - [✅ Match exato] 10397739000132 -> W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44556201000145
+2025-04-09 11:09:50,796 - DEBUG - [✅ Match exato] 44556201000145 -> Carla Rocha Farias Estética Avancada
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:09:50,796 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:09:50,796 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,796 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,796 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 280478
+2025-04-09 11:09:50,796 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 280478
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:09:50,797 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 296728
+2025-04-09 11:09:50,797 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 296728
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:09:50,797 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 04938736000166
+2025-04-09 11:09:50,797 - DEBUG - [✅ Match exato] 04938736000166 -> RITA TOBAL DINIZ
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:09:50,797 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 01515951000166
+2025-04-09 11:09:50,797 - DEBUG - [✅ Match exato] 01515951000166 -> CHIARELLI CONTABILIDADE S/S LTDA
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 54575080000132
+2025-04-09 11:09:50,797 - DEBUG - [✅ Match exato] 54575080000132 -> Unknown
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 557588
+2025-04-09 11:09:50,797 - DEBUG - [🟡 Match parcial via 'in'] 557588 ∈ 49155758886 -> Isabela Betti Stavarengo
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 443008
+2025-04-09 11:09:50,797 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 443008
+2025-04-09 11:09:50,797 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 697648
+2025-04-09 11:09:50,798 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 697648
+2025-04-09 11:09:50,798 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 55499539000129
+2025-04-09 11:09:50,798 - DEBUG - [✅ Match exato] 55499539000129 -> Unknown
+2025-04-09 11:09:50,798 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 50632839000110
+2025-04-09 11:09:50,798 - DEBUG - [✅ Match exato] 50632839000110 -> MM ODONTOLOGIA PREMIUM LTDA
+2025-04-09 11:09:50,798 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14380200000121
+2025-04-09 11:09:50,798 - DEBUG - [✅ Match exato] 14380200000121 -> IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+2025-04-09 11:09:50,798 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:09:50,798 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:09:50,798 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 433668
+2025-04-09 11:09:50,798 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 433668
+2025-04-09 11:09:50,801 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato_conciliated_with_contacts.json
+2025-04-09 11:09:50,801 - INFO - Transações associadas a contatos.
+2025-04-09 11:09:50,802 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "POST /process HTTP/1.1" 200 -
+2025-04-09 11:09:50,828 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "GET / HTTP/1.1" 200 -
+2025-04-09 11:09:50,855 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "GET /static/js/main.js?v=1744207790 HTTP/1.1" 200 -
+2025-04-09 11:09:50,859 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,861 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,864 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,866 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,870 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,871 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,874 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,878 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,879 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,884 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,885 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,964 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,964 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,965 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,966 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,966 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,976 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,993 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,994 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,998 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:50,999 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:50] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,001 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,006 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,007 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,009 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,013 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,015 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,017 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,022 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,024 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,027 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,030 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,037 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,040 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,041 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,045 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,048 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,048 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,050 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:09:51,060 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:09:51,061 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:09:51,099 - INFO - 127.0.0.1 - - [09/Apr/2025 11:09:51] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:10:30,459 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:30,460 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:30] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:31,630 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:31,631 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:31] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:32,398 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:32,398 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:32] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:33,034 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:33,034 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:33] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:33,638 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:33,639 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:33] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:34,253 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:34,254 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:34] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:35,612 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:35,612 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:35] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:47,147 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:47,147 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:47] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:47,389 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:47,391 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:47] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:47,453 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:47,454 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:47] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:48,890 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:48,891 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:48] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:49,359 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:49,359 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:49] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:50,317 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:50,317 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:50] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:51,433 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:51,434 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:51] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:51,578 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:51,579 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:51] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:51,847 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:51,847 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:51] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:52,345 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:52,345 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:52] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:10:52,419 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:10:52,419 - INFO - 127.0.0.1 - - [09/Apr/2025 11:10:52] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:11:04,209 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "GET / HTTP/1.1" 200 -
+2025-04-09 11:11:04,248 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "GET /static/js/main.js?v=1744207864 HTTP/1.1" 200 -
+2025-04-09 11:11:04,250 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,253 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,257 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,259 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,263 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,263 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,266 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,267 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,273 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,279 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,280 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,353 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,355 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,356 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,358 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,360 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,364 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,369 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,374 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,391 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,391 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,391 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,393 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,394 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,395 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,398 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,399 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,407 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,409 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,414 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,417 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,418 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,421 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,423 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,423 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,424 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,427 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,429 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,438 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:04,447 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:11:04,448 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:11:04,484 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:04] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:11:20,496 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:20] "POST /upload_html HTTP/1.1" 200 -
+2025-04-09 11:11:20,502 - INFO - Iniciando pipeline de processamento...
+2025-04-09 11:11:20,508 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:20,516 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/pessoas_cpf_MMG25_corrigido.csv
+2025-04-09 11:11:20,517 - INFO - Aliases file loaded successfully.
+2025-04-09 11:11:20,521 - DEBUG - Alias 'Guilherme Borelli' with CPF 40498567869 already exists in the contacts database.
+2025-04-09 11:11:20,522 - DEBUG - Alias 'Bruna Zavati Zavitoski' with CPF 41927629861 already exists in the contacts database.
+2025-04-09 11:11:20,524 - DEBUG - Alias 'Marcus Vinicius Machado Gonçalves' with CPF 31687798818 already exists in the contacts database.
+2025-04-09 11:11:20,525 - DEBUG - Alias 'André Luis Ribeiro PJ' with CPF 43677699843 already exists in the contacts database.
+2025-04-09 11:11:20,526 - DEBUG - Alias 'Gabriel Batista Santos PJ' with CPF 51313622885 already exists in the contacts database.
+2025-04-09 11:11:20,528 - DEBUG - Alias 'Alex Eduardo Antunes PJ' with CPF 40102626804 already exists in the contacts database.
+2025-04-09 11:11:20,529 - DEBUG - Alias 'Isabela Betti Stavarengo' with CPF 49155758886 already exists in the contacts database.
+2025-04-09 11:11:20,531 - DEBUG - Alias 'Marcelo Eliseu Urbano PJ' with CPF 34505794873 already exists in the contacts database.
+2025-04-09 11:11:20,536 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:20,537 - INFO - Contatos atualizados com aliases integrados.
+2025-04-09 11:11:20,537 - DEBUG - Lendo extrato do arquivo: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato.html
+2025-04-09 11:11:20,582 - DEBUG - Parse do extrato Sicoob concluído.
+2025-04-09 11:11:20,584 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob.json
+2025-04-09 11:11:20,584 - INFO - Extrato parseado com sucesso.
+2025-04-09 11:11:20,592 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_enriched.json
+2025-04-09 11:11:20,592 - INFO - Lançamentos enriquecidos.
+2025-04-09 11:11:20,597 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:20,705 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_conciliated.json
+2025-04-09 11:11:20,705 - INFO - Lançamentos conciliados com contatos.
+2025-04-09 11:11:20,705 - INFO - 🔍 Consultando 19 CNPJs não conciliados...
+2025-04-09 11:11:20,705 - INFO - [1/19] Consultando CNPJ: 01515951000166 ...
+2025-04-09 11:11:20,708 - INFO - CNPJ 01515951000166 encontrado no cache.
+2025-04-09 11:11:20,708 - INFO - ✅ OK
+2025-04-09 11:11:20,711 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:22,712 - INFO - [2/19] Consultando CNPJ: 03506307000157 ...
+2025-04-09 11:11:22,713 - INFO - CNPJ 03506307000157 encontrado no cache.
+2025-04-09 11:11:22,713 - INFO - ✅ OK
+2025-04-09 11:11:22,717 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:24,718 - INFO - [3/19] Consultando CNPJ: 04938736000166 ...
+2025-04-09 11:11:24,720 - INFO - CNPJ 04938736000166 encontrado no cache.
+2025-04-09 11:11:24,721 - INFO - ✅ OK
+2025-04-09 11:11:24,727 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:26,728 - INFO - [4/19] Consultando CNPJ: 13966572000171 ...
+2025-04-09 11:11:26,732 - INFO - CNPJ 13966572000171 encontrado no cache.
+2025-04-09 11:11:26,732 - INFO - ✅ OK
+2025-04-09 11:11:26,738 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:28,738 - INFO - [5/19] Consultando CNPJ: 17390640000158 ...
+2025-04-09 11:11:28,739 - INFO - CNPJ 17390640000158 encontrado no cache.
+2025-04-09 11:11:28,740 - INFO - ✅ OK
+2025-04-09 11:11:28,743 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:30,743 - INFO - [6/19] Consultando CNPJ: 18429680000129 ...
+2025-04-09 11:11:30,744 - INFO - CNPJ 18429680000129 encontrado no cache.
+2025-04-09 11:11:30,744 - INFO - ✅ OK
+2025-04-09 11:11:30,747 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:32,748 - INFO - [7/19] Consultando CNPJ: 19468242000132 ...
+2025-04-09 11:11:32,749 - INFO - CNPJ 19468242000132 encontrado no cache.
+2025-04-09 11:11:32,749 - INFO - ✅ OK
+2025-04-09 11:11:32,754 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:34,755 - INFO - [8/19] Consultando CNPJ: 25065401000150 ...
+2025-04-09 11:11:34,756 - INFO - CNPJ 25065401000150 encontrado no cache.
+2025-04-09 11:11:34,756 - INFO - ✅ OK
+2025-04-09 11:11:34,760 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:36,760 - INFO - [9/19] Consultando CNPJ: 30383069000102 ...
+2025-04-09 11:11:36,761 - INFO - CNPJ 30383069000102 encontrado no cache.
+2025-04-09 11:11:36,762 - INFO - ✅ OK
+2025-04-09 11:11:36,765 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:38,766 - INFO - [10/19] Consultando CNPJ: 36368359000163 ...
+2025-04-09 11:11:38,767 - INFO - CNPJ 36368359000163 encontrado no cache.
+2025-04-09 11:11:38,768 - INFO - ✅ OK
+2025-04-09 11:11:38,773 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:40,774 - INFO - [11/19] Consultando CNPJ: 40114788000181 ...
+2025-04-09 11:11:40,775 - INFO - CNPJ 40114788000181 encontrado no cache.
+2025-04-09 11:11:40,775 - INFO - ✅ OK
+2025-04-09 11:11:40,779 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:42,779 - INFO - [12/19] Consultando CNPJ: 40710160000149 ...
+2025-04-09 11:11:42,780 - INFO - CNPJ 40710160000149 encontrado no cache.
+2025-04-09 11:11:42,781 - INFO - ✅ OK
+2025-04-09 11:11:42,787 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:44,788 - INFO - [13/19] Consultando CNPJ: 42847005000102 ...
+2025-04-09 11:11:44,789 - INFO - CNPJ 42847005000102 encontrado no cache.
+2025-04-09 11:11:44,789 - INFO - ✅ OK
+2025-04-09 11:11:44,792 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:46,792 - INFO - [14/19] Consultando CNPJ: 44388803000130 ...
+2025-04-09 11:11:46,793 - INFO - CNPJ 44388803000130 encontrado no cache.
+2025-04-09 11:11:46,794 - INFO - ✅ OK
+2025-04-09 11:11:46,797 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:48,797 - INFO - [15/19] Consultando CNPJ: 44556201000145 ...
+2025-04-09 11:11:48,798 - INFO - CNPJ 44556201000145 encontrado no cache.
+2025-04-09 11:11:48,799 - INFO - ✅ OK
+2025-04-09 11:11:48,804 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:50,805 - INFO - [16/19] Consultando CNPJ: 46759864000192 ...
+2025-04-09 11:11:50,805 - INFO - CNPJ 46759864000192 encontrado no cache.
+2025-04-09 11:11:50,806 - INFO - ✅ OK
+2025-04-09 11:11:50,809 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:52,810 - INFO - [17/19] Consultando CNPJ: 46995444000105 ...
+2025-04-09 11:11:53,071 - INFO - CNPJ 46995444000105 encontrado no cache.
+2025-04-09 11:11:53,072 - INFO - ✅ OK
+2025-04-09 11:11:53,075 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:55,076 - INFO - [18/19] Consultando CNPJ: 54575080000132 ...
+2025-04-09 11:11:55,076 - INFO - CNPJ 54575080000132 encontrado no cache.
+2025-04-09 11:11:55,077 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:11:55,081 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:57,081 - INFO - [19/19] Consultando CNPJ: 62094636000105 ...
+2025-04-09 11:11:57,083 - INFO - CNPJ 62094636000105 encontrado no cache.
+2025-04-09 11:11:57,084 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/62094636000105
+2025-04-09 11:11:57,089 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:11:59,089 - INFO - Consulta massiva de CNPJs concluída.
+2025-04-09 11:11:59,094 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:59,515 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.json
+2025-04-09 11:11:59,519 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.csv
+2025-04-09 11:11:59,520 - INFO - Vínculos candidatos gerados e exportados.
+2025-04-09 11:11:59,522 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:59,523 - INFO - ➕ Adding new contact for CNPJ 03506307000157
+2025-04-09 11:11:59,524 - INFO - ➕ Adding new contact for CNPJ 19468242000132
+2025-04-09 11:11:59,526 - INFO - ➕ Adding new contact for CNPJ 20729204000175
+2025-04-09 11:11:59,527 - INFO - ➕ Adding new contact for CNPJ 30383069000102
+2025-04-09 11:11:59,530 - INFO - ➕ Adding new contact for CNPJ 35727790000196
+2025-04-09 11:11:59,532 - INFO - ✅ CNPJ 42876309000190 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,536 - INFO - ➕ Adding new contact for CNPJ 44388803000130
+2025-04-09 11:11:59,538 - INFO - ➕ Adding new contact for CNPJ 47105254000138
+2025-04-09 11:11:59,539 - INFO - ✅ CNPJ 54668555000135 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,541 - INFO - ➕ Adding new contact for CNPJ 01515951000166
+2025-04-09 11:11:59,543 - INFO - ➕ Adding new contact for CNPJ 02754732000100
+2025-04-09 11:11:59,545 - INFO - ➕ Adding new contact for CNPJ 04938736000166
+2025-04-09 11:11:59,547 - INFO - ➕ Adding new contact for CNPJ 05311364000106
+2025-04-09 11:11:59,550 - INFO - ➕ Adding new contact for CNPJ 10397739000132
+2025-04-09 11:11:59,553 - INFO - ➕ Adding new contact for CNPJ 14265814000162
+2025-04-09 11:11:59,555 - INFO - ➕ Adding new contact for CNPJ 14380200000121
+2025-04-09 11:11:59,556 - INFO - ➕ Adding new contact for CNPJ 17390640000158
+2025-04-09 11:11:59,557 - INFO - ✅ CNPJ 19305880000132 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,559 - INFO - ✅ CNPJ 19549581000143 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,560 - INFO - ✅ CNPJ 32724713000194 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,561 - INFO - ✅ CNPJ 33180818000192 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,562 - INFO - ✅ CNPJ 33497436000197 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,564 - INFO - ✅ CNPJ 37415146000108 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,565 - INFO - ➕ Adding new contact for CNPJ 40710160000149
+2025-04-09 11:11:59,569 - INFO - ➕ Adding new contact for CNPJ 42847005000102
+2025-04-09 11:11:59,571 - INFO - ➕ Adding new contact for CNPJ 43372119000106
+2025-04-09 11:11:59,572 - INFO - ➕ Adding new contact for CNPJ 44556201000145
+2025-04-09 11:11:59,574 - INFO - ➕ Adding new contact for CNPJ 47121800000124
+2025-04-09 11:11:59,576 - INFO - ➕ Adding new contact for CNPJ 48483151000174
+2025-04-09 11:11:59,579 - INFO - ➕ Adding new contact for CNPJ 50632839000110
+2025-04-09 11:11:59,581 - INFO - ➕ Adding new contact for CNPJ 52305548000143
+2025-04-09 11:11:59,583 - INFO - ➕ Adding new contact for CNPJ 52325738000122
+2025-04-09 11:11:59,587 - INFO - ✅ CNPJ 54575080000132 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,588 - INFO - ✅ CNPJ 55499539000129 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,590 - INFO - ✅ CNPJ 56779110000158 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,591 - INFO - ➕ Adding new contact for CNPJ 05848810000116
+2025-04-09 11:11:59,592 - INFO - ✅ CNPJ 18151164000185 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,594 - INFO - ➕ Adding new contact for CNPJ 18429680000129
+2025-04-09 11:11:59,595 - INFO - ➕ Adding new contact for CNPJ 31463285000120
+2025-04-09 11:11:59,597 - INFO - ➕ Adding new contact for CNPJ 40656554000166
+2025-04-09 11:11:59,598 - INFO - ➕ Adding new contact for CNPJ 40901286000109
+2025-04-09 11:11:59,601 - INFO - ➕ Adding new contact for CNPJ 43327671000174
+2025-04-09 11:11:59,605 - INFO - ➕ Adding new contact for CNPJ 43776517000180
+2025-04-09 11:11:59,607 - INFO - ➕ Adding new contact for CNPJ 46995444000105
+2025-04-09 11:11:59,609 - INFO - ➕ Adding new contact for CNPJ 48327325000100
+2025-04-09 11:11:59,611 - INFO - ✅ CNPJ 57277724000102 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,612 - INFO - ✅ CNPJ 62094636000105 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,614 - INFO - ➕ Adding new contact for CNPJ 13966572000171
+2025-04-09 11:11:59,617 - INFO - ➕ Adding new contact for CNPJ 25065401000150
+2025-04-09 11:11:59,620 - INFO - ✅ CNPJ 29811363000199 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,621 - INFO - ✅ CNPJ 33879551000126 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,623 - INFO - ➕ Adding new contact for CNPJ 36368359000163
+2025-04-09 11:11:59,624 - INFO - ➕ Adding new contact for CNPJ 40114788000181
+2025-04-09 11:11:59,626 - INFO - ✅ CNPJ 41113600000143 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,627 - INFO - ➕ Adding new contact for CNPJ 46759864000192
+2025-04-09 11:11:59,628 - INFO - ➕ Adding new contact for CNPJ 18706583000136
+2025-04-09 11:11:59,630 - INFO - ✅ CNPJ 52866790000196 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,631 - INFO - ➕ Adding new contact for CNPJ 07006586000140
+2025-04-09 11:11:59,634 - INFO - ✅ CNPJ 24434731000103 already exists in the contacts database. Enriching...
+2025-04-09 11:11:59,638 - INFO - ➕ Adding new contact for CNPJ 36253659000105
+2025-04-09 11:11:59,641 - INFO - ➕ Adding new contact for CNPJ 47226627000129
+2025-04-09 11:11:59,642 - INFO - ➕ Adding new contact for CNPJ 55239603000132
+2025-04-09 11:11:59,645 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:59,645 - INFO - Contacts updated with CNPJ data saved in: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:59,645 - INFO - Contatos enriquecidos com dados dos CNPJs.
+2025-04-09 11:11:59,647 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:11:59,653 - DEBUG - [📋 Tabela de contatos] 76 entradas no dicionário.
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 04938736000166
+2025-04-09 11:11:59,654 - DEBUG - [✅ Match exato] 04938736000166 -> RITA TOBAL DINIZ
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 395008
+2025-04-09 11:11:59,654 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 395008
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 01515951000166
+2025-04-09 11:11:59,654 - DEBUG - [✅ Match exato] 01515951000166 -> CHIARELLI CONTABILIDADE S/S LTDA
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 688488
+2025-04-09 11:11:59,654 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 688488
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 293844
+2025-04-09 11:11:59,654 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 293844
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:11:59,654 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:11:59,654 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 30383069000102
+2025-04-09 11:11:59,654 - DEBUG - [✅ Match exato] 30383069000102 -> PERSONALITE RECUPERACAO DE CREDITO LTDA
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44556201000145
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 44556201000145 -> CARLA ROCHA FARIAS ESTETICA AVANCADA LTDA
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 46759864000192
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 46759864000192 -> FOXTROT LOCACOES DE MAQUINAS E EQUIPAMENTOS LTDA
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 584498
+2025-04-09 11:11:59,655 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 584498
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 37415146000108
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 37415146000108 -> Bruno Barbosa
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 13966572000171
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 13966572000171 -> CAPPTA INSTITUICAO DE PAGAMENTO S.A
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:11:59,655 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 610768
+2025-04-09 11:11:59,655 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 610768
+2025-04-09 11:11:59,655 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 886318
+2025-04-09 11:11:59,656 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 886318
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 30383069000102
+2025-04-09 11:11:59,656 - DEBUG - [✅ Match exato] 30383069000102 -> PERSONALITE RECUPERACAO DE CREDITO LTDA
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 536998
+2025-04-09 11:11:59,656 - DEBUG - [🟡 Match parcial via 'in'] 536998 ∈ 03953699830 -> José Marcos Gonçalves
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:11:59,656 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 25065401000150
+2025-04-09 11:11:59,656 - DEBUG - [✅ Match exato] 25065401000150 -> SIMPLESTETICA SAUDE E BEM ESTAR LTDA
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 13966572000171
+2025-04-09 11:11:59,656 - DEBUG - [✅ Match exato] 13966572000171 -> CAPPTA INSTITUICAO DE PAGAMENTO S.A
+2025-04-09 11:11:59,656 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 584498
+2025-04-09 11:11:59,656 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 584498
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 420638
+2025-04-09 11:11:59,657 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 420638
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 54668555000135
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato] 54668555000135 -> SUELLEN D. DA S. MENDES ESTETICA
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 395008
+2025-04-09 11:11:59,657 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 395008
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 136228
+2025-04-09 11:11:59,657 - DEBUG - [🟡 Match parcial via 'in'] 136228 ∈ 51313622885 -> Gabriel Batista Santos PJ
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 776998
+2025-04-09 11:11:59,657 - DEBUG - [🟡 Match parcial via 'in'] 776998 ∈ 43677699843 -> André Luis Ribeiro PJ
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 18151164000185
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato] 18151164000185 -> MARCELA HASTENREITER PORTES DUAR MOL
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 33879551000126
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato] 33879551000126 -> VICTORYA CAROLINA ROSALES PENA BOTELHO BALDEZ 13291658701
+2025-04-09 11:11:59,657 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,657 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 54575080000132
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato] 54575080000132 -> Unknown
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 357918
+2025-04-09 11:11:59,658 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 357918
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 296728
+2025-04-09 11:11:59,658 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 296728
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 074825
+2025-04-09 11:11:59,658 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 074825
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 40710160000149
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato] 40710160000149 -> MARIANA LUCHIN DERMATOLOGIA E ESTETICA LTDA
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 62094636000105
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato] 62094636000105 -> Unknown
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 42847005000102
+2025-04-09 11:11:59,658 - DEBUG - [✅ Match exato] 42847005000102 -> CLINICA DE ESTETICA INDAIATUBA LTBA
+2025-04-09 11:11:59,658 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 587358
+2025-04-09 11:11:59,659 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 587358
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 29811363000199
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 29811363000199 -> 29.811.363 ERIKA CHOMA PRILUTSKY
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 36368359000163
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 36368359000163 -> ACADEMY CENTRO DE TREINAMENTO ACADEMICO S.A
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 18429680000129
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 18429680000129 -> STEPHANIE LOLO BIOMEDICA ESTETA LTDA
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 46995444000105
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 46995444000105 -> LUANA ARAUJO BIOMEDICINA ESTETICA LTDA
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 17390640000158
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 17390640000158 -> GILIOLI SERVICOS ODONTOLOGICOS LTDA
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 41113600000143
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 41113600000143 -> LUCIA FERNANDA LOPEZ PINEDO
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 40114788000181
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato] 40114788000181 -> MAPRILOC313 LOCACOES DE EQUIPAMENTOS LTDA
+2025-04-09 11:11:59,659 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,659 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:11:59,660 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 557588
+2025-04-09 11:11:59,660 - DEBUG - [🟡 Match parcial via 'in'] 557588 ∈ 49155758886 -> Isabela Betti Stavarengo
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:11:59,660 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 232358
+2025-04-09 11:11:59,660 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 232358
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 074825
+2025-04-09 11:11:59,660 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 074825
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:11:59,660 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 443008
+2025-04-09 11:11:59,660 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 443008
+2025-04-09 11:11:59,660 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 610768
+2025-04-09 11:11:59,660 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 610768
+2025-04-09 11:11:59,662 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato_conciliated_with_contacts.json
+2025-04-09 11:11:59,662 - INFO - Transações associadas a contatos.
+2025-04-09 11:11:59,662 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "POST /process HTTP/1.1" 200 -
+2025-04-09 11:11:59,682 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "GET / HTTP/1.1" 200 -
+2025-04-09 11:11:59,720 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "GET /static/js/main.js?v=1744207919 HTTP/1.1" 200 -
+2025-04-09 11:11:59,727 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,731 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,729 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,739 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,740 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,744 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,745 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,746 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,748 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,749 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,751 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,804 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,806 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,810 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,812 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,813 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,816 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,824 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,827 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,829 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,833 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,839 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,845 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,846 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,847 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,853 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,853 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,859 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,859 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,861 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,863 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,866 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,870 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,875 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,879 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,880 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,885 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,889 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,889 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:11:59,899 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:11:59,901 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:11:59,936 - INFO - 127.0.0.1 - - [09/Apr/2025 11:11:59] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:13:21,932 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:21,933 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:21] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:24,695 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:24,696 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:24] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:25,295 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:25,295 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:25] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:25,753 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:25,754 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:25] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:26,184 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:26,185 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:26] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:26,581 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:26,581 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:26] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:26,954 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:26,955 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:26] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:27,554 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:27,555 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:27] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:30,123 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:30,123 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:30] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:30,805 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:30,806 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:30] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:34,671 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:34,672 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:34] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:39,923 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:39,924 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:39] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:42,896 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:42,897 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:42] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:44,754 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:44,754 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:44] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:48,332 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:48,334 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:48] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:13:57,919 - INFO - 127.0.0.1 - - [09/Apr/2025 11:13:57] "POST /upload_html HTTP/1.1" 200 -
+2025-04-09 11:13:57,923 - INFO - Iniciando pipeline de processamento...
+2025-04-09 11:13:57,925 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:57,929 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/pessoas_cpf_MMG25_corrigido.csv
+2025-04-09 11:13:57,929 - INFO - Aliases file loaded successfully.
+2025-04-09 11:13:57,931 - DEBUG - Alias 'Guilherme Borelli' with CPF 40498567869 already exists in the contacts database.
+2025-04-09 11:13:57,932 - DEBUG - Alias 'Bruna Zavati Zavitoski' with CPF 41927629861 already exists in the contacts database.
+2025-04-09 11:13:57,933 - DEBUG - Alias 'Marcus Vinicius Machado Gonçalves' with CPF 31687798818 already exists in the contacts database.
+2025-04-09 11:13:57,934 - DEBUG - Alias 'André Luis Ribeiro PJ' with CPF 43677699843 already exists in the contacts database.
+2025-04-09 11:13:57,935 - DEBUG - Alias 'Gabriel Batista Santos PJ' with CPF 51313622885 already exists in the contacts database.
+2025-04-09 11:13:57,936 - DEBUG - Alias 'Alex Eduardo Antunes PJ' with CPF 40102626804 already exists in the contacts database.
+2025-04-09 11:13:57,938 - DEBUG - Alias 'Isabela Betti Stavarengo' with CPF 49155758886 already exists in the contacts database.
+2025-04-09 11:13:57,939 - DEBUG - Alias 'Marcelo Eliseu Urbano PJ' with CPF 34505794873 already exists in the contacts database.
+2025-04-09 11:13:57,942 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:57,943 - INFO - Contatos atualizados com aliases integrados.
+2025-04-09 11:13:57,943 - DEBUG - Lendo extrato do arquivo: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato.html
+2025-04-09 11:13:58,010 - DEBUG - Parse do extrato Sicoob concluído.
+2025-04-09 11:13:58,017 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob.json
+2025-04-09 11:13:58,017 - INFO - Extrato parseado com sucesso.
+2025-04-09 11:13:58,021 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_enriched.json
+2025-04-09 11:13:58,021 - INFO - Lançamentos enriquecidos.
+2025-04-09 11:13:58,023 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:13:58,173 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/parsed_extrato_sicoob_conciliated.json
+2025-04-09 11:13:58,173 - INFO - Lançamentos conciliados com contatos.
+2025-04-09 11:13:58,173 - INFO - 🔍 Consultando 28 CNPJs não conciliados...
+2025-04-09 11:13:58,174 - INFO - [1/28] Consultando CNPJ: 01515951000166 ...
+2025-04-09 11:13:58,186 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:13:58,897 - DEBUG - https://api.cnpja.com:443 "GET /office/01515951000166 HTTP/1.1" 200 1160
+2025-04-09 11:13:58,902 - INFO - Consulta ao CNPJ 01515951000166 bem-sucedida.
+2025-04-09 11:13:58,903 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:13:58,903 - INFO - Cache atualizado com CNPJ 01515951000166.
+2025-04-09 11:13:58,903 - INFO - ✅ OK
+2025-04-09 11:13:58,904 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:00,904 - INFO - [2/28] Consultando CNPJ: 02754732000100 ...
+2025-04-09 11:14:00,906 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:01,668 - DEBUG - https://api.cnpja.com:443 "GET /office/02754732000100 HTTP/1.1" 200 875
+2025-04-09 11:14:01,669 - INFO - Consulta ao CNPJ 02754732000100 bem-sucedida.
+2025-04-09 11:14:01,670 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:01,670 - INFO - Cache atualizado com CNPJ 02754732000100.
+2025-04-09 11:14:01,670 - INFO - ✅ OK
+2025-04-09 11:14:01,673 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:03,673 - INFO - [3/28] Consultando CNPJ: 03506307000157 ...
+2025-04-09 11:14:03,675 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:04,218 - DEBUG - https://api.cnpja.com:443 "GET /office/03506307000157 HTTP/1.1" 200 3760
+2025-04-09 11:14:04,230 - INFO - Consulta ao CNPJ 03506307000157 bem-sucedida.
+2025-04-09 11:14:04,233 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:04,233 - INFO - Cache atualizado com CNPJ 03506307000157.
+2025-04-09 11:14:04,233 - INFO - ✅ OK
+2025-04-09 11:14:04,235 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:06,235 - INFO - [4/28] Consultando CNPJ: 04938736000166 ...
+2025-04-09 11:14:06,238 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:06,549 - DEBUG - https://api.cnpja.com:443 "GET /office/04938736000166 HTTP/1.1" 200 968
+2025-04-09 11:14:06,551 - INFO - Consulta ao CNPJ 04938736000166 bem-sucedida.
+2025-04-09 11:14:06,552 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:06,552 - INFO - Cache atualizado com CNPJ 04938736000166.
+2025-04-09 11:14:06,552 - INFO - ✅ OK
+2025-04-09 11:14:06,553 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:08,554 - INFO - [5/28] Consultando CNPJ: 05311364000106 ...
+2025-04-09 11:14:08,556 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:08,948 - DEBUG - https://api.cnpja.com:443 "GET /office/05311364000106 HTTP/1.1" 200 1462
+2025-04-09 11:14:08,950 - INFO - Consulta ao CNPJ 05311364000106 bem-sucedida.
+2025-04-09 11:14:08,951 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:08,951 - INFO - Cache atualizado com CNPJ 05311364000106.
+2025-04-09 11:14:08,951 - INFO - ✅ OK
+2025-04-09 11:14:08,954 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:10,955 - INFO - [6/28] Consultando CNPJ: 10397739000132 ...
+2025-04-09 11:14:10,957 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:11,338 - DEBUG - https://api.cnpja.com:443 "GET /office/10397739000132 HTTP/1.1" 200 2335
+2025-04-09 11:14:11,340 - INFO - Consulta ao CNPJ 10397739000132 bem-sucedida.
+2025-04-09 11:14:11,341 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:11,341 - INFO - Cache atualizado com CNPJ 10397739000132.
+2025-04-09 11:14:11,342 - INFO - ✅ OK
+2025-04-09 11:14:11,345 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:13,346 - INFO - [7/28] Consultando CNPJ: 14265814000162 ...
+2025-04-09 11:14:13,350 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:13,876 - DEBUG - https://api.cnpja.com:443 "GET /office/14265814000162 HTTP/1.1" 200 1536
+2025-04-09 11:14:13,877 - INFO - Consulta ao CNPJ 14265814000162 bem-sucedida.
+2025-04-09 11:14:13,879 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:13,880 - INFO - Cache atualizado com CNPJ 14265814000162.
+2025-04-09 11:14:13,880 - INFO - ✅ OK
+2025-04-09 11:14:13,883 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:15,883 - INFO - [8/28] Consultando CNPJ: 14380200000121 ...
+2025-04-09 11:14:15,886 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:16,199 - DEBUG - https://api.cnpja.com:443 "GET /office/14380200000121 HTTP/1.1" 200 2400
+2025-04-09 11:14:16,209 - INFO - Consulta ao CNPJ 14380200000121 bem-sucedida.
+2025-04-09 11:14:16,211 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:16,212 - INFO - Cache atualizado com CNPJ 14380200000121.
+2025-04-09 11:14:16,212 - INFO - ✅ OK
+2025-04-09 11:14:16,215 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:18,216 - INFO - [9/28] Consultando CNPJ: 17390640000158 ...
+2025-04-09 11:14:18,219 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:18,558 - DEBUG - https://api.cnpja.com:443 "GET /office/17390640000158 HTTP/1.1" 200 1311
+2025-04-09 11:14:18,560 - INFO - Consulta ao CNPJ 17390640000158 bem-sucedida.
+2025-04-09 11:14:18,563 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:18,563 - INFO - Cache atualizado com CNPJ 17390640000158.
+2025-04-09 11:14:18,563 - INFO - ✅ OK
+2025-04-09 11:14:18,566 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:20,567 - INFO - [10/28] Consultando CNPJ: 19468242000132 ...
+2025-04-09 11:14:20,569 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:21,114 - DEBUG - https://api.cnpja.com:443 "GET /office/19468242000132 HTTP/1.1" 200 1759
+2025-04-09 11:14:21,116 - INFO - Consulta ao CNPJ 19468242000132 bem-sucedida.
+2025-04-09 11:14:21,118 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:21,118 - INFO - Cache atualizado com CNPJ 19468242000132.
+2025-04-09 11:14:21,118 - INFO - ✅ OK
+2025-04-09 11:14:21,121 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:23,122 - INFO - [11/28] Consultando CNPJ: 20729204000175 ...
+2025-04-09 11:14:23,124 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:23,368 - DEBUG - https://api.cnpja.com:443 "GET /office/20729204000175 HTTP/1.1" 429 55
+2025-04-09 11:14:23,369 - ERROR - Erro na consulta à CNPJa para 20729204000175: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175
+2025-04-09 11:14:23,370 - WARNING - Tentativa 1 para consultar CNPJ 20729204000175 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:26,372 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:26,648 - DEBUG - https://api.cnpja.com:443 "GET /office/20729204000175 HTTP/1.1" 429 55
+2025-04-09 11:14:26,649 - ERROR - Erro na consulta à CNPJa para 20729204000175: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175
+2025-04-09 11:14:26,650 - WARNING - Tentativa 2 para consultar CNPJ 20729204000175 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:29,652 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:29,928 - DEBUG - https://api.cnpja.com:443 "GET /office/20729204000175 HTTP/1.1" 429 55
+2025-04-09 11:14:29,929 - ERROR - Erro na consulta à CNPJa para 20729204000175: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175
+2025-04-09 11:14:29,930 - WARNING - Tentativa 3 para consultar CNPJ 20729204000175 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:32,930 - ERROR - Erro ao consultar CNPJ 20729204000175 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175
+2025-04-09 11:14:32,931 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/20729204000175
+2025-04-09 11:14:32,933 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:34,933 - INFO - [12/28] Consultando CNPJ: 32724713000194 ...
+2025-04-09 11:14:34,935 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:35,130 - DEBUG - https://api.cnpja.com:443 "GET /office/32724713000194 HTTP/1.1" 429 55
+2025-04-09 11:14:35,131 - ERROR - Erro na consulta à CNPJa para 32724713000194: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:14:35,132 - WARNING - Tentativa 1 para consultar CNPJ 32724713000194 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:38,134 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:38,428 - DEBUG - https://api.cnpja.com:443 "GET /office/32724713000194 HTTP/1.1" 429 55
+2025-04-09 11:14:38,429 - ERROR - Erro na consulta à CNPJa para 32724713000194: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:14:38,430 - WARNING - Tentativa 2 para consultar CNPJ 32724713000194 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:41,432 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:41,698 - DEBUG - https://api.cnpja.com:443 "GET /office/32724713000194 HTTP/1.1" 429 55
+2025-04-09 11:14:41,699 - ERROR - Erro na consulta à CNPJa para 32724713000194: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:14:41,700 - WARNING - Tentativa 3 para consultar CNPJ 32724713000194 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:44,700 - ERROR - Erro ao consultar CNPJ 32724713000194 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:14:44,700 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/32724713000194
+2025-04-09 11:14:44,702 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:46,702 - INFO - [13/28] Consultando CNPJ: 33180818000192 ...
+2025-04-09 11:14:46,705 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:47,038 - DEBUG - https://api.cnpja.com:443 "GET /office/33180818000192 HTTP/1.1" 429 55
+2025-04-09 11:14:47,039 - ERROR - Erro na consulta à CNPJa para 33180818000192: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:14:47,039 - WARNING - Tentativa 1 para consultar CNPJ 33180818000192 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:50,041 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:50,308 - DEBUG - https://api.cnpja.com:443 "GET /office/33180818000192 HTTP/1.1" 429 55
+2025-04-09 11:14:50,309 - ERROR - Erro na consulta à CNPJa para 33180818000192: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:14:50,310 - WARNING - Tentativa 2 para consultar CNPJ 33180818000192 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:53,313 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:53,590 - DEBUG - https://api.cnpja.com:443 "GET /office/33180818000192 HTTP/1.1" 429 55
+2025-04-09 11:14:53,591 - ERROR - Erro na consulta à CNPJa para 33180818000192: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:14:53,591 - WARNING - Tentativa 3 para consultar CNPJ 33180818000192 falhou. Retentando em 3 segundos...
+2025-04-09 11:14:56,592 - ERROR - Erro ao consultar CNPJ 33180818000192 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:14:56,592 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/33180818000192
+2025-04-09 11:14:56,595 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:58,596 - INFO - [14/28] Consultando CNPJ: 33497436000197 ...
+2025-04-09 11:14:58,599 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:14:58,918 - DEBUG - https://api.cnpja.com:443 "GET /office/33497436000197 HTTP/1.1" 200 1235
+2025-04-09 11:14:58,919 - INFO - Consulta ao CNPJ 33497436000197 bem-sucedida.
+2025-04-09 11:14:58,921 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:14:58,921 - INFO - Cache atualizado com CNPJ 33497436000197.
+2025-04-09 11:14:58,921 - INFO - ✅ OK
+2025-04-09 11:14:58,923 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:00,923 - INFO - [15/28] Consultando CNPJ: 40710160000149 ...
+2025-04-09 11:15:00,925 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:01,350 - DEBUG - https://api.cnpja.com:443 "GET /office/40710160000149 HTTP/1.1" 200 1322
+2025-04-09 11:15:01,351 - INFO - Consulta ao CNPJ 40710160000149 bem-sucedida.
+2025-04-09 11:15:01,353 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:01,353 - INFO - Cache atualizado com CNPJ 40710160000149.
+2025-04-09 11:15:01,353 - INFO - ✅ OK
+2025-04-09 11:15:01,356 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:03,357 - INFO - [16/28] Consultando CNPJ: 42847005000102 ...
+2025-04-09 11:15:03,360 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:03,719 - DEBUG - https://api.cnpja.com:443 "GET /office/42847005000102 HTTP/1.1" 200 1084
+2025-04-09 11:15:03,720 - INFO - Consulta ao CNPJ 42847005000102 bem-sucedida.
+2025-04-09 11:15:03,723 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:03,723 - INFO - Cache atualizado com CNPJ 42847005000102.
+2025-04-09 11:15:03,723 - INFO - ✅ OK
+2025-04-09 11:15:03,727 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:05,728 - INFO - [17/28] Consultando CNPJ: 43372119000106 ...
+2025-04-09 11:15:05,730 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:06,096 - DEBUG - https://api.cnpja.com:443 "GET /office/43372119000106 HTTP/1.1" 200 2736
+2025-04-09 11:15:06,100 - INFO - Consulta ao CNPJ 43372119000106 bem-sucedida.
+2025-04-09 11:15:06,102 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:06,102 - INFO - Cache atualizado com CNPJ 43372119000106.
+2025-04-09 11:15:06,102 - INFO - ✅ OK
+2025-04-09 11:15:06,105 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:08,105 - INFO - [18/28] Consultando CNPJ: 44388803000130 ...
+2025-04-09 11:15:08,108 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:08,468 - DEBUG - https://api.cnpja.com:443 "GET /office/44388803000130 HTTP/1.1" 200 1316
+2025-04-09 11:15:08,469 - INFO - Consulta ao CNPJ 44388803000130 bem-sucedida.
+2025-04-09 11:15:08,471 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:08,471 - INFO - Cache atualizado com CNPJ 44388803000130.
+2025-04-09 11:15:08,471 - INFO - ✅ OK
+2025-04-09 11:15:08,474 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:10,475 - INFO - [19/28] Consultando CNPJ: 44556201000145 ...
+2025-04-09 11:15:10,478 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:10,818 - DEBUG - https://api.cnpja.com:443 "GET /office/44556201000145 HTTP/1.1" 200 1630
+2025-04-09 11:15:10,818 - INFO - Consulta ao CNPJ 44556201000145 bem-sucedida.
+2025-04-09 11:15:10,819 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:10,819 - INFO - Cache atualizado com CNPJ 44556201000145.
+2025-04-09 11:15:10,819 - INFO - ✅ OK
+2025-04-09 11:15:10,820 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:12,820 - INFO - [20/28] Consultando CNPJ: 47105254000138 ...
+2025-04-09 11:15:12,823 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:13,158 - DEBUG - https://api.cnpja.com:443 "GET /office/47105254000138 HTTP/1.1" 200 1340
+2025-04-09 11:15:13,160 - INFO - Consulta ao CNPJ 47105254000138 bem-sucedida.
+2025-04-09 11:15:13,162 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:13,163 - INFO - Cache atualizado com CNPJ 47105254000138.
+2025-04-09 11:15:13,164 - INFO - ✅ OK
+2025-04-09 11:15:13,166 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:15,167 - INFO - [21/28] Consultando CNPJ: 47121800000124 ...
+2025-04-09 11:15:15,169 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:15,698 - DEBUG - https://api.cnpja.com:443 "GET /office/47121800000124 HTTP/1.1" 200 1507
+2025-04-09 11:15:15,699 - INFO - Consulta ao CNPJ 47121800000124 bem-sucedida.
+2025-04-09 11:15:15,701 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:15,701 - INFO - Cache atualizado com CNPJ 47121800000124.
+2025-04-09 11:15:15,701 - INFO - ✅ OK
+2025-04-09 11:15:15,705 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:17,705 - INFO - [22/28] Consultando CNPJ: 48483151000174 ...
+2025-04-09 11:15:17,708 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:18,038 - DEBUG - https://api.cnpja.com:443 "GET /office/48483151000174 HTTP/1.1" 200 1133
+2025-04-09 11:15:18,039 - INFO - Consulta ao CNPJ 48483151000174 bem-sucedida.
+2025-04-09 11:15:18,041 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:18,041 - INFO - Cache atualizado com CNPJ 48483151000174.
+2025-04-09 11:15:18,041 - INFO - ✅ OK
+2025-04-09 11:15:18,045 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:20,046 - INFO - [23/28] Consultando CNPJ: 50632839000110 ...
+2025-04-09 11:15:20,049 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:20,618 - DEBUG - https://api.cnpja.com:443 "GET /office/50632839000110 HTTP/1.1" 200 1067
+2025-04-09 11:15:20,619 - INFO - Consulta ao CNPJ 50632839000110 bem-sucedida.
+2025-04-09 11:15:20,621 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:20,621 - INFO - Cache atualizado com CNPJ 50632839000110.
+2025-04-09 11:15:20,622 - INFO - ✅ OK
+2025-04-09 11:15:20,625 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:22,626 - INFO - [24/28] Consultando CNPJ: 52305548000143 ...
+2025-04-09 11:15:22,631 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:22,868 - DEBUG - https://api.cnpja.com:443 "GET /office/52305548000143 HTTP/1.1" 429 55
+2025-04-09 11:15:22,869 - ERROR - Erro na consulta à CNPJa para 52305548000143: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143
+2025-04-09 11:15:22,870 - WARNING - Tentativa 1 para consultar CNPJ 52305548000143 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:25,872 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:26,969 - DEBUG - https://api.cnpja.com:443 "GET /office/52305548000143 HTTP/1.1" 429 55
+2025-04-09 11:15:26,970 - ERROR - Erro na consulta à CNPJa para 52305548000143: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143
+2025-04-09 11:15:26,971 - WARNING - Tentativa 2 para consultar CNPJ 52305548000143 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:29,973 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:30,239 - DEBUG - https://api.cnpja.com:443 "GET /office/52305548000143 HTTP/1.1" 429 55
+2025-04-09 11:15:30,239 - ERROR - Erro na consulta à CNPJa para 52305548000143: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143
+2025-04-09 11:15:30,240 - WARNING - Tentativa 3 para consultar CNPJ 52305548000143 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:33,240 - ERROR - Erro ao consultar CNPJ 52305548000143 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143
+2025-04-09 11:15:33,241 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52305548000143
+2025-04-09 11:15:33,244 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:35,245 - INFO - [25/28] Consultando CNPJ: 52325738000122 ...
+2025-04-09 11:15:35,248 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:35,829 - DEBUG - https://api.cnpja.com:443 "GET /office/52325738000122 HTTP/1.1" 429 55
+2025-04-09 11:15:35,830 - ERROR - Erro na consulta à CNPJa para 52325738000122: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122
+2025-04-09 11:15:35,831 - WARNING - Tentativa 1 para consultar CNPJ 52325738000122 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:38,833 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:39,048 - DEBUG - https://api.cnpja.com:443 "GET /office/52325738000122 HTTP/1.1" 429 55
+2025-04-09 11:15:39,049 - ERROR - Erro na consulta à CNPJa para 52325738000122: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122
+2025-04-09 11:15:39,050 - WARNING - Tentativa 2 para consultar CNPJ 52325738000122 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:42,052 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:42,318 - DEBUG - https://api.cnpja.com:443 "GET /office/52325738000122 HTTP/1.1" 429 55
+2025-04-09 11:15:42,319 - ERROR - Erro na consulta à CNPJa para 52325738000122: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122
+2025-04-09 11:15:42,319 - WARNING - Tentativa 3 para consultar CNPJ 52325738000122 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:45,320 - ERROR - Erro ao consultar CNPJ 52325738000122 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122
+2025-04-09 11:15:45,320 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/52325738000122
+2025-04-09 11:15:45,323 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:47,323 - INFO - [26/28] Consultando CNPJ: 54575080000132 ...
+2025-04-09 11:15:47,328 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:47,638 - DEBUG - https://api.cnpja.com:443 "GET /office/54575080000132 HTTP/1.1" 429 55
+2025-04-09 11:15:47,639 - ERROR - Erro na consulta à CNPJa para 54575080000132: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:15:47,640 - WARNING - Tentativa 1 para consultar CNPJ 54575080000132 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:50,643 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:50,929 - DEBUG - https://api.cnpja.com:443 "GET /office/54575080000132 HTTP/1.1" 429 55
+2025-04-09 11:15:50,930 - ERROR - Erro na consulta à CNPJa para 54575080000132: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:15:50,930 - WARNING - Tentativa 2 para consultar CNPJ 54575080000132 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:53,932 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:54,409 - DEBUG - https://api.cnpja.com:443 "GET /office/54575080000132 HTTP/1.1" 429 55
+2025-04-09 11:15:54,410 - ERROR - Erro na consulta à CNPJa para 54575080000132: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:15:54,411 - WARNING - Tentativa 3 para consultar CNPJ 54575080000132 falhou. Retentando em 3 segundos...
+2025-04-09 11:15:57,412 - ERROR - Erro ao consultar CNPJ 54575080000132 após 3 tentativas: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:15:57,412 - WARNING - Erro: 429 Client Error: Too Many Requests for url: https://api.cnpja.com/office/54575080000132
+2025-04-09 11:15:57,415 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:59,415 - INFO - [27/28] Consultando CNPJ: 55499539000129 ...
+2025-04-09 11:15:59,418 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:15:59,769 - DEBUG - https://api.cnpja.com:443 "GET /office/55499539000129 HTTP/1.1" 200 1538
+2025-04-09 11:15:59,770 - INFO - Consulta ao CNPJ 55499539000129 bem-sucedida.
+2025-04-09 11:15:59,772 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:15:59,773 - INFO - Cache atualizado com CNPJ 55499539000129.
+2025-04-09 11:15:59,773 - INFO - ✅ OK
+2025-04-09 11:15:59,776 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:16:01,777 - INFO - [28/28] Consultando CNPJ: 56779110000158 ...
+2025-04-09 11:16:01,781 - DEBUG - Starting new HTTPS connection (1): api.cnpja.com:443
+2025-04-09 11:16:02,159 - DEBUG - https://api.cnpja.com:443 "GET /office/56779110000158 HTTP/1.1" 200 853
+2025-04-09 11:16:02,161 - INFO - Consulta ao CNPJ 56779110000158 bem-sucedida.
+2025-04-09 11:16:02,164 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:16:02,164 - INFO - Cache atualizado com CNPJ 56779110000158.
+2025-04-09 11:16:02,164 - INFO - ✅ OK
+2025-04-09 11:16:02,168 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/cnpj_cache.json
+2025-04-09 11:16:04,168 - INFO - Consulta massiva de CNPJs concluída.
+2025-04-09 11:16:04,172 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:04,345 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.json
+2025-04-09 11:16:04,348 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/candidate_links.csv
+2025-04-09 11:16:04,348 - INFO - Vínculos candidatos gerados e exportados.
+2025-04-09 11:16:04,349 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:04,351 - INFO - ➕ Adding new contact for CNPJ 01515951000166
+2025-04-09 11:16:04,352 - INFO - ➕ Adding new contact for CNPJ 02754732000100
+2025-04-09 11:16:04,353 - INFO - ➕ Adding new contact for CNPJ 03506307000157
+2025-04-09 11:16:04,354 - INFO - ➕ Adding new contact for CNPJ 04938736000166
+2025-04-09 11:16:04,356 - INFO - ➕ Adding new contact for CNPJ 05311364000106
+2025-04-09 11:16:04,359 - INFO - ➕ Adding new contact for CNPJ 10397739000132
+2025-04-09 11:16:04,362 - INFO - ➕ Adding new contact for CNPJ 14265814000162
+2025-04-09 11:16:04,365 - INFO - ➕ Adding new contact for CNPJ 14380200000121
+2025-04-09 11:16:04,366 - INFO - ➕ Adding new contact for CNPJ 17390640000158
+2025-04-09 11:16:04,368 - INFO - ➕ Adding new contact for CNPJ 19468242000132
+2025-04-09 11:16:04,369 - INFO - ➕ Adding new contact for CNPJ 20729204000175
+2025-04-09 11:16:04,370 - INFO - ✅ CNPJ 32724713000194 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,371 - INFO - ✅ CNPJ 33180818000192 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,374 - INFO - ✅ CNPJ 33497436000197 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,377 - INFO - ➕ Adding new contact for CNPJ 40710160000149
+2025-04-09 11:16:04,380 - INFO - ➕ Adding new contact for CNPJ 42847005000102
+2025-04-09 11:16:04,382 - INFO - ➕ Adding new contact for CNPJ 43372119000106
+2025-04-09 11:16:04,383 - INFO - ➕ Adding new contact for CNPJ 44388803000130
+2025-04-09 11:16:04,385 - INFO - ➕ Adding new contact for CNPJ 44556201000145
+2025-04-09 11:16:04,386 - INFO - ➕ Adding new contact for CNPJ 47105254000138
+2025-04-09 11:16:04,387 - INFO - ➕ Adding new contact for CNPJ 47121800000124
+2025-04-09 11:16:04,388 - INFO - ➕ Adding new contact for CNPJ 48483151000174
+2025-04-09 11:16:04,389 - INFO - ➕ Adding new contact for CNPJ 50632839000110
+2025-04-09 11:16:04,393 - INFO - ➕ Adding new contact for CNPJ 52305548000143
+2025-04-09 11:16:04,396 - INFO - ➕ Adding new contact for CNPJ 52325738000122
+2025-04-09 11:16:04,397 - INFO - ✅ CNPJ 54575080000132 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,398 - INFO - ✅ CNPJ 55499539000129 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,400 - INFO - ✅ CNPJ 56779110000158 already exists in the contacts database. Enriching...
+2025-04-09 11:16:04,402 - INFO - CSV salvo com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:04,402 - INFO - Contacts updated with CNPJ data saved in: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:04,402 - INFO - Contatos enriquecidos com dados dos CNPJs.
+2025-04-09 11:16:04,404 - INFO - CSV lido com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:04,408 - DEBUG - [📋 Tabela de contatos] 54 entradas no dicionário.
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 536998
+2025-04-09 11:16:04,409 - DEBUG - [🟡 Match parcial via 'in'] 536998 ∈ 03953699830 -> José Marcos Gonçalves
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 597878
+2025-04-09 11:16:04,409 - DEBUG - [✅ Match exato] 597878 -> Rennan Alexandre de Paula
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,409 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:16:04,409 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44556201000145
+2025-04-09 11:16:04,409 - DEBUG - [✅ Match exato] 44556201000145 -> CARLA ROCHA FARIAS ESTETICA AVANCADA LTDA
+2025-04-09 11:16:04,409 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 703688
+2025-04-09 11:16:04,410 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 703688
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 026268
+2025-04-09 11:16:04,410 - DEBUG - [🟡 Match parcial via 'in'] 026268 ∈ 40102626804 -> Alex Eduardo Antunes PJ
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:16:04,410 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:16:04,410 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:16:04,410 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 136228
+2025-04-09 11:16:04,410 - DEBUG - [🟡 Match parcial via 'in'] 136228 ∈ 51313622885 -> Gabriel Batista Santos PJ
+2025-04-09 11:16:04,410 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 776998
+2025-04-09 11:16:04,410 - DEBUG - [🟡 Match parcial via 'in'] 776998 ∈ 43677699843 -> André Luis Ribeiro PJ
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 43372119000106 -> NICLO'S COML LTDA
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 43372119000106 -> NICLO'S COML LTDA
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 198178
+2025-04-09 11:16:04,411 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 198178
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 02754732000100
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 02754732000100 -> ROBERT JAGER RESTAURANTE LTDA
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 47121800000124
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 47121800000124 -> J. A. LOCACAO E SERVICOS LTDA
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 04938736000166
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 04938736000166 -> RITA TOBAL DINIZ
+2025-04-09 11:16:04,411 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 17390640000158
+2025-04-09 11:16:04,411 - DEBUG - [✅ Match exato] 17390640000158 -> GILIOLI SERVICOS ODONTOLOGICOS LTDA
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:16:04,412 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 293844
+2025-04-09 11:16:04,412 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 293844
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19305880000132
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 19305880000132 -> R GUIDON
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 43372119000106
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 43372119000106 -> NICLO'S COML LTDA
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 370588
+2025-04-09 11:16:04,412 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 370588
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 47105254000138
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 47105254000138 -> INFINITY COMPANY BY GG LTDA
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 776998
+2025-04-09 11:16:04,412 - DEBUG - [🟡 Match parcial via 'in'] 776998 ∈ 43677699843 -> André Luis Ribeiro PJ
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 52305548000143
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 52305548000143 -> Unknown
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 17390640000158
+2025-04-09 11:16:04,412 - DEBUG - [✅ Match exato] 17390640000158 -> GILIOLI SERVICOS ODONTOLOGICOS LTDA
+2025-04-09 11:16:04,412 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 597878
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 597878 -> Rennan Alexandre de Paula
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:16:04,413 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:16:04,413 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:16:04,413 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 48483151000174
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 48483151000174 -> INTERVISAO VISTORIAS VALINHOS LTDA
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 419678
+2025-04-09 11:16:04,413 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 419678
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 131438
+2025-04-09 11:16:04,413 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 131438
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 56779110000158
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 56779110000158 -> Unknown
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 433668
+2025-04-09 11:16:04,413 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 433668
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 10397739000132
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 10397739000132 -> W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 33497436000197
+2025-04-09 11:16:04,413 - DEBUG - [✅ Match exato] 33497436000197 -> Unknown
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 074825
+2025-04-09 11:16:04,413 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 074825
+2025-04-09 11:16:04,413 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 32724713000194
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 32724713000194 -> Tupinambá Energia e Publicidade LTDA
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 372298
+2025-04-09 11:16:04,414 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 372298
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 33180818000192
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 33180818000192 -> Paula L. Dotto
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14265814000162
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 14265814000162 -> S COSMETICOS DO BEM INDUSTRIA E COMERCIO LTDA
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19549581000143
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 19549581000143 -> ANDRE VORONIUK DE FIGUEIREDO
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 05311364000106
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 05311364000106 -> S. D. ODONTOLOGIA LTDA
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,414 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,414 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 20729204000175
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 20729204000175 -> Unknown
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 32724713000194
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 32724713000194 -> Tupinambá Energia e Publicidade LTDA
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 40710160000149
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 40710160000149 -> MARIANA LUCHIN DERMATOLOGIA E ESTETICA LTDA
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 20729204000175
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 20729204000175 -> Unknown
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 368348
+2025-04-09 11:16:04,415 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 368348
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 37415146000108
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 37415146000108 -> Bruno Barbosa
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 52325738000122
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 52325738000122 -> Unknown
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 012548
+2025-04-09 11:16:04,415 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 012548
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 613458
+2025-04-09 11:16:04,415 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 613458
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,415 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14380200000121
+2025-04-09 11:16:04,415 - DEBUG - [✅ Match exato] 14380200000121 -> IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 414748
+2025-04-09 11:16:04,416 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 414748
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 414748
+2025-04-09 11:16:04,416 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 414748
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 991148
+2025-04-09 11:16:04,416 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 991148
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 19468242000132
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 19468242000132 -> ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 42847005000102
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 42847005000102 -> CLINICA DE ESTETICA INDAIATUBA LTBA
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 057948
+2025-04-09 11:16:04,416 - DEBUG - [🟡 Match parcial via 'in'] 057948 ∈ 34505794873 -> Marcelo Eliseu Urbano PJ
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato]  -> Guilherme Borelli
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 916587
+2025-04-09 11:16:04,416 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 916587
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44388803000130
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 44388803000130 -> MMG LOCACAO DE MAQUINAS LTDA
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 10397739000132
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 10397739000132 -> W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 44556201000145
+2025-04-09 11:16:04,416 - DEBUG - [✅ Match exato] 44556201000145 -> CARLA ROCHA FARIAS ESTETICA AVANCADA LTDA
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:16:04,416 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:16:04,416 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:16:04,417 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,417 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 280478
+2025-04-09 11:16:04,417 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 280478
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 877988
+2025-04-09 11:16:04,417 - DEBUG - [🟡 Match parcial via 'in'] 877988 ∈ 31687798818 -> Marcus Vinicius Machado Gonçalves
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 296728
+2025-04-09 11:16:04,417 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 296728
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 276298
+2025-04-09 11:16:04,417 - DEBUG - [🟡 Match parcial via 'in'] 276298 ∈ 41927629861 -> Bruna Zavati Zavitoski
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 04938736000166
+2025-04-09 11:16:04,417 - DEBUG - [✅ Match exato] 04938736000166 -> RITA TOBAL DINIZ
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 985678
+2025-04-09 11:16:04,417 - DEBUG - [🟡 Match parcial via 'in'] 985678 ∈ 40498567869 -> Guilherme Borelli
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 01515951000166
+2025-04-09 11:16:04,417 - DEBUG - [✅ Match exato] 01515951000166 -> CHIARELLI CONTABILIDADE S/S LTDA
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 54575080000132
+2025-04-09 11:16:04,417 - DEBUG - [✅ Match exato] 54575080000132 -> Unknown
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 557588
+2025-04-09 11:16:04,417 - DEBUG - [🟡 Match parcial via 'in'] 557588 ∈ 49155758886 -> Isabela Betti Stavarengo
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 443008
+2025-04-09 11:16:04,417 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 443008
+2025-04-09 11:16:04,417 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 697648
+2025-04-09 11:16:04,418 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 697648
+2025-04-09 11:16:04,418 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 55499539000129
+2025-04-09 11:16:04,418 - DEBUG - [✅ Match exato] 55499539000129 -> Unknown
+2025-04-09 11:16:04,418 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 50632839000110
+2025-04-09 11:16:04,418 - DEBUG - [✅ Match exato] 50632839000110 -> MM ODONTOLOGIA PREMIUM LTDA
+2025-04-09 11:16:04,418 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 14380200000121
+2025-04-09 11:16:04,418 - DEBUG - [✅ Match exato] 14380200000121 -> IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+2025-04-09 11:16:04,418 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 03506307000157
+2025-04-09 11:16:04,418 - DEBUG - [✅ Match exato] 03506307000157 -> TICKET SOLUCOES HDFGT S/A
+2025-04-09 11:16:04,418 - DEBUG - [🔍 Transação] buscando contato para chave parcial: 433668
+2025-04-09 11:16:04,418 - DEBUG - [❌ Sem match] Nenhum contato encontrado para: 433668
+2025-04-09 11:16:04,420 - INFO - Dados salvos em JSON com sucesso: /home/interface/Code/homologacao_interface_automacao_extrato/db/temp/extrato_conciliated_with_contacts.json
+2025-04-09 11:16:04,420 - INFO - Transações associadas a contatos.
+2025-04-09 11:16:04,420 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "POST /process HTTP/1.1" 200 -
+2025-04-09 11:16:04,447 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "GET / HTTP/1.1" 200 -
+2025-04-09 11:16:04,480 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "GET /static/js/main.js?v=1744208164 HTTP/1.1" 200 -
+2025-04-09 11:16:04,494 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,491 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,504 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,506 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,514 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,518 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,518 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,518 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,519 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,520 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,521 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,601 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,602 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,602 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,603 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,606 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,608 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,638 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,639 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,639 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,640 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,642 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,643 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,649 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,655 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,658 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,660 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,664 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,668 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,672 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,672 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,673 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,680 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,682 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,683 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,687 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,687 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,688 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,688 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:16:04,704 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:16:04,704 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:16:04,741 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:04] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:16:26,145 - INFO - Contatos salvos com sucesso no arquivo /home/interface/Code/homologacao_interface_automacao_extrato/entity/contatos_atualizados.csv
+2025-04-09 11:16:26,146 - INFO - 127.0.0.1 - - [09/Apr/2025 11:16:26] "POST /api/save-contacts HTTP/1.1" 200 -
+2025-04-09 11:19:04,587 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "GET / HTTP/1.1" 200 -
+2025-04-09 11:19:04,631 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "GET /static/js/main.js?v=1744208344 HTTP/1.1" 200 -
+2025-04-09 11:19:04,633 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,639 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,639 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/buttons.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,640 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/tables.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,641 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,645 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/states.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,646 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/rules.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,649 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/spinner.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,650 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/css/media_queries.css HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,757 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/init.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,758 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/expose.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,765 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/pipeline/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,765 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,765 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,774 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,779 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/debug.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,791 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules_state/index.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,796 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/pipeline/run.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,798 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,803 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/create.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,808 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/pipeline/upload.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,809 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,815 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/tipo_categoria.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,824 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/remove.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,827 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/config.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,829 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules/update_inline.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,830 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/server.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,830 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/apply.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,831 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/undo_redo.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,833 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/capture.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,843 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/state/import_file.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,846 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/load.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,847 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/save.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,848 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/update.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,848 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/render.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,860 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/import_export.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,860 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/form.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,861 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/rules_state/api.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,863 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /static/js/contacts/utils.js HTTP/1.1[0m" 304 -
+2025-04-09 11:19:04,879 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "GET /rules HTTP/1.1" 200 -
+2025-04-09 11:19:04,880 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "GET /entity/contatos_atualizados.csv HTTP/1.1" 200 -
+2025-04-09 11:19:04,916 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:04] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -
+2025-04-09 11:19:23,495 - INFO - 127.0.0.1 - - [09/Apr/2025 11:19:23] "[36mGET /entity/contatos_atualizados.csv HTTP/1.1[0m" 304 -

@@ -104,5 +104,10 @@ def main():
     export_jinja_report(classified_data, config_path, os.path.join(path_temp_folder, "relatorio_transacoes_com_categorias_status.html"))
     logging.info("Relatório HTML gerado com sucesso.")
 
+@app.after_request
+def add_csp_headers(response):
+    response.headers['Content-Security-Policy'] = "script-src 'self' 'unsafe-eval'"
+    return response
+
 if __name__ == "__main__":
     main()

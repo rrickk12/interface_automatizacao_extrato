@@ -18,7 +18,8 @@
     ],
     "descricao_regex": "",
     "memo_rule": "",
-    "tipo": "Recebimentos"
+    "tipo": "Recebimentos",
+    "transaction_type": "Cr\u00e9dito"
   },
   {
     "categoria": "Custos operacionais",

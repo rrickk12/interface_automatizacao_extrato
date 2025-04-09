@@ -859,5 +859,81 @@
         "tax_id": "***817468**"
       }
     ]
+  },
+  "18706583000136": {
+    "cnpj": "18706583000136",
+    "razao_social": "DERMA OFFICE CLINICA MEDICA LTDA",
+    "nome_fantasia": "Derma Office",
+    "qsa": [
+      {
+        "nome_socio": "Vanessa Barcellos Duque Estrada Medeiros",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***432048**"
+      },
+      {
+        "nome_socio": "Arnaldo Duque Estrada Medeiros",
+        "tipo": "NATURAL",
+        "faixa_etaria": "51-60",
+        "tax_id": "***415657**"
+      }
+    ]
+  },
+  "52866790000196": {
+    "cnpj": "52866790000196",
+    "razao_social": "52.866.790 KAMILLY KOWALCZYK",
+    "nome_fantasia": "",
+    "qsa": []
+  },
+  "07006586000140": {
+    "cnpj": "07006586000140",
+    "razao_social": "MARIA CRISTINA RODRIGUES PECAS",
+    "nome_fantasia": "Posto de Molas Parana",
+    "qsa": []
+  },
+  "24434731000103": {
+    "cnpj": "24434731000103",
+    "razao_social": "MICHELE FELETO RODRIGUES",
+    "nome_fantasia": "Clinica Michele Feleto",
+    "qsa": []
+  },
+  "36253659000105": {
+    "cnpj": "36253659000105",
+    "razao_social": "GARNI COMFORT FOOD LTDA",
+    "nome_fantasia": "Garni Comfort Food Eventos",
+    "qsa": [
+      {
+        "nome_socio": "Mayara Bedotti",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***272218**"
+      }
+    ]
+  },
+  "47226627000129": {
+    "cnpj": "47226627000129",
+    "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+    "nome_fantasia": "Fumagalli Biomedicina Estetica",
+    "qsa": [
+      {
+        "nome_socio": "Marieli Fumagalli Megda Blascke",
+        "tipo": "NATURAL",
+        "faixa_etaria": "31-40",
+        "tax_id": "***418188**"
+      }
+    ]
+  },
+  "55239603000132": {
+    "cnpj": "55239603000132",
+    "razao_social": "CSG ESTETICA AVANCADA LTDA",
+    "nome_fantasia": "",
+    "qsa": [
+      {
+        "nome_socio": "Juciara de Souza Gimenes",
+        "tipo": "NATURAL",
+        "faixa_etaria": "41-50",
+        "tax_id": "***067278**"
+      }
+    ]
   }
 }

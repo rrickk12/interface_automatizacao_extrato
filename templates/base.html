@@ -13,10 +13,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/spinner.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/media_queries.css') }}">
   
-  <script>
-    window.config_json = {{ config_json | tojson | safe }};
-    window.regras_json = {{ regras_json | tojson | safe }};
-  </script>
+
   {% block head_extra %}{% endblock %}
 </head>
 <body>
@@ -26,15 +23,23 @@
     </header>
 
     <nav>
-      <button onclick="abrirAba('transacoes')">Transações</button>
-      <button onclick="abrirAba('regras')">Regras</button>
-      <button onclick="abrirAba('contatos')">Contatos</button>
+      <button data-aba="transacoes">Transações</button>
+      <button data-aba="regras">Regras</button>
+      <button data-aba="contatos">Contatos</button>
     </nav>
 
     {% block content %}{% endblock %}
 
     {% block scripts_extra %}{% endblock %}
-    <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
   </div>
+
+  <!-- CORRETO: fora do <head>, aqui no final do <body> -->
+  <div id="app-config"
+       data-config='{{ config_json | tojson | safe }}'
+       data-regras='{{ regras_json | tojson | safe }}'
+       style="display:none;"></div>
+       <script type="module" src="{{ url_for('static', filename='js/main.js') }}?v={{ version }}"></script>
+       
+
 </body>
 </html>

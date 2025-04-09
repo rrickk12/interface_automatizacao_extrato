@@ -285,14 +285,22 @@ td input[name="memo"] {
 
 /* ========== Ajustes para Abas e Exibição de Conteúdo ========== */
 .aba {
-  display: none;
-  animation: fadeIn 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  z-index: 0;
 }
 
 .aba.visible {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  z-index: 1;
 }
-
 /* ========== Cores para Transações ========== */
 td.debito {
   background-color: #e74c3c;  /* vermelho para Débito */

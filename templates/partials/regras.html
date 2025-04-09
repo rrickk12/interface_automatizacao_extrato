@@ -3,11 +3,11 @@
     <h2>Gerenciador de Regras</h2>
   
     <div id="rules-actions" style="margin: 10px 0;">
-      <button type="button" onclick="saveRules()">💾 Save Rules</button>
-      <button type="button" onclick="loadRules()">📥 Load Rules</button>
-      <button type="button" onclick="cleanRules()">🧹 Clean Rules</button>
-      <button type="button" onclick="exportRules()">📄 Export Rules</button>
-      <button type="button" onclick="document.getElementById('import-rules-input').click()">📂 Import Rules</button>
+      <button id="btn-save-rules">💾 Save Rules</button>
+      <button id="btn-load-rules">📥 Load Rules</button>
+      <button id="btn-clean-rules">🧹 Clean Rules</button>
+      <button id="btn-export-rules">📄 Export Rules</button>
+      <button id="btn-import-rules">📂 Import Rules</button>
       <input type="file" id="import-rules-input" style="display: none;">
     </div>
     {% include "partials/form_regra.html" %}

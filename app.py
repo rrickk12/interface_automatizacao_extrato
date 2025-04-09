@@ -7,9 +7,23 @@ from modules.contact_matcher.link import link_full_cnpj_to_contacts, save_links_
 from modules.contact_matcher.aliases import integrate_contact_aliases
 from modules.contact_matcher.enrich import process_contact_enrichment
 from modules.contact_matcher.associate import associate_transactions_with_contacts
+import time
 
 app = Flask(__name__)
 app.config['DEBUG'] = False
+@app.after_request
+def add_csp_headers(response):
+    response.headers['Content-Security-Policy'] = (
+        "default-src 'self'; "
+        "script-src 'self' 'unsafe-inline' 'unsafe-eval'; "
+        "style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data:; "
+        "connect-src 'self'; "
+        "object-src 'none'; "
+        "base-uri 'self';"
+    )
+    return response
+
 
 # Configuração de logging
 def setup_logging():
@@ -81,7 +95,8 @@ def index():
         regras_json=regras_json,
         data=data_sem_saldo,
         tipos=tipos,
-        saldos=saldos
+        saldos=saldos,
+        version=int(time.time())
     )
 # Rota para disparar o pipeline
 @app.route('/process', methods=['POST'])
@@ -313,6 +328,10 @@ def save_contacts():
     except Exception as e:
         app.logger.exception("Erro ao salvar contatos:")
         return str(e), 500
+    
+@app.route('/static/js/<path:filename>')
+def serve_js(filename):
+    return send_from_directory('static/js', filename, mimetype='application/javascript')
 
 
 if __name__ == '__main__':

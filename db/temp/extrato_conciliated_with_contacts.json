@@ -1,1801 +1,213 @@
 [
     {
-        "date": "20240902",
-        "document": "20240902049000",
-        "description": "PIX - RECEBIDO - 02/09 05:32 00006884858710 CAROLINA TU",
-        "amount": 490.0,
+        "date": "29/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nLETICIA CORREA MIGLIORINI LACERDA\n***.464.328-**",
+        "amount": 1998.15,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "884858",
+        "cpf_cnpj_parcial": "464328",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "20240902",
-        "document": "202409020175000",
-        "description": "PIX - RECEBIDO - 02/09 16:17 43372119000106 NICLO'S COM",
-        "amount": 1750.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "119000",
-        "possiveis_contatos": [],
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
+        "amount": -500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "19305880000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 19305880000132,
+                "nome": "R GUIDON",
+                "razao_social": "R GUIDON",
+                "nome_fantasia": "R Guidon",
+                "socios": ""
+            }
+        ],
         "contato": {
-            "cpf_cnpj": "43372119000106",
-            "nome": "NICLO'S COML LTDA",
-            "razao_social": "NICLO'S COML LTDA",
-            "nome_fantasia": "",
-            "socios": [
-                {
-                    "nome_socio": "Raja Abdou Hanna",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "51-60",
-                    "tax_id": "***446058**"
-                },
-                {
-                    "nome_socio": "Maya Hanna Maalouf",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "61-70",
-                    "tax_id": "***344938**"
-                },
-                {
-                    "nome_socio": "Michele Hanna Zehil",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "61-70",
-                    "tax_id": "***660108**"
-                }
-            ]
+            "cpf_cnpj": "19305880000132",
+            "nome": "R GUIDON",
+            "razao_social": "R GUIDON",
+            "nome_fantasia": "R Guidon",
+            "socios": ""
         }
     },
     {
-        "date": "20240902",
-        "document": "20240902075000",
-        "description": "PIX - RECEBIDO - 02/09 07:59 47437294168 LARA DONATONI",
-        "amount": 750.0,
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.877.988-**",
+        "amount": -1500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "877988",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "31687798818",
+            "nome": "Marcus Vinicius Machado Gonçalves",
+            "razao_social": "Marcus Vinicius Machado Gonçalves",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.276.298-**",
+        "amount": -1500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "276298",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "41927629861",
+            "nome": "Bruna Zavati Zavitoski",
+            "razao_social": "Bruna Zavati Zavitoski",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.985.678-**",
+        "amount": -1500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "985678",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nRAISSA QUAIATTI ANTONELLI\n***.965.768-**",
+        "amount": 1300.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "294168",
+        "cpf_cnpj_parcial": "965768",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "20240902",
-        "document": "202409021317",
-        "description": "DÉBITO SERVIÇO COBRANÇA - TAR. AGRUPADAS - OCORRENCIA 30/08/2024",
-        "amount": -3.17,
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.044.608-**",
+        "amount": -80.0,
         "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240902",
-        "document": "202409021713",
-        "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 26/08/2024",
-        "amount": -7.13,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240903",
-        "document": "202409030100000",
-        "description": "PIX - RECEBIDO - 03/09 16:46 18703536000139 TARGET LASE",
-        "amount": 1000.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "536000",
+        "cpf_cnpj_parcial": "044608",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "20240903",
-        "document": "202409031120000",
-        "description": "PIX - ENVIADO - 03/09 14:12 TICKET LOG",
-        "amount": -1200.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240904",
-        "document": "2024090401022195",
-        "description": "BB CONSÓRCIO-CARTA CRÉDIT - BB ADMINISTRADORA DE CONSORCIOS S.A",
-        "amount": 10221.95,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240904",
-        "document": "2024090411300100",
-        "description": "PIX - ENVIADO - 04/09 15:54 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -13001.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240905",
-        "document": "202409050200000",
-        "description": "COBRANÇA",
+        "date": "28/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMichele feleto Rodrigues\n24.434.731 0001-03",
         "amount": 2000.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
+        "cpf_cnpj_parcial": "24434731000103",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 24434731000103,
+                "nome": "MICHELE FELETO RODRIGUES",
+                "razao_social": "MICHELE FELETO RODRIGUES",
+                "nome_fantasia": "Clinica Michele Feleto",
+                "socios": ""
+            }
+        ],
         "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
+            "cpf_cnpj": "24434731000103",
+            "nome": "MICHELE FELETO RODRIGUES",
+            "razao_social": "MICHELE FELETO RODRIGUES",
+            "nome_fantasia": "Clinica Michele Feleto",
             "socios": ""
         }
     },
     {
-        "date": "20240905",
-        "document": "20240905047137",
-        "description": "PIX - RECEBIDO - 05/09 07:30 22420969820 PRISCILA PAIVA",
-        "amount": 471.37,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nANGELA MARIA DUARTE\n***.859.328-**",
+        "amount": 35.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "969820",
+        "cpf_cnpj_parcial": "859328",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "20240905",
-        "document": "20240905035083",
-        "description": "PIX - RECEBIDO - 05/09 07:58 25894570816 ADRIANA YUMIKO",
-        "amount": 350.83,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nREGINA MARIA DA SILVA PINHEIRO\n***.828.028-**\ncosmeticos",
+        "amount": 360.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "570816",
+        "cpf_cnpj_parcial": "828028",
         "possiveis_contatos": [],
         "contato": {}
     },
     {
-        "date": "20240905",
-        "document": "202409051282285",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -2822.85,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240905",
-        "document": "20240905127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240905",
-        "document": "20240905027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMARIA CRISTINA RODRIGUES PECAS ME\n07.006.586 0001-40\nCreme",
+        "amount": 250.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
+        "cpf_cnpj_parcial": "07006586000140",
         "possiveis_contatos": [],
         "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
+            "cpf_cnpj": "07006586000140",
+            "nome": "MARIA CRISTINA RODRIGUES PECAS",
+            "razao_social": "MARIA CRISTINA RODRIGUES PECAS",
+            "nome_fantasia": "Posto de Molas Parana",
             "socios": ""
         }
     },
     {
-        "date": "20240906",
-        "document": "20240906065000",
-        "description": "PIX - RECEBIDO - 06/09 05:40 00005839062812 LUCIA HELEN",
-        "amount": 650.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "839062",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240906",
-        "document": "20240906043334",
-        "description": "PIX - RECEBIDO - 06/09 05:43 00029802218804 LUCIANA VIE",
-        "amount": 433.34,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "802218",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240906",
-        "document": "202409061108334",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -1083.34,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n36.253.659 0001-05",
+        "amount": -3498.0,
         "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
+        "cpf_cnpj_parcial": "36253659000105",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 36253659000105,
+                "nome": "GARNI COMFORT FOOD LTDA",
+                "razao_social": "GARNI COMFORT FOOD LTDA",
+                "nome_fantasia": "Garni Comfort Food Eventos",
+                "socios": "[{\"nome_socio\": \"Mayara Bedotti\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***272218**\"}]"
+            }
+        ],
         "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240906",
-        "document": "202409061679004",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6790.04,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240906",
-        "document": "202409060679004",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6790.04,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240906",
-        "document": "20240906127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240906",
-        "document": "20240906027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240909",
-        "document": "202409090381000",
-        "description": "PIX - RECEBIDO - 08/09 09:54 00049641530100 GISELE DONA",
-        "amount": 3810.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "641530",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240909",
-        "document": "20240909057500",
-        "description": "PIX - RECEBIDO - 07/09 07:08 21257782894 FERNANDO PELLI",
-        "amount": 575.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "782894",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240909",
-        "document": "20240909026000",
-        "description": "PIX - RECEBIDO - 07/09 07:53 11186781840 MARCIA DE CAMP",
-        "amount": 260.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "781840",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240909",
-        "document": "20240909055000",
-        "description": "PIX - RECEBIDO - 08/09 12:06 36829903807 NATASHA SACCO",
-        "amount": 550.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "903807",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240909",
-        "document": "202409091519500",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -5195.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240909",
-        "document": "202409091693706",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6937.06,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240909",
-        "document": "202409090693706",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6937.06,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240909",
-        "document": "20240909127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240909",
-        "document": "20240909027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910054750",
-        "description": "PIX - RECEBIDO - 10/09 06:13 00016753494871 LUCIANA A S",
-        "amount": 547.5,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "753494",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240910",
-        "document": "20240910154750",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -547.5,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "202409101694370",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6943.7,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "202409100694370",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6943.7,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910163631",
-        "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
-        "amount": -636.31,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910063631",
-        "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
-        "amount": 636.31,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910188147",
-        "description": "BB CONSÓRCIO - PRESTAÇÃO - BB ADMIN CONSORCIO SA",
-        "amount": -881.47,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910088147",
-        "description": "ESTORNO DE DÉBITO - BB ADMIN CONSORCIO SA",
-        "amount": 881.47,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240910",
-        "document": "20240910027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "202409110175000",
-        "description": "COBRANÇA",
-        "amount": 1750.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "202409111175000",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -1750.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "202409111695033",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6950.33,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "202409110695033",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6950.33,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "20240911127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240911",
-        "document": "20240911027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "202409120175000",
-        "description": "COBRANÇA",
-        "amount": 1750.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "202409121175000",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -1750.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "202409121695697",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6956.97,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "202409120695697",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6956.97,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "20240912127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240912",
-        "document": "20240912027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "202409131317286",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -3172.86,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "202409130317286",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 3172.86,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "202409131696362",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6963.62,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "202409130696362",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6963.62,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "20240913127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240913",
-        "document": "20240913027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240916",
-        "document": "20240916060000",
-        "description": "PIX - RECEBIDO - 16/09 06:07 17045688890 SILVIA LETICIA",
-        "amount": 600.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "688890",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240916",
-        "document": "20240916160000",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -600.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240916",
-        "document": "202409161697490",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6974.9,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240916",
-        "document": "202409160697490",
-        "description": "ESTORNO DE DÉBITO",
-        "amount": 6974.9,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240916",
-        "document": "20240916127727",
-        "description": "PAGTO PREMIO SEGURO - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240916",
-        "document": "20240916027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "2024091705000000",
-        "description": "PIX - RECEBIDO - 17/09 13:37 54575080000132 CRISTAL E S",
-        "amount": 50000.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "080000",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "54575080000132",
-            "nome": "Unknown",
-            "razao_social": "",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "2024091712966080",
-        "description": "PIX - ENVIADO - 17/09 14:12 MARCUS VINICIUS MACHADO GO",
-        "amount": -29660.8,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171100000",
-        "description": "PIX - ENVIADO - 17/09 14:15 MARIA ISABELA GOMES CORRÊA",
-        "amount": -1000.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171336000",
-        "description": "PIX - ENVIADO - 17/09 14:18 JÉSSICA PEREIRA DA SILVA",
-        "amount": -3360.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171311100",
-        "description": "PAGAMENTO DE BOLETO - BANCO DO BRASIL S/A - BRASILIA",
-        "amount": -3111.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171330000",
-        "description": "PIX - ENVIADO - 17/09 19:07 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -3300.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171257696",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -2576.96,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "202409171698158",
-        "description": "BB GIRO PRONAMPE",
-        "amount": -6981.58,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "20240917127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240917",
-        "document": "20240917027727",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.27,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "2024091803041",
-        "description": "CAP GIRO DIGITAL ESTORNO",
-        "amount": 30.41,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "202409180168426",
-        "description": "CIELO ANTECIPAÇÃO DE RECE",
-        "amount": 1684.26,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "2024091801939",
-        "description": "CIELO ANTECIPAÇÃO DE RECE",
-        "amount": 19.39,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "202409180221000",
-        "description": "PIX - RECEBIDO - 18/09 12:37 17174890873 MONICA DE AZEV",
-        "amount": 2210.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "890873",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240918",
-        "document": "20240918190145",
-        "description": "BB CONSÓRCIO - PRESTAÇÃO",
-        "amount": -901.45,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "20240918165074",
-        "description": "BB CONSÓRCIO - PRESTAÇÃO",
-        "amount": -650.74,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "2024091815836",
-        "description": "CAP GIRO DIG AMORTIZAÇÃO",
-        "amount": -58.36,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "2024091812000",
-        "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 17/09/2024",
-        "amount": -20.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240918",
-        "document": "20240918127727",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.27,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240919",
-        "document": "2024091905712",
-        "description": "CAP GIRO DIGITAL ESTORNO",
-        "amount": 57.12,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240919",
-        "document": "202409190150000",
-        "description": "PIX - RECEBIDO - 19/09 16:01 43372119000106 NICLO'S COM",
-        "amount": 1500.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "119000",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "43372119000106",
-            "nome": "NICLO'S COML LTDA",
-            "razao_social": "NICLO'S COML LTDA",
-            "nome_fantasia": "",
+            "cpf_cnpj": "36253659000105",
+            "nome": "GARNI COMFORT FOOD LTDA",
+            "razao_social": "GARNI COMFORT FOOD LTDA",
+            "nome_fantasia": "Garni Comfort Food Eventos",
             "socios": [
                 {
-                    "nome_socio": "Raja Abdou Hanna",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "51-60",
-                    "tax_id": "***446058**"
-                },
-                {
-                    "nome_socio": "Maya Hanna Maalouf",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "61-70",
-                    "tax_id": "***344938**"
-                },
-                {
-                    "nome_socio": "Michele Hanna Zehil",
-                    "tipo": "NATURAL",
-                    "faixa_etaria": "61-70",
-                    "tax_id": "***660108**"
-                }
-            ]
-        }
-    },
-    {
-        "date": "20240919",
-        "document": "202409191354590",
-        "description": "PIX - ENVIADO - 19/09 18:42 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -3545.9,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240920",
-        "document": "202409200325000",
-        "description": "COBRANÇA",
-        "amount": 3250.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240920",
-        "document": "202409201330712",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -3307.12,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240920",
-        "document": "2024092019990",
-        "description": "PAGAMENTOS DIVERSOS - CIELO",
-        "amount": -99.9,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240920",
-        "document": "2024092009990",
-        "description": "ESTORNO DE DÉBITO - CIELO",
-        "amount": 99.9,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240923",
-        "document": "202409230175000",
-        "description": "COBRANÇA",
-        "amount": 1750.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240923",
-        "document": "20240923050000",
-        "description": "PIX - RECEBIDO - 22/09 07:43 00035037985870 KARLA SENGE",
-        "amount": 500.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "037985",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240923",
-        "document": "202409231224000",
-        "description": "PIX - ENVIADO - 23/09 18:01 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -2240.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240923",
-        "document": "2024092311000",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -10.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240924",
-        "document": "202409240198",
-        "description": "CIELO VENDAS DÉBITO",
-        "amount": 1.98,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240924",
-        "document": "202409241513918",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -5139.18,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240924",
-        "document": "202409240513918",
-        "description": "ESTORNO DE DÉBITO - EMPRESARIAL VISA",
-        "amount": 5139.18,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240924",
-        "document": "202409241198",
-        "description": "TARIFA PIX ENVIADO - TAR. AGRUPADAS - OCORRENCIA 19/09/2024",
-        "amount": -1.98,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240925",
-        "document": "20240925058333",
-        "description": "PIX - RECEBIDO - 25/09 05:41 00020085093890 ANA CARLA P",
-        "amount": 583.33,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "085093",
-        "possiveis_contatos": [],
-        "contato": {}
-    },
-    {
-        "date": "20240925",
-        "document": "20240925158333",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -583.33,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240925",
-        "document": "20240925127721",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.21,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240925",
-        "document": "20240925027721",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.21,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240926",
-        "document": "2024092609814",
-        "description": "CIELO VENDAS DÉBITO",
-        "amount": 98.14,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240926",
-        "document": "20240926087296",
-        "description": "CIELO ANTECIPAÇÃO DE RECE",
-        "amount": 872.96,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240926",
-        "document": "20240926197110",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -971.1,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240926",
-        "document": "20240926127721",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.21,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240926",
-        "document": "20240926027721",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.21,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240927",
-        "document": "202409270206451",
-        "description": "COBRANÇA",
-        "amount": 2064.51,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240927",
-        "document": "202409271190000",
-        "description": "PIX - ENVIADO - 27/09 20:21 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -1900.0,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240927",
-        "document": "20240927116451",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -164.51,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240927",
-        "document": "20240927127721",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.21,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240927",
-        "document": "20240927027721",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.21,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240930",
-        "document": "202409300173646",
-        "description": "CIELO ANTECIPAÇÃO DE RECE",
-        "amount": 1736.46,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240930",
-        "document": "202409300165000",
-        "description": "PIX - RECEBIDO - 30/09 10:47 40901286000109 CLINICA DE",
-        "amount": 1650.0,
-        "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "286000",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40901286000109",
-            "nome": "CLINICA DE ESTETICA JUNDIAI LTDA",
-            "razao_social": "CLINICA DE ESTETICA JUNDIAI LTDA",
-            "nome_fantasia": "",
-            "socios": [
-                {
-                    "nome_socio": "Thiago Luis Venturi",
+                    "nome_socio": "Mayara Bedotti",
                     "tipo": "NATURAL",
                     "faixa_etaria": "31-40",
-                    "tax_id": "***141728**"
+                    "tax_id": "***272218**"
                 }
             ]
         }
     },
     {
-        "date": "20240930",
-        "document": "202409300180000",
-        "description": "PIX - RECEBIDO - 30/09 15:18 44388803000130 MMG LOCACAO",
-        "amount": 1800.0,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF - MESMA TIT. Recebimento Pix\nMMG LOCACAO DE\n44.388.803 0001-30\nPINBANK",
+        "amount": 2000.0,
         "transaction_type": "Crédito",
-        "cpf_cnpj_parcial": "803000",
-        "possiveis_contatos": [],
+        "cpf_cnpj_parcial": "44388803000130",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 44388803000130,
+                "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+                "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Guilherme Borelli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***985678**\"}, {\"nome_socio\": \"Marcus Vinicius Machado Goncalves\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***877988**\"}]"
+            }
+        ],
         "contato": {
             "cpf_cnpj": "44388803000130",
             "nome": "MMG LOCACAO DE MAQUINAS LTDA",
@@ -1818,10 +230,110 @@
         }
     },
     {
-        "date": "20240930",
-        "document": "202409301382500",
-        "description": "PIX - ENVIADO - 30/09 16:11 BRUNA ZAVATI ZAVITOSKI",
-        "amount": -3825.0,
+        "date": "27/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.817.468-**",
+        "amount": -100.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "817468",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "26/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nFUMAGALLI BIOMEDICI\n47.226.627 0001-29",
+        "amount": 1500.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "47226627000129",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 47226627000129,
+                "nome": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+                "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+                "nome_fantasia": "Fumagalli Biomedicina Estetica",
+                "socios": "[{\"nome_socio\": \"Marieli Fumagalli Megda Blascke\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***418188**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "47226627000129",
+            "nome": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+            "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+            "nome_fantasia": "Fumagalli Biomedicina Estetica",
+            "socios": [
+                {
+                    "nome_socio": "Marieli Fumagalli Megda Blascke",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***418188**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "26/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -2000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "03506307000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "03506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "26/11/2024",
+        "document": "71078307",
+        "description": "DÉB.TÍTULO COBRANÇA",
+        "amount": -3375.94,
         "transaction_type": "Débito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],
@@ -1834,10 +346,543 @@
         }
     },
     {
-        "date": "20240930",
-        "document": "202409301125900",
-        "description": "PIX - ENVIADO - 30/09 16:24 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -1259.0,
+        "date": "26/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF - MESMA TIT. Pagamento Pix\n44.388.803 0001-30",
+        "amount": -7000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "44388803000130",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 44388803000130,
+                "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+                "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Guilherme Borelli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***985678**\"}, {\"nome_socio\": \"Marcus Vinicius Machado Goncalves\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***877988**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "26/11/2024",
+        "document": "4140",
+        "description": "CRED.TRANSF.CONTAS INTERCREDIS REM.: GILIOLI SERVICOS ODONTOLOGICOS S S\nTransferência Pix\nGILIOLI SERVICOS ODONTOLOGICOS S S LTDA\n17.390.640 0001-58\nPix locacao Ultraformer",
+        "amount": 3139.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "17390640000158",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 17390640000158,
+                "nome": "GILIOLI SERVICOS ODONTOLOGICOS LTDA",
+                "razao_social": "GILIOLI SERVICOS ODONTOLOGICOS LTDA",
+                "nome_fantasia": "Instituto Cibele Gilioli",
+                "socios": "[{\"nome_socio\": \"Cibele Rodrigues Gilioli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"41-50\", \"tax_id\": \"***246858**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "17390640000158",
+            "nome": "GILIOLI SERVICOS ODONTOLOGICOS LTDA",
+            "razao_social": "GILIOLI SERVICOS ODONTOLOGICOS LTDA",
+            "nome_fantasia": "Instituto Cibele Gilioli",
+            "socios": [
+                {
+                    "nome_socio": "Cibele Rodrigues Gilioli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***246858**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "26/11/2024",
+        "document": "1142476971",
+        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+        "amount": 1424.45,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "25/11/2024",
+        "document": "1141769293",
+        "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+        "amount": 1742.59,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "22/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCINTIA ALVES DE MENEZES 35055074825\n36.695.060 0001-13",
+        "amount": 1200.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "074825",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "22/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -1000.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "03506307000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "03506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "22/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCSG ESTETICA AVANCADA LTDA\n55.239.603 0001-32",
+        "amount": 1500.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "55239603000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 55239603000132,
+                "nome": "CSG ESTETICA AVANCADA LTDA",
+                "razao_social": "CSG ESTETICA AVANCADA LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Juciara de Souza Gimenes\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"41-50\", \"tax_id\": \"***067278**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "55239603000132",
+            "nome": "CSG ESTETICA AVANCADA LTDA",
+            "razao_social": "CSG ESTETICA AVANCADA LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Juciara de Souza Gimenes",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***067278**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "22/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
+        "amount": -2045.25,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "19305880000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 19305880000132,
+                "nome": "R GUIDON",
+                "razao_social": "R GUIDON",
+                "nome_fantasia": "R Guidon",
+                "socios": ""
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "19305880000132",
+            "nome": "R GUIDON",
+            "razao_social": "R GUIDON",
+            "nome_fantasia": "R Guidon",
+            "socios": ""
+        }
+    },
+    {
+        "date": "22/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nCAROLINE APARECIDA DO AMARAL 34834950883\n28.230.584 0001-00",
+        "amount": 4328.8,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "950883",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "21/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.305.880 0001-32",
+        "amount": -2500.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "19305880000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 19305880000132,
+                "nome": "R GUIDON",
+                "razao_social": "R GUIDON",
+                "nome_fantasia": "R Guidon",
+                "socios": ""
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "19305880000132",
+            "nome": "R GUIDON",
+            "razao_social": "R GUIDON",
+            "nome_fantasia": "R Guidon",
+            "socios": ""
+        }
+    },
+    {
+        "date": "21/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.597.878-**",
+        "amount": -2250.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "597878",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "00000597878",
+            "nome": "Rennan Alexandre de Paula",
+            "razao_social": "",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "21/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nANDRE LUIS RIBEIRO\n***.776.998-**",
+        "amount": 80.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "776998",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "43677699843",
+            "nome": "André Luis Ribeiro PJ",
+            "razao_social": "André Luis Ribeiro PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "21/11/2024",
+        "document": "70904735",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 3500.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "44388803000130",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 44388803000130,
+                "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+                "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Guilherme Borelli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***985678**\"}, {\"nome_socio\": \"Marcus Vinicius Machado Goncalves\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***877988**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "19/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nBruna Zavati Zavitoski\n***.276.298-**",
+        "amount": 0.01,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "276298",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "41927629861",
+            "nome": "Bruna Zavati Zavitoski",
+            "razao_social": "Bruna Zavati Zavitoski",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "19/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nMARIELI FUMAGALLI MEGDA BLASCKE\n47.226.627 0001-29\nLocacao lumiere",
+        "amount": 1000.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "47226627000129",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 47226627000129,
+                "nome": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+                "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+                "nome_fantasia": "Fumagalli Biomedicina Estetica",
+                "socios": "[{\"nome_socio\": \"Marieli Fumagalli Megda Blascke\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***418188**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "47226627000129",
+            "nome": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+            "razao_social": "FUMAGALLI MEGDA ESTETICA AVANCADA LTDA",
+            "nome_fantasia": "Fumagalli Biomedicina Estetica",
+            "socios": [
+                {
+                    "nome_socio": "Marieli Fumagalli Megda Blascke",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***418188**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "18/11/2024",
+        "document": "1138393592",
+        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+        "amount": 430.81,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "14/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n20.729.204 0001-75",
+        "amount": -1800.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "20729204000175",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 20729204000175,
+                "nome": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+                "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+                "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
+                "socios": "[{\"nome_socio\": \"Marcelo Augusto Farias Jasset\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"51-60\", \"tax_id\": \"***878637**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "20729204000175",
+            "nome": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+            "razao_social": "LUME LASER - EQUIPAMENTOS PARA ESTETICA LTDA",
+            "nome_fantasia": "Lume Laser Locacoes de Equipamentos Para Estetica",
+            "socios": [
+                {
+                    "nome_socio": "Marcelo Augusto Farias Jasset",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***878637**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "14/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n10.397.739 0001-32",
+        "amount": -1400.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "10397739000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 10397739000132,
+                "nome": "W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA",
+                "razao_social": "W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA",
+                "nome_fantasia": "Wa Laser",
+                "socios": "[{\"nome_socio\": \"William Barreto Cardoso\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"41-50\", \"tax_id\": \"***911628**\"}, {\"nome_socio\": \"Adalto Carvalho Sampaio\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"41-50\", \"tax_id\": \"***130378**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "10397739000132",
+            "nome": "W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA",
+            "razao_social": "W. A. LASER COMERCIO MANUTENCAO E LOCACAO DE EQUIPAMENTOS MEDICOS LTDA",
+            "nome_fantasia": "Wa Laser",
+            "socios": [
+                {
+                    "nome_socio": "William Barreto Cardoso",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***911628**"
+                },
+                {
+                    "nome_socio": "Adalto Carvalho Sampaio",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***130378**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "13/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n19.468.242 0001-32",
+        "amount": -45.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "19468242000132",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 19468242000132,
+                "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+                "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+                "nome_fantasia": "Zoop Brasil",
+                "socios": "[{\"nome_socio\": \"Fabiano Teixeira da Cruz\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"41-50\", \"tax_id\": \"***951767**\"}, {\"nome_socio\": \"Ricardo Oishi Sonoda\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"51-60\", \"tax_id\": \"***761648**\"}, {\"nome_socio\": \"Andre Luiz Fonseca da Silva Martins\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"51-60\", \"tax_id\": \"***351418**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "19468242000132",
+            "nome": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "razao_social": "ZOOP TECNOLOGIA & INSTITUICAO DE PAGAMENTO S.A.",
+            "nome_fantasia": "Zoop Brasil",
+            "socios": [
+                {
+                    "nome_socio": "Fabiano Teixeira da Cruz",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***951767**"
+                },
+                {
+                    "nome_socio": "Ricardo Oishi Sonoda",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***761648**"
+                },
+                {
+                    "nome_socio": "Andre Luiz Fonseca da Silva Martins",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***351418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "13/11/2024",
+        "document": "1136618168",
+        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+        "amount": 1329.48,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "13/11/2024",
+        "document": "1136618167",
+        "description": "CR ANTECIPAÇÃO VISA SIPAG_Ant._Visa",
+        "amount": 4137.78,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40498567869",
+            "nome": "Guilherme Borelli",
+            "razao_social": "Guilherme Borelli",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "12/11/2024",
+        "document": "70678276",
+        "description": "DÉB.TIT.COMPE EFETIVADO",
+        "amount": -55.0,
         "transaction_type": "Débito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],
@@ -1850,10 +895,10 @@
         }
     },
     {
-        "date": "20240930",
-        "document": "202409301500",
-        "description": "PIX - ENVIADO - 30/09 17:57 MMG LOCACAO DE MAQUINAS LT",
-        "amount": -5.0,
+        "date": "12/11/2024",
+        "document": "70678038",
+        "description": "DÉB.TIT.COMPE EFETIVADO",
+        "amount": -6710.0,
         "transaction_type": "Débito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],
@@ -1866,11 +911,225 @@
         }
     },
     {
-        "date": "20240930",
-        "document": "2024093019746",
-        "description": "PAGTO CARTÃO CRÉDITO - EMPRESARIAL VISA",
-        "amount": -97.46,
+        "date": "12/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n03.506.307 0001-57",
+        "amount": -1000.0,
         "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "03506307000157",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "03506307000157",
+            "nome": "TICKET SOLUCOES HDFGT S/A",
+            "razao_social": "TICKET SOLUCOES HDFGT S/A",
+            "nome_fantasia": "Ticket Log",
+            "socios": [
+                {
+                    "nome_socio": "Gilles Andre Coccoli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***843778**"
+                },
+                {
+                    "nome_socio": "Douglas Almeida Pina",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***074816**"
+                },
+                {
+                    "nome_socio": "Haroldo Pimentel Stumpf",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***781420**"
+                },
+                {
+                    "nome_socio": "Philippe Pierre Marie Blecon",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***034898**"
+                },
+                {
+                    "nome_socio": "Ricardo Ernesto Correa da Silva",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***307800**"
+                },
+                {
+                    "nome_socio": "Diane Emmanuelle Anne Coliche",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "41-50",
+                    "tax_id": "***876938**"
+                },
+                {
+                    "nome_socio": "Mathieu Dehaine",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***588878**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "12/11/2024",
+        "document": "70664634",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 7400.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "44388803000130",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 44388803000130,
+                "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+                "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Guilherme Borelli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***985678**\"}, {\"nome_socio\": \"Marcus Vinicius Machado Goncalves\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***877988**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "11/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n32.724.713 0001-94",
+        "amount": -200.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "32724713000194",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 32724713000194,
+                "nome": "Tupinambá Energia e Publicidade LTDA",
+                "razao_social": "",
+                "nome_fantasia": "",
+                "socios": ""
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "32724713000194",
+            "nome": "Tupinambá Energia e Publicidade LTDA",
+            "razao_social": "",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "11/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n***.026.268-**",
+        "amount": -250.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "026268",
+        "possiveis_contatos": [],
+        "contato": {
+            "cpf_cnpj": "40102626804",
+            "nome": "Alex Eduardo Antunes PJ",
+            "razao_social": "Alex Eduardo Antunes PJ",
+            "nome_fantasia": "",
+            "socios": ""
+        }
+    },
+    {
+        "date": "11/11/2024",
+        "document": "Pix",
+        "description": "PIX EMITIDO OUTRA IF Pagamento Pix\n14.265.814 0001-62",
+        "amount": -4464.0,
+        "transaction_type": "Débito",
+        "cpf_cnpj_parcial": "14265814000162",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 14265814000162,
+                "nome": "S COSMETICOS DO BEM INDUSTRIA E COMERCIO LTDA",
+                "razao_social": "S COSMETICOS DO BEM INDUSTRIA E COMERCIO LTDA",
+                "nome_fantasia": "S Distribuidora de Produtos Cosmeticos",
+                "socios": "[{\"nome_socio\": \"Soraya El Khatib\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"51-60\", \"tax_id\": \"***345418**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "14265814000162",
+            "nome": "S COSMETICOS DO BEM INDUSTRIA E COMERCIO LTDA",
+            "razao_social": "S COSMETICOS DO BEM INDUSTRIA E COMERCIO LTDA",
+            "nome_fantasia": "S Distribuidora de Produtos Cosmeticos",
+            "socios": [
+                {
+                    "nome_socio": "Soraya El Khatib",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "51-60",
+                    "tax_id": "***345418**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "11/11/2024",
+        "document": "70567780",
+        "description": "TRANSF.RECEBIDA - PIX SICOOB-MESMA TIT REM.: MMG LOCACAO DE MAQUINAS LTDA\nTransferência Pix\nMMG LOCACAO DE MAQUINAS LTDA\n44.388.803 0001-30",
+        "amount": 3000.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "44388803000130",
+        "possiveis_contatos": [
+            {
+                "cpf_cnpj": 44388803000130,
+                "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+                "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+                "nome_fantasia": "",
+                "socios": "[{\"nome_socio\": \"Guilherme Borelli\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***985678**\"}, {\"nome_socio\": \"Marcus Vinicius Machado Goncalves\", \"tipo\": \"NATURAL\", \"faixa_etaria\": \"31-40\", \"tax_id\": \"***877988**\"}]"
+            }
+        ],
+        "contato": {
+            "cpf_cnpj": "44388803000130",
+            "nome": "MMG LOCACAO DE MAQUINAS LTDA",
+            "razao_social": "MMG LOCACAO DE MAQUINAS LTDA",
+            "nome_fantasia": "",
+            "socios": [
+                {
+                    "nome_socio": "Guilherme Borelli",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***985678**"
+                },
+                {
+                    "nome_socio": "Marcus Vinicius Machado Goncalves",
+                    "tipo": "NATURAL",
+                    "faixa_etaria": "31-40",
+                    "tax_id": "***877988**"
+                }
+            ]
+        }
+    },
+    {
+        "date": "11/11/2024",
+        "document": "Pix",
+        "description": "PIX RECEBIDO - OUTRA IF Recebimento Pix\nKatia Turino\n***.433.668-**",
+        "amount": 150.0,
+        "transaction_type": "Crédito",
+        "cpf_cnpj_parcial": "433668",
+        "possiveis_contatos": [],
+        "contato": {}
+    },
+    {
+        "date": "08/11/2024",
+        "document": "1134233885",
+        "description": "CR ANTECIPAÇÃO MASTERCARD SIPAG_Ant._Mastercard",
+        "amount": 1424.46,
+        "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],
         "contato": {
@@ -1882,26 +1141,10 @@
         }
     },
     {
-        "date": "20240930",
-        "document": "20240930127721",
-        "description": "SEGURO OURO EMPRESARIAL - OURO EMPRESARIAL - ALS",
-        "amount": -277.21,
-        "transaction_type": "Débito",
-        "cpf_cnpj_parcial": "",
-        "possiveis_contatos": [],
-        "contato": {
-            "cpf_cnpj": "40498567869",
-            "nome": "Guilherme Borelli",
-            "razao_social": "Guilherme Borelli",
-            "nome_fantasia": "",
-            "socios": ""
-        }
-    },
-    {
-        "date": "20240930",
-        "document": "20240930027721",
-        "description": "ESTORNO DE DÉBITO - OURO EMPRESARIAL - ALS",
-        "amount": 277.21,
+        "date": "07/11/2024",
+        "document": "1133140221",
+        "description": "CR COMPRAS MAESTRO SIPAG_Deb._Maestro",
+        "amount": 1205.35,
         "transaction_type": "Crédito",
         "cpf_cnpj_parcial": "",
         "possiveis_contatos": [],
